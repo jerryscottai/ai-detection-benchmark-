@@ -52,4 +52,6 @@ export interface Reading {
   error: string | null;
   latencyMs: number | null;
   collectedAt?: string;
+  /** Operator remark from a hand-collection sheet, kept in the cycle record. */
+  notes?: string;
 }

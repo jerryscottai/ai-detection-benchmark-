@@ -77,7 +77,13 @@ export function toAiProbability(raw: number, scale: DetectorApiConfig['scoreScal
   }
 }
 
-const clampPct = (n: number): number => Math.min(100, Math.max(0, n));
+/**
+ * Clamp to 0-100 and round to 2dp. The rounding matters: scaling a vendor's 0.07
+ * by 100 yields 7.000000000000001 in binary floating point, and that artefact
+ * would be committed to detector-results.json and hashed into the cycle
+ * manifest. No detector reports meaningful precision past two decimals anyway.
+ */
+const clampPct = (n: number): number => Math.round(Math.min(100, Math.max(0, n)) * 100) / 100;
 
 function buildBody(template: Record<string, unknown>, text: string, key: string): unknown {
   const walk = (node: unknown): unknown => {

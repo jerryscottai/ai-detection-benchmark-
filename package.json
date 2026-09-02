@@ -9,6 +9,7 @@
     "build-corpus": "tsx scripts/build-corpus.ts",
     "generate-ai": "tsx scripts/generate-ai-corpus.ts",
     "run-detectors": "tsx scripts/run-detectors.ts",
+    "collection-sheet": "tsx scripts/collection-sheet.ts",
     "import-manual": "tsx scripts/import-manual.ts",
     "score": "tsx scripts/score.ts",
     "verify": "tsx scripts/verify-cycle.ts",
