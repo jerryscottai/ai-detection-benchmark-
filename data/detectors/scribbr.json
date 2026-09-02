@@ -1,0 +1,21 @@
+{
+  "slug": "scribbr",
+  "name": "Scribbr AI Detector",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 8,
+      "composite": 78.02,
+      "metrics": {
+        "aiRecall": 0.9286,
+        "humanSpecificity": 0.9524,
+        "fpResistance": 0.4286,
+        "hybridAccuracy": 0.8918,
+        "consistency": 0.7409
+      },
+      "falsePositiveRate": 0.2778,
+      "hybridMeanAbsError": 0.1082
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ai-academic-1",
+    "templateId": "tpl-academic",
+    "domain": "academic",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "FIELD": "public health",
+      "TOPIC_ACADEMIC": "attachment theory and early childhood education outcomes",
+      "LEVEL": "undergraduate"
+    },
+    "prompt": "Write the introduction section of a undergraduate public health essay on attachment theory and early childhood education outcomes. About 250 words."
+  },
+  {
+    "id": "ai-academic-2",
+    "templateId": "tpl-academic",
+    "domain": "academic",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "FIELD": "economic history",
+      "TOPIC_ACADEMIC": "vaccine hesitancy as a communications failure",
+      "LEVEL": "final-year"
+    },
+    "prompt": "Write the introduction section of a final-year economic history essay on vaccine hesitancy as a communications failure. About 250 words."
+  },
+  {
+    "id": "ai-academic-3",
+    "templateId": "tpl-academic",
+    "domain": "academic",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "FIELD": "comparative literature",
+      "TOPIC_ACADEMIC": "the unreliable narrator in postwar fiction",
+      "LEVEL": "master's level"
+    },
+    "prompt": "Write the introduction section of a master's level comparative literature essay on the unreliable narrator in postwar fiction. About 250 words."
+  },
+  {
+    "id": "ai-academic-4",
+    "templateId": "tpl-academic",
+    "domain": "academic",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "FIELD": "developmental psychology",
+      "TOPIC_ACADEMIC": "whether deliberative polling improves policy legitimacy",
+      "LEVEL": "first-year"
+    },
+    "prompt": "Write the introduction section of a first-year developmental psychology essay on whether deliberative polling improves policy legitimacy. About 250 words."
+  },
+  {
+    "id": "ai-blog-1",
+    "templateId": "tpl-blog",
+    "domain": "blog",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "TOPIC_BLOG": "what a year of commuting by bike actually costs",
+      "AUDIENCE": "freelance designers"
+    },
+    "prompt": "Write a blog post for freelance designers about what a year of commuting by bike actually costs. Around 250 words."
+  },
+  {
+    "id": "ai-blog-2",
+    "templateId": "tpl-blog",
+    "domain": "blog",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "TOPIC_BLOG": "starting a vegetable garden in a rented flat",
+      "AUDIENCE": "hobbyist gardeners"
+    },
+    "prompt": "Write a blog post for hobbyist gardeners about starting a vegetable garden in a rented flat. Around 250 words."
+  },
+  {
+    "id": "ai-blog-3",
+    "templateId": "tpl-blog",
+    "domain": "blog",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "TOPIC_BLOG": "why your first budgeting app always fails",
+      "AUDIENCE": "new parents"
+    },
+    "prompt": "Write a blog post for new parents about why your first budgeting app always fails. Around 250 words."
+  },
+  {
+    "id": "ai-blog-4",
+    "templateId": "tpl-blog",
+    "domain": "blog",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "TOPIC_BLOG": "how to plan a holiday without an itinerary",
+      "AUDIENCE": "small business owners"
+    },
+    "prompt": "Write a blog post for small business owners about how to plan a holiday without an itinerary. Around 250 words."
+  },
+  {
+    "id": "ai-business-email-1",
+    "templateId": "tpl-email",
+    "domain": "business-email",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "ROLE": "operations lead",
+      "EMAIL_SITUATION": "telling a client that a delivery date has slipped by two weeks"
+    },
+    "prompt": "You are a operations lead. Write an email telling a client that a delivery date has slipped by two weeks. Keep it professional."
+  },
+  {
+    "id": "ai-business-email-2",
+    "templateId": "tpl-email",
+    "domain": "business-email",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "ROLE": "clinic office manager",
+      "EMAIL_SITUATION": "declining a vendor's proposal after a long evaluation"
+    },
+    "prompt": "You are a clinic office manager. Write an email declining a vendor's proposal after a long evaluation. Keep it professional."
+  },
+  {
+    "id": "ai-business-email-3",
+    "templateId": "tpl-email",
+    "domain": "business-email",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "ROLE": "project manager",
+      "EMAIL_SITUATION": "asking a supplier to explain an unexpected invoice"
+    },
+    "prompt": "You are a project manager. Write an email asking a supplier to explain an unexpected invoice. Keep it professional."
+  },
+  {
+    "id": "ai-business-email-4",
+    "templateId": "tpl-email",
+    "domain": "business-email",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "ROLE": "HR coordinator",
+      "EMAIL_SITUATION": "introducing a new process to a team that did not ask for one"
+    },
+    "prompt": "You are a HR coordinator. Write an email introducing a new process to a team that did not ask for one. Keep it professional."
+  },
+  {
+    "id": "ai-journalism-1",
+    "templateId": "tpl-news",
+    "domain": "journalism",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "NEWS_EVENT": "a long-running rail upgrade has been delayed a fourth time",
+      "OUTLET_STYLE": "wire service"
+    },
+    "prompt": "Write a wire service news article reporting that a long-running rail upgrade has been delayed a fourth time. About 250 words."
+  },
+  {
+    "id": "ai-journalism-2",
+    "templateId": "tpl-news",
+    "domain": "journalism",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "NEWS_EVENT": "a regional water utility has been fined for reporting failures",
+      "OUTLET_STYLE": "local newspaper"
+    },
+    "prompt": "Write a local newspaper news article reporting that a regional water utility has been fined for reporting failures. About 250 words."
+  },
+  {
+    "id": "ai-journalism-3",
+    "templateId": "tpl-news",
+    "domain": "journalism",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "NEWS_EVENT": "a national park has reintroduced a native predator species",
+      "OUTLET_STYLE": "trade publication"
+    },
+    "prompt": "Write a trade publication news article reporting that a national park has reintroduced a native predator species. About 250 words."
+  },
+  {
+    "id": "ai-journalism-4",
+    "templateId": "tpl-news",
+    "domain": "journalism",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "NEWS_EVENT": "a mid-sized manufacturer is closing a plant of 400 people",
+      "OUTLET_STYLE": "regional broadcaster"
+    },
+    "prompt": "Write a regional broadcaster news article reporting that a mid-sized manufacturer is closing a plant of 400 people. About 250 words."
+  },
+  {
+    "id": "ai-technical-doc-1",
+    "templateId": "tpl-technical",
+    "domain": "technical-doc",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "TECH_SUBJECT": "an on-call runbook for a queue that has stopped draining",
+      "DOC_TYPE": "design document summary"
+    },
+    "prompt": "Write the design document summary for an on-call runbook for a queue that has stopped draining. Around 250 words."
+  },
+  {
+    "id": "ai-technical-doc-2",
+    "templateId": "tpl-technical",
+    "domain": "technical-doc",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "TECH_SUBJECT": "a rate limiter shared across a fleet of API gateways",
+      "DOC_TYPE": "release note"
+    },
+    "prompt": "Write the release note for a rate limiter shared across a fleet of API gateways. Around 250 words."
+  },
+  {
+    "id": "ai-technical-doc-3",
+    "templateId": "tpl-technical",
+    "domain": "technical-doc",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "TECH_SUBJECT": "a REST endpoint that issues short-lived download links",
+      "DOC_TYPE": "onboarding guide section"
+    },
+    "prompt": "Write the onboarding guide section for a REST endpoint that issues short-lived download links. Around 250 words."
+  },
+  {
+    "id": "ai-technical-doc-4",
+    "templateId": "tpl-technical",
+    "domain": "technical-doc",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "TECH_SUBJECT": "a migration that backfills a denormalised column",
+      "DOC_TYPE": "runbook section"
+    },
+    "prompt": "Write the runbook section for a migration that backfills a denormalised column. Around 250 words."
+  },
+  {
+    "id": "ai-fiction-1",
+    "templateId": "tpl-fiction",
+    "domain": "fiction",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "FICTION_PREMISE": "the last ferry of the season leaves with one passenger too many",
+      "TONE": "melancholy"
+    },
+    "prompt": "Write the opening of a short story. The premise: the last ferry of the season leaves with one passenger too many. Tone: melancholy. About 250 words."
+  },
+  {
+    "id": "ai-fiction-2",
+    "templateId": "tpl-fiction",
+    "domain": "fiction",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "FICTION_PREMISE": "a chess coach recognises a move only one dead player ever used",
+      "TONE": "wry"
+    },
+    "prompt": "Write the opening of a short story. The premise: a chess coach recognises a move only one dead player ever used. Tone: wry. About 250 words."
+  },
+  {
+    "id": "ai-fiction-3",
+    "templateId": "tpl-fiction",
+    "domain": "fiction",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "FICTION_PREMISE": "a night watchman finds the building's floor plan has changed",
+      "TONE": "matter-of-fact"
+    },
+    "prompt": "Write the opening of a short story. The premise: a night watchman finds the building's floor plan has changed. Tone: matter-of-fact. About 250 words."
+  },
+  {
+    "id": "ai-fiction-4",
+    "templateId": "tpl-fiction",
+    "domain": "fiction",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "FICTION_PREMISE": "a village stops receiving post and nobody reports it",
+      "TONE": "quiet and restrained"
+    },
+    "prompt": "Write the opening of a short story. The premise: a village stops receiving post and nobody reports it. Tone: quiet and restrained. About 250 words."
+  },
+  {
+    "id": "ai-forum-1",
+    "templateId": "tpl-forum",
+    "domain": "forum",
+    "variant": 0,
+    "generator": "gen-a",
+    "values": {
+      "FORUM_QUESTION": "why does my dough tear when I stretch it?",
+      "FORUM_VENUE": "a Stack Exchange site"
+    },
+    "prompt": "Write a reply on a Stack Exchange site answering this question: why does my dough tear when I stretch it?. About 200 words."
+  },
+  {
+    "id": "ai-forum-2",
+    "templateId": "tpl-forum",
+    "domain": "forum",
+    "variant": 1,
+    "generator": "gen-c",
+    "values": {
+      "FORUM_QUESTION": "how do I keep basil alive past three weeks?",
+      "FORUM_VENUE": "a community Q&A board"
+    },
+    "prompt": "Write a reply on a community Q&A board answering this question: how do I keep basil alive past three weeks?. About 200 words."
+  },
+  {
+    "id": "ai-forum-3",
+    "templateId": "tpl-forum",
+    "domain": "forum",
+    "variant": 2,
+    "generator": "gen-a",
+    "values": {
+      "FORUM_QUESTION": "what is the difference between 'affect' and 'effect' in this sentence?",
+      "FORUM_VENUE": "a subreddit"
+    },
+    "prompt": "Write a reply on a subreddit answering this question: what is the difference between 'affect' and 'effect' in this sentence?. About 200 words."
+  },
+  {
+    "id": "ai-forum-4",
+    "templateId": "tpl-forum",
+    "domain": "forum",
+    "variant": 3,
+    "generator": "gen-c",
+    "values": {
+      "FORUM_QUESTION": "is it worth repairing a ten-year-old washing machine?",
+      "FORUM_VENUE": "a hobbyist forum"
+    },
+    "prompt": "Write a reply on a hobbyist forum answering this question: is it worth repairing a ten-year-old washing machine?. About 200 words."
+  }
+]

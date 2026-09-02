@@ -1,0 +1,21 @@
+{
+  "slug": "gptzero",
+  "name": "GPTZero",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 3,
+      "composite": 94.4,
+      "metrics": {
+        "aiRecall": 0.9643,
+        "humanSpecificity": 0.9524,
+        "fpResistance": 0.9524,
+        "hybridAccuracy": 0.9516,
+        "consistency": 0.8338
+      },
+      "falsePositiveRate": 0.0556,
+      "hybridMeanAbsError": 0.0484
+    }
+  ]
+}

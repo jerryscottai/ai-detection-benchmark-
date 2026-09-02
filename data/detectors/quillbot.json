@@ -1,0 +1,21 @@
+{
+  "slug": "quillbot",
+  "name": "QuillBot AI Detector",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 7,
+      "composite": 84.01,
+      "metrics": {
+        "aiRecall": 0.8929,
+        "humanSpecificity": 0.9048,
+        "fpResistance": 0.7143,
+        "hybridAccuracy": 0.8622,
+        "consistency": 0.7386
+      },
+      "falsePositiveRate": 0.1667,
+      "hybridMeanAbsError": 0.1378
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "cycle": "2026-09-dry-run",
+  "status": "dry-run",
+  "synthetic": true,
+  "disclaimer": "Corpus texts and detector readings in this cycle are fabricated by scripts/dev/seed-dry-run.ts. No detector was called and no vendor was measured. This cycle demonstrates the pipeline and the scoring shape only.",
+  "committedAt": "2026-09-01T00:00:00.000Z",
+  "revealedAt": "2026-09-01T00:00:00.000Z",
+  "nonceSha256": "1d873d497281a5976f0772b013b7eaf7cd93c37ee20eab1ae8ef110836f708e3",
+  "templatesSha256": "",
+  "banksSha256": ""
+}

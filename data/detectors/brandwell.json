@@ -1,0 +1,21 @@
+{
+  "slug": "brandwell",
+  "name": "BrandWell AI Detector",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 12,
+      "composite": 59.77,
+      "metrics": {
+        "aiRecall": 0.7857,
+        "humanSpecificity": 0.6667,
+        "fpResistance": 0.1905,
+        "hybridAccuracy": 0.8097,
+        "consistency": 0.6581
+      },
+      "falsePositiveRate": 0.5185,
+      "hybridMeanAbsError": 0.1903
+    }
+  ]
+}

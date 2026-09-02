@@ -1,0 +1,21 @@
+{
+  "slug": "originality-ai",
+  "name": "Originality.ai",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 2,
+      "composite": 95.91,
+      "metrics": {
+        "aiRecall": 1,
+        "humanSpecificity": 0.9524,
+        "fpResistance": 1,
+        "hybridAccuracy": 0.8961,
+        "consistency": 0.8655
+      },
+      "falsePositiveRate": 0.1111,
+      "hybridMeanAbsError": 0.1039
+    }
+  ]
+}

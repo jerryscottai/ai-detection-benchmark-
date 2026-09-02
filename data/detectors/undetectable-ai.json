@@ -1,0 +1,21 @@
+{
+  "slug": "undetectable-ai",
+  "name": "Undetectable.ai Detector",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 9,
+      "composite": 76.42,
+      "metrics": {
+        "aiRecall": 0.8929,
+        "humanSpecificity": 0.7619,
+        "fpResistance": 0.619,
+        "hybridAccuracy": 0.8814,
+        "consistency": 0.4987
+      },
+      "falsePositiveRate": 0.2593,
+      "hybridMeanAbsError": 0.1186
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "isgen",
+  "name": "Isgen",
+  "cycles": [
+    {
+      "cycle": "2026-09-dry-run",
+      "publishedAt": "2026-09-01",
+      "rank": 5,
+      "composite": 89.95,
+      "metrics": {
+        "aiRecall": 1,
+        "humanSpecificity": 0.9048,
+        "fpResistance": 0.8095,
+        "hybridAccuracy": 0.87,
+        "consistency": 0.8087
+      },
+      "falsePositiveRate": 0.1481,
+      "hybridMeanAbsError": 0.13
+    }
+  ]
+}
