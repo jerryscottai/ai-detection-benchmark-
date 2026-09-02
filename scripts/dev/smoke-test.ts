@@ -1,38 +1,38 @@
 /**
- * Build the 2026-09-dry-run cycle from nothing, offline, deterministically.
+ * Offline smoke test for the whole pipeline.
  *
- *   npm run seed-dry-run
+ *   npm run smoke-test
  *
- * READ THIS BEFORE QUOTING ANY NUMBER THE DRY RUN PRODUCES.
+ * Exercises every stage end to end without touching the network or spending a
+ * credit: a nonce resolves to prompts, prompts and manifests resolve to samples,
+ * samples and readings resolve to a leaderboard, and verification then catches
+ * a tampered byte. Run it before opening a real cycle, and after any change to
+ * the scoring or selection logic.
  *
- * The dry run exists to prove the pipeline: that a nonce resolves to prompts,
- * that prompts and manifests resolve to samples, that samples and readings
- * resolve to a leaderboard, and that verification catches tampering at every
- * step. To do that offline it fabricates both halves of the input.
+ * To run offline it has to fabricate both halves of the input: corpus texts are
+ * assembled from word banks, and readings are drawn from the per-detector noise
+ * model in PROFILES below. NOTHING IT PRODUCES IS A MEASUREMENT OF ANY PRODUCT —
+ * no detector is called and no vendor is measured, and the noise model is
+ * invented for the purpose of exercising the arithmetic.
  *
- *   - Corpus texts are procedurally assembled from word banks. They are
- *     grammatical English and nothing else. They are not real human writing and
- *     they are not real model output.
- *   - Detector readings are drawn from a per-detector noise model defined in
- *     PROFILES below. No detector was called. No vendor was measured.
- *
- * So the dry-run leaderboard is a demonstration of the scoring shape, not a
- * finding about any product, and every artefact it writes is stamped
- * synthetic: true so that it cannot be mistaken for one. A published cycle
- * replaces both halves with fetched sources and real API readings; nothing else
- * in the pipeline changes, which is the whole point of running it this way.
+ * So its output is deliberately unpublishable. It writes to data/cycles/.smoke/,
+ * which is git-ignored, and stamps every artefact synthetic: true. It has no
+ * bearing on any published cycle, whose numbers come from purchased API access
+ * and manual collection. If you want a leaderboard, run a real cycle:
+ * docs/RUNNING.md.
  */
 
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { copyFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { heading, info, ok, readJson, repoPath, sha256, writeJson } from '../lib/io.js';
 
-const CYCLE = '2026-09-dry-run';
+/** Leading dot: git-ignored, and skipped by verify's cycle listing. */
+const CYCLE = '.smoke';
 const DIR = repoPath('data', 'cycles', CYCLE);
 
-/** Fixed so the whole cycle regenerates byte-identically. A real cycle draws 32 random bytes. */
-const NONCE = 'd3ry-run-nonce-not-random-0000000000000000000000000000000000000000';
+/** Fixed so the run regenerates byte-identically. A real cycle draws 32 random bytes. */
+const NONCE = 'smoke-test-nonce-not-random-00000000000000000000000000000000000000';
 
 // ---------------------------------------------------------------------------
 // Deterministic randomness
@@ -208,7 +208,7 @@ function synthesiseReadings(samples: Sample[], detectors: Array<{ slug: string }
   const readings = [];
   for (const detector of detectors) {
     const p = PROFILES[detector.slug];
-    if (!p) throw new Error(`no dry-run profile for ${detector.slug}`);
+    if (!p) throw new Error(`no smoke-test profile for ${detector.slug}`);
 
     for (const sample of samples) {
       const base = mulberry32(seedFrom(`base|${detector.slug}|${sample.id}`));
@@ -265,28 +265,34 @@ function synthesiseReadings(samples: Sample[], detectors: Array<{ slug: string }
 // ---------------------------------------------------------------------------
 
 async function main(): Promise<void> {
-  heading(`Seeding ${CYCLE} (synthetic, offline)`);
+  heading('Pipeline smoke test (synthetic input, offline)');
   mkdirSync(DIR, { recursive: true });
 
+  // Freeze the current methodology into the scratch cycle, exactly as
+  // commit-cycle does for a real one.
+  for (const file of ['scoring.js', 'select-placeholders.js']) {
+    copyFileSync(repoPath('methodology', 'v1', file), `${DIR}/${file}`);
+  }
+
   writeJson(`${DIR}/generators.json`, {
-    note: 'Dry-run placeholders. A published cycle pins real provider model ids here and cycle.json records them.',
+    note: 'Smoke-test placeholders. A real cycle pins provider model ids here and cycle.json records them.',
     synthetic: true,
     generators: [
-      { slug: 'gen-a', provider: 'fixture', model: 'dry-run-fixture-a', keyEnv: 'NONE', maxTokens: 700 },
-      { slug: 'gen-b', provider: 'fixture', model: 'dry-run-fixture-b', keyEnv: 'NONE', maxTokens: 700 },
-      { slug: 'gen-c', provider: 'fixture', model: 'dry-run-fixture-c', keyEnv: 'NONE', maxTokens: 700 },
-      { slug: 'gen-d', provider: 'fixture', model: 'dry-run-fixture-d', keyEnv: 'NONE', maxTokens: 700 },
+      { slug: 'gen-a', provider: 'fixture', model: 'smoke-fixture-a', keyEnv: 'NONE', maxTokens: 700 },
+      { slug: 'gen-b', provider: 'fixture', model: 'smoke-fixture-b', keyEnv: 'NONE', maxTokens: 700 },
+      { slug: 'gen-c', provider: 'fixture', model: 'smoke-fixture-c', keyEnv: 'NONE', maxTokens: 700 },
+      { slug: 'gen-d', provider: 'fixture', model: 'smoke-fixture-d', keyEnv: 'NONE', maxTokens: 700 },
     ],
   });
 
   writeJson(`${DIR}/commit.json`, {
     cycle: CYCLE,
-    status: 'dry-run',
+    status: 'smoke-test',
     synthetic: true,
     disclaimer:
-      'Corpus texts and detector readings in this cycle are fabricated by scripts/dev/seed-dry-run.ts. No detector was called and no vendor was measured. This cycle demonstrates the pipeline and the scoring shape only.',
-    committedAt: '2026-09-01T00:00:00.000Z',
-    revealedAt: '2026-09-01T00:00:00.000Z',
+      'Fabricated input, produced by scripts/dev/smoke-test.ts to exercise the pipeline offline. No detector was called and no vendor was measured. Not publishable and not comparable to any real cycle.',
+    committedAt: '2026-01-01T00:00:00.000Z',
+    revealedAt: '2026-01-01T00:00:00.000Z',
     nonceSha256: sha256(NONCE),
     templatesSha256: '',
     banksSha256: '',
@@ -341,8 +347,15 @@ async function main(): Promise<void> {
   writeJson(`${DIR}/detector-results.json`, synthesiseReadings(samples, registry.detectors));
   ok(`${samples.length * registry.detectors.length * 2} synthetic readings written`);
 
-  tsx('score.ts', ['--cycle', CYCLE, '--published-at', '2026-09-01']);
-  info('reminder: every number in this cycle is synthetic. See the header of this file.');
+  tsx('score.ts', ['--cycle', CYCLE, '--published-at', '2026-01-01']);
+
+  // The last stage of the pipeline is the audit, so the smoke test is not done
+  // until the audit passes on what it just built.
+  tsx('verify-cycle.ts', [CYCLE]);
+
+  heading('Smoke test complete');
+  info('every number above is synthetic — fabricated input, no detector called');
+  info('to produce real results, run a real cycle: docs/RUNNING.md');
 }
 
 main().catch((err) => {

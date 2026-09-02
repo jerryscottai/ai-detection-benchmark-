@@ -63,16 +63,21 @@ float parity or platform.
 
 ## Try to break it
 
-Editing a published number fails two checks independently — the manifest hash and
-the score replay:
+You do not need a published cycle to test this. `npm run smoke-test` builds a
+complete cycle offline in `data/cycles/.smoke/` — fabricated input, so none of
+its numbers mean anything, but the verification machinery is identical. Tamper
+with it:
 
 ```bash
-sed -i 's/"composite": 59.77/"composite": 99.77/' data/cycles/2026-09-dry-run/leaderboard.json
-npm run verify
+npm run smoke-test                    # builds and verifies a scratch cycle
+$EDITOR data/cycles/.smoke/leaderboard.json   # change any composite score
+npm run verify -- .smoke
 #   ✗ manifest: 9 files hash as published
 #   ✗ score replay: leaderboard re-derives byte for byte
-git checkout data/cycles/2026-09-dry-run/leaderboard.json
 ```
+
+Editing a published number fails two checks independently — the manifest hash
+and the score replay — and the same is true of any real cycle.
 
 Editing the underlying *reading* instead defeats the score replay — the
 leaderboard would legitimately re-derive from the doctored input — but the
@@ -105,8 +110,8 @@ You do not have to accept the weights. The scoring function is one file with no
 dependencies:
 
 ```bash
-$EDITOR data/cycles/2026-09-dry-run/scoring.js   # change WEIGHTS
-npm run score -- --cycle 2026-09-dry-run
+$EDITOR data/cycles/<cycle>/scoring.js   # change WEIGHTS
+npm run score -- --cycle <cycle>
 ```
 
 The leaderboard re-derives in under a second. If a different weighting produces a

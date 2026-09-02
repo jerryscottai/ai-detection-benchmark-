@@ -57,7 +57,7 @@ finding and it will be published as one.
 ```bash
 npm install
 npm run typecheck
-npm run seed-dry-run    # rebuilds the dry-run cycle deterministically
+npm run smoke-test      # exercises the full pipeline offline
 npm run verify          # must pass all eight checks
 ```
 

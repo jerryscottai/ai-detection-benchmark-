@@ -13,7 +13,7 @@
     "score": "tsx scripts/score.ts",
     "verify": "tsx scripts/verify-cycle.ts",
     "commit-cycle": "tsx scripts/commit-cycle.ts",
-    "seed-dry-run": "tsx scripts/dev/seed-dry-run.ts",
+    "smoke-test": "tsx scripts/dev/smoke-test.ts",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

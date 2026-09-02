@@ -2,10 +2,11 @@
 
 An independent, reproducible benchmark for AI content detectors.
 
-Twelve detectors, four classes of text, one number each — and every input, every
-reading, every scoring rule and the code that turns them into a ranking is in
-this repository. If you disagree with the leaderboard, you can re-derive it,
-change a weight, and see exactly how much your disagreement is worth.
+Twelve detectors. Four classes of text. 91 samples, read twice each, every cycle.
+Every input, every reading, every scoring rule and the code that turns them into
+a ranking is published here — so if you disagree with the leaderboard, you can
+re-derive it, change a weight, and see exactly how much your disagreement is
+worth.
 
 Most detector comparisons test one thing: does the tool catch ChatGPT output.
 That is the easy half. This benchmark weights the hard half more heavily —
@@ -15,53 +16,26 @@ writers, anyone who ran a grammar checker before submitting. A detector that
 catches every machine and accuses one student in five is not a good detector.
 It is a liability with a good marketing page.
 
----
+## Leaderboard
 
-> ### ⚠️ Status: pipeline published, first live cycle not yet run
->
-> The cycle in this repository, **`2026-09-dry-run`**, is a dry run. Its corpus
-> texts and its detector readings are both **fabricated offline** by
-> [`scripts/dev/seed-dry-run.ts`](scripts/dev/seed-dry-run.ts) from a documented
-> noise model. **No detector was called. No vendor was measured.** Every file it
-> produces is stamped `"synthetic": true`.
->
-> It is here because a benchmark should ship its machinery before its verdicts:
-> you can read the methodology, run `npm run verify`, tamper with a number and
-> watch the audit catch it, and argue with the weights — all before anyone has
-> anything to defend. **Do not cite the dry-run numbers as findings about any
-> product.** The first live cycle replaces both halves with fetched sources and
-> real API readings; nothing else in the pipeline changes.
+**Cycle 1 (2026-10) — collection in progress.**
 
----
+The commitment for cycle 1 is published before any prompt exists, and results
+land here when the cycle closes. Nothing appears on this table that did not come
+from a purchased API call or a logged manual reading, which is the whole reason
+this repository is structured the way it is.
 
-## Dry-run leaderboard (synthetic — see the notice above)
+| | |
+|---|---|
+| Cycle | `2026-10` |
+| Detectors | 12 — Winston AI, Originality.ai, GPTZero, Copyleaks, Sapling, Undetectable.ai, ZeroGPT, Smodin, Isgen, QuillBot, Scribbr, BrandWell |
+| Samples | 91 per detector, read twice — 2,184 readings |
+| Status | Corpus assembly |
 
-| # | Detector | Score | AI recall | Human cleared | FP resistance | Hybrid accuracy | Consistency |
-|---|----------|------:|----------:|--------------:|--------------:|----------------:|------------:|
-| 1 | **Winston AI** | **98.22** | 100.0% | 100.0% | 95.2% | 95.6% | 98.4% |
-| 2 | Originality.ai | 95.91 | 100.0% | 95.2% | 100.0% | 89.6% | 86.6% |
-| 3 | GPTZero | 94.40 | 96.4% | 95.2% | 95.2% | 95.2% | 83.4% |
-| 4 | Copyleaks AI Detector | 94.11 | 92.9% | 100.0% | 95.2% | 91.4% | 84.9% |
-| 5 | Isgen | 89.95 | 100.0% | 90.5% | 81.0% | 87.0% | 80.9% |
-| 6 | Sapling AI Detector | 86.67 | 92.9% | 95.2% | 66.7% | 89.6% | 82.2% |
-| 7 | QuillBot AI Detector | 84.01 | 89.3% | 90.5% | 71.4% | 86.2% | 73.9% |
-| 8 | Scribbr AI Detector | 78.02 | 92.9% | 95.2% | 42.9% | 89.2% | 74.1% |
-| 9 | Undetectable.ai Detector | 76.42 | 89.3% | 76.2% | 61.9% | 88.1% | 49.9% |
-| 10 | Smodin AI Content Detector | 74.18 | 85.7% | 71.4% | 61.9% | 82.4% | 58.7% |
-| 11 | ZeroGPT | 68.31 | 75.0% | 85.7% | 47.6% | 84.8% | 51.5% |
-| 12 | BrandWell AI Detector | 59.77 | 78.6% | 66.7% | 19.1% | 81.0% | 65.8% |
-
-Full per-sample data, confidence intervals, per-domain splits and per-profile
-false-positive rates: [`data/cycles/2026-09-dry-run/leaderboard.json`](data/cycles/2026-09-dry-run/leaderboard.json).
-
-With 21–28 samples per class, a single sample moves a rate by three to five
-points. The leaderboard reports a Wilson 95% interval next to every rate metric
-for exactly this reason, and adjacent rows are frequently **not** distinguishable.
-Read the intervals before reading the ranks.
+Past cycles: none yet — this is cycle 1. Per-detector history accumulates in
+[`data/detectors/`](data/detectors/).
 
 ## What gets tested
-
-91 samples per detector, read twice each — 2,184 readings per cycle.
 
 | Class | n | What it is | What it measures |
 |-------|--:|------------|------------------|
@@ -78,11 +52,12 @@ and pre-1930 formal prose.
 
 **Nothing in the human or false-positive corpus was written for this benchmark.**
 Every entry is drawn from a document published, archived or corpus-released
-before 2021 — Enron emails, Stack Exchange dumps, NASA and NIST reports, Wikinews,
-PubMed Central, the FCE learner corpus, Europarl. Text written for a benchmark by
-people who know a detector will read it is not ordinary human writing, and asking
-someone to "write like a human" produces something no more natural than asking a
-model to. Provenance by date is the only guarantee that scales.
+before 2021 — Enron emails, Stack Exchange dumps, NASA and NIST reports,
+Wikinews, PubMed Central, the FCE learner corpus, Europarl. Text written for a
+benchmark by people who know a detector will read it is not ordinary human
+writing, and asking someone to "write like a human" produces something no more
+natural than asking a model to. Provenance by date is the only guarantee that
+scales.
 
 Hybrid ground truth is exact rather than estimated: the splice is mechanical, so
 `aiFraction` is a count of words, not a judgement.
@@ -100,21 +75,25 @@ Hybrid ground truth is exact rather than estimated: the splice is mechanical, so
 Penalties, capped at 10 points: unanswered samples (up to 6) and hard fails —
 any of the first three metrics below 50%, at 3 points each (up to 6).
 
-**Why false-positive resistance and human specificity together outweigh recall,
-45 to 30.** The two error types are not symmetric. A missed AI essay costs a
-grade boundary. A false accusation costs a person a disciplinary hearing they
-have no way to win, because there is no evidence that proves you wrote something
-yourself. Any weighting is a values judgement; this one is stated in the open, and
-the scoring code is thirty lines you can edit and re-run.
+**Why not-accusing outweighs catching, 45 points to 30.** The two error types are
+not symmetric. A missed AI essay costs a grade boundary and is recoverable. A
+false accusation costs a person a disciplinary hearing they have no way to win,
+because there is no evidence that proves you wrote something yourself. Any
+weighting is a values judgement; this one is stated in the open, and the scoring
+code is a single file you can edit and re-run.
 
-Full rationale, thresholds, and known limitations: **[METHODOLOGY.md](METHODOLOGY.md)**.
+Every rate metric is published with a Wilson 95% interval. With 21–28 samples per
+class, one sample moves a rate by three to five points, and adjacent rows are
+frequently **not** distinguishable. Read the intervals before reading the ranks.
 
-## Verify it yourself
+Full rationale, thresholds and known limitations: **[METHODOLOGY.md](METHODOLOGY.md)**.
+
+## Verify any published cycle
 
 ```bash
 npm install
-npm run verify                    # every cycle
-npm run verify -- 2026-09-dry-run # one cycle
+npm run verify              # every published cycle
+npm run verify -- 2026-10   # one cycle
 ```
 
 Eight assertions per cycle, in five groups:
@@ -131,22 +110,17 @@ Eight assertions per cycle, in five groups:
 5. **Score replay** — the cycle's own frozen `scoring.js`, over its samples and
    readings, re-derives `leaderboard.json` byte for byte.
 
-Edit any number by hand and two independent checks fail. Try it:
-
-```bash
-sed -i 's/"composite": 59.77/"composite": 99.77/' data/cycles/2026-09-dry-run/leaderboard.json
-npm run verify   # ✗ manifest  ✗ score replay
-git checkout data/cycles/2026-09-dry-run/leaderboard.json
-```
+Edit any published number by hand and two of those fail independently. Details,
+including how to try it: **[docs/VERIFICATION.md](docs/VERIFICATION.md)**.
 
 What the commit–reveal scheme buys is narrow and worth stating plainly: it stops
 *the maintainer* choosing prompts to suit a result. It does not stop a *vendor*
 recognising the corpus after publication. That is why the value banks are
 re-drawn every cycle, and why the per-detector trend lines in
-[`data/detectors/`](data/detectors/) are more informative than any single cycle's
-ranking.
+[`data/detectors/`](data/detectors/) will be more informative than any single
+cycle's ranking.
 
-## Running a live cycle
+## Running a cycle
 
 ```bash
 npm run commit-cycle -- --cycle 2026-10             # publish the commitment
@@ -159,8 +133,13 @@ npm run score        -- --cycle 2026-10             # leaderboard + manifest
 npm run verify       -- 2026-10                     # audit before publishing
 ```
 
-Step-by-step, including the manual-collection protocol for the three detectors
-with no public API: **[docs/RUNNING.md](docs/RUNNING.md)**.
+Step by step, including the two-operator protocol for the three detectors with
+no public API: **[docs/RUNNING.md](docs/RUNNING.md)**.
+
+`npm run smoke-test` exercises the same pipeline offline against fabricated
+input. It writes to a git-ignored scratch directory and never touches the
+detector histories — it proves the machinery works, and it produces nothing
+publishable.
 
 ## Which detectors, and why those
 
@@ -182,17 +161,17 @@ result), **Pangram** (excluded at the maintainer's request), and **Grammarly**
 
 ## No affiliate relationships
 
-No vendor paid for placement, saw results before publication, or was given the
+No vendor pays for placement, sees results before publication, or receives the
 corpus in advance. API access is purchased at list price on the plans named in
 the registry. There are no affiliate links in this repository, and there will not
 be — the moment a ranking earns a commission, it stops being a benchmark.
 
 ## Corrections
 
-If a number here is wrong, open an issue with the sample id and the reading you
-got. Reproducible corrections are folded into the next cycle and recorded in
-[CHANGES.md](CHANGES.md). Vendors are welcome to dispute results; the useful form
-of a dispute is a re-run, and everything needed for one is in this repository.
+If a published number is wrong, open an issue with the cycle, the sample id and
+the reading you got. Reproducible corrections are folded into the next cycle and
+recorded in [CHANGES.md](CHANGES.md). Vendors are welcome to dispute results; the
+useful form of a dispute is a re-run, and everything needed for one is here.
 
 ## Licence
 

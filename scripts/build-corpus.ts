@@ -1,7 +1,7 @@
 /**
  * Assemble a cycle's samples.json from the four corpus manifests.
  *
- *   npm run build-corpus -- --cycle 2026-09
+ *   npm run build-corpus -- --cycle 2026-10
  *
  * Source texts are never committed. This script expects them under
  * datasets/<corpus>/texts/<id>.txt, fetched by whoever runs the cycle from the

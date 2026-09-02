@@ -1,5 +1,5 @@
 /**
- * FROZEN PLACEHOLDER SELECTION — cycle 2026-09-dry-run.
+ * PLACEHOLDER SELECTION v1 — the canonical copy, frozen into each cycle at open.
  *
  * The point of this file is that nobody, including the maintainer, can choose
  * which prompts a cycle uses. SHA-256(nonce) is published in commit.json before

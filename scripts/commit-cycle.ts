@@ -30,14 +30,17 @@ const arg = (name: string, fallback?: string): string => {
 
 const FROZEN_SOURCES = ['scoring.js', 'select-placeholders.js'];
 
-/** The most recent cycle whose frozen logic a new cycle inherits by default. */
-function latestCycleWithLogic(): string {
-  const dirs = readdirSync(repoPath('data', 'cycles'), { withFileTypes: true })
-    .filter((e) => e.isDirectory() && existsSync(repoPath('data', 'cycles', e.name, 'scoring.js')))
+/**
+ * The methodology version a new cycle freezes by default: the highest vN under
+ * methodology/. Pass --methodology to pin an older one deliberately.
+ */
+function latestMethodology(): string {
+  const versions = readdirSync(repoPath('methodology'), { withFileTypes: true })
+    .filter((e) => e.isDirectory() && /^v\d+$/.test(e.name))
     .map((e) => e.name)
-    .sort();
-  const latest = dirs[dirs.length - 1];
-  if (!latest) throw new Error('no existing cycle to inherit frozen logic from; pass --inherit-from');
+    .sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)));
+  const latest = versions[versions.length - 1];
+  if (!latest) throw new Error('no methodology/vN directory found');
   return latest;
 }
 
@@ -51,9 +54,9 @@ function open(cycle: string): void {
   const nonce = randomBytes(32).toString('hex');
   writeFileSync(`${secretsDir}/${cycle}.nonce`, `${nonce}\n`, 'utf8');
 
-  const inherit = arg('inherit-from', latestCycleWithLogic());
+  const methodology = arg('methodology', latestMethodology());
   for (const file of FROZEN_SOURCES) {
-    copyFileSync(repoPath('data', 'cycles', inherit, file), `${dir}/${file}`);
+    copyFileSync(repoPath('methodology', methodology, file), `${dir}/${file}`);
   }
 
   writeJson(`${dir}/commit.json`, {
@@ -67,14 +70,14 @@ function open(cycle: string): void {
     fpManifestSha256: sha256File(repoPath('datasets/false-positive/manifest.json')),
     hybridSpecSha256: sha256File(repoPath('datasets/hybrid/spec.json')),
     registrySha256: sha256File(repoPath('detectors/registry.json')),
-    frozenLogicInheritedFrom: inherit,
+    methodologyVersion: methodology,
     frozenLogicSha256: Object.fromEntries(FROZEN_SOURCES.map((f) => [f, sha256File(`${dir}/${f}`)])),
   });
 
   heading(`Cycle ${cycle} opened`);
   ok(`commitment published: ${sha256(nonce).slice(0, 16)}…`);
   info(`nonce held at .cycle-secrets/${cycle}.nonce — do not commit it until reveal`);
-  info(`frozen logic inherited from ${inherit}`);
+  info(`frozen logic taken from methodology/${methodology}`);
 }
 
 async function reveal(cycle: string): Promise<void> {

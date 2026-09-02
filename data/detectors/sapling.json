@@ -1,21 +1,8 @@
 {
   "slug": "sapling",
   "name": "Sapling AI Detector",
-  "cycles": [
-    {
-      "cycle": "2026-09-dry-run",
-      "publishedAt": "2026-09-01",
-      "rank": 6,
-      "composite": 86.67,
-      "metrics": {
-        "aiRecall": 0.9286,
-        "humanSpecificity": 0.9524,
-        "fpResistance": 0.6667,
-        "hybridAccuracy": 0.8965,
-        "consistency": 0.8219
-      },
-      "falsePositiveRate": 0.1481,
-      "hybridMeanAbsError": 0.1035
-    }
-  ]
+  "vendor": "Sapling",
+  "url": "https://sapling.ai/ai-content-detector",
+  "note": "Per-cycle history. Populated by npm run score once a cycle is published; a synthetic cycle never writes here.",
+  "cycles": []
 }

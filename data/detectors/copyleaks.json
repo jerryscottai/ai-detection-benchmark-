@@ -1,21 +1,8 @@
 {
   "slug": "copyleaks",
   "name": "Copyleaks AI Detector",
-  "cycles": [
-    {
-      "cycle": "2026-09-dry-run",
-      "publishedAt": "2026-09-01",
-      "rank": 4,
-      "composite": 94.11,
-      "metrics": {
-        "aiRecall": 0.9286,
-        "humanSpecificity": 1,
-        "fpResistance": 0.9524,
-        "hybridAccuracy": 0.9142,
-        "consistency": 0.849
-      },
-      "falsePositiveRate": 0.037,
-      "hybridMeanAbsError": 0.0858
-    }
-  ]
+  "vendor": "Copyleaks",
+  "url": "https://copyleaks.com/ai-content-detector",
+  "note": "Per-cycle history. Populated by npm run score once a cycle is published; a synthetic cycle never writes here.",
+  "cycles": []
 }

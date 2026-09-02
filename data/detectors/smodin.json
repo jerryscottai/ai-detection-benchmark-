@@ -1,21 +1,8 @@
 {
   "slug": "smodin",
   "name": "Smodin AI Content Detector",
-  "cycles": [
-    {
-      "cycle": "2026-09-dry-run",
-      "publishedAt": "2026-09-01",
-      "rank": 10,
-      "composite": 74.18,
-      "metrics": {
-        "aiRecall": 0.8571,
-        "humanSpecificity": 0.7143,
-        "fpResistance": 0.619,
-        "hybridAccuracy": 0.8237,
-        "consistency": 0.5871
-      },
-      "falsePositiveRate": 0.2963,
-      "hybridMeanAbsError": 0.1763
-    }
-  ]
+  "vendor": "Smodin",
+  "url": "https://smodin.io/ai-content-detector",
+  "note": "Per-cycle history. Populated by npm run score once a cycle is published; a synthetic cycle never writes here.",
+  "cycles": []
 }

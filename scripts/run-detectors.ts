@@ -1,8 +1,8 @@
 /**
  * Collect readings from every detector over every sample.
  *
- *   npm run -- run --cycle 2026-09
- *   npm run -- run --cycle 2026-09 --detector winston-ai --runs 2
+ *   npm run run-detectors -- --cycle 2026-10
+ *   npm run run-detectors -- --cycle 2026-10 --detector winston-ai --runs 1
  *
  * Each sample is read twice per detector, on separate passes rather than
  * back to back, because a detector that answers 71 and then 44 for the same

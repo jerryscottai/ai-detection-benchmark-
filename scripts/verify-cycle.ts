@@ -2,7 +2,7 @@
  * Audit a published cycle end to end.
  *
  *   npm run verify                       # every cycle
- *   npm run verify -- 2026-09            # one cycle
+ *   npm run verify -- 2026-10            # one cycle
  *
  * Five independent checks, each of which fails loudly on its own:
  *
@@ -139,15 +139,19 @@ async function main(): Promise<void> {
   const cyclesDir = repoPath('data', 'cycles');
   const cycles = target
     ? [target]
-    : readdirSync(cyclesDir, { withFileTypes: true })
-        .filter((e) => e.isDirectory())
+    : (existsSync(cyclesDir) ? readdirSync(cyclesDir, { withFileTypes: true }) : [])
+        // Dot-prefixed directories are scratch space (the smoke test), never
+        // published cycles, so a bare `npm run verify` ignores them.
+        .filter((e) => e.isDirectory() && !e.name.startsWith('.'))
         .map((e) => e.name)
         .sort();
 
   for (const cycle of cycles) await verifyCycle(cycle);
 
   console.log('');
-  if (failures === 0) {
+  if (cycles.length === 0) {
+    info('no published cycles yet — nothing to verify');
+  } else if (failures === 0) {
     ok(`all checks passed across ${cycles.length} cycle(s)`);
   } else {
     fail(`${failures} check(s) failed`);

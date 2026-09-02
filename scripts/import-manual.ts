@@ -1,7 +1,7 @@
 /**
  * Fold manually collected readings into detector-results.json.
  *
- *   npm run -- import-manual --cycle 2026-09
+ *   npm run import-manual -- --cycle 2026-10
  *
  * Three of the twelve detectors have no public API. Rather than drop them —
  * they are among the most used free tools, so their false-positive behaviour

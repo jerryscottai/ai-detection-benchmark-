@@ -1,13 +1,17 @@
 /**
- * FROZEN SCORING LOGIC — cycle 2026-09-dry-run.
+ * SCORING LOGIC v1 — the canonical copy.
  *
- * This file is copied into every cycle directory and never edited in place. If
- * the methodology changes, the next cycle gets a new copy with a new version
- * string and CHANGES.md records what moved and why. Re-running this file over a
- * cycle's samples.json + detector-results.json must reproduce leaderboard.json
- * byte for byte; scripts/verify-cycle.ts does exactly that.
+ * Opening a cycle copies this file into that cycle's directory, where it is
+ * frozen: a cycle is scored for the rest of its life by the rules that existed
+ * when it opened, and the copy is never edited in place. Changing the
+ * methodology means adding methodology/v2 and recording what moved in
+ * CHANGES.md, so a published number can never change meaning after the fact.
  *
- * No I/O, no clock, no randomness, no network. Pure function of its inputs.
+ * Re-running a cycle's copy over its samples.json and detector-results.json must
+ * reproduce its leaderboard.json byte for byte. scripts/verify-cycle.ts does
+ * exactly that, which is why this file has no I/O, no clock, no randomness and
+ * no dependencies: it is a pure function of its inputs, and a stranger must be
+ * able to re-run it offline in five years.
  */
 
 export const SCORING_VERSION = '1.0.0';

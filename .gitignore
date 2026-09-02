@@ -8,6 +8,9 @@ node_modules/
 # Cycle nonces, held privately between a cycle opening and its reveal.
 .cycle-secrets/
 
+# Scratch output of `npm run smoke-test`: fabricated input, never publishable.
+data/cycles/.smoke/
+
 datasets/.cache/
 datasets/**/texts/
 *.local.json

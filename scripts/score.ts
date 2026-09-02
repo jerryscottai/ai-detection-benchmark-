@@ -2,7 +2,7 @@
  * Re-derive a cycle's leaderboard from its samples, its readings and its own
  * frozen scoring.js, then write the cycle manifest that verification checks.
  *
- *   npm run score -- --cycle 2026-09
+ *   npm run score -- --cycle 2026-10
  *
  * The scoring logic imported here is the copy inside the cycle directory, not a
  * shared module. A cycle is scored by the rules that were frozen when it opened,
@@ -85,6 +85,7 @@ async function main(): Promise<void> {
     cycle,
     publishedAt,
     status: cycleMeta.status ?? 'published',
+    ...(cycleMeta.synthetic === true ? { synthetic: true, disclaimer: cycleMeta.disclaimer } : {}),
     scoringVersion: SCORING_VERSION,
     samples: samples.length,
     readings: results.length,
@@ -93,7 +94,16 @@ async function main(): Promise<void> {
     leaderboard: scored.leaderboard,
   });
 
-  updateHistories(cycle, scored.leaderboard, publishedAt);
+  // A synthetic cycle scores and verifies like any other, but it must never
+  // reach the per-detector histories: those are the published record of how a
+  // product has performed over time, and one fabricated row in them would make
+  // every trend line unciteable.
+  if (cycleMeta.synthetic === true) {
+    info('synthetic cycle — detector histories left untouched');
+  } else {
+    updateHistories(cycle, scored.leaderboard, publishedAt);
+  }
+
   writeManifest(cycle, cycleDir, {
     publishedAt,
     status: cycleMeta.status ?? 'published',
