@@ -1,0 +1,18 @@
+{
+  "cycle": "2026-10",
+  "status": "revealed",
+  "committedAt": "2026-09-02T18:40:58.323Z",
+  "nonceSha256": "a1191588be13bef1563ad03c9da527b698edd283607da9ce78f3179f152e033f",
+  "templatesSha256": "cef8c6989f298c7c02f2f0d8c28113f4b34c5c76cb1b28d5c97243f238346af9",
+  "banksSha256": "1019813fd846a317144cf329427e4097dfa5b9a8df8d1dacc293c457ab9a7350",
+  "humanManifestSha256": "fac2637b7ccb8b8f586ca3d93a97990b804a70b3ca67f8220d7191f961462fdc",
+  "fpManifestSha256": "3998173ed26149bdd83268b50f89675ffdd9b13bc6c054d2d471a63b7037be8d",
+  "hybridSpecSha256": "9e2c72afcf0b456b2033797666179fd27cac670f8f380065792d05d17a055cd8",
+  "registrySha256": "97c57bf47c00f3d2cdb85a0a59b214f85ef0a47c712b31dd22235566cc42914c",
+  "methodologyVersion": "v1",
+  "frozenLogicSha256": {
+    "scoring.js": "0fa5dd688d87085d0c6516a8c5f3ccf4fad220f46cc3716ac55926a90a9d42b5",
+    "select-placeholders.js": "95088d468dc221479b5d79d81550c495f585bc29dccc32f1fa74962ff8ca47a1"
+  },
+  "revealedAt": "2026-09-02T18:41:03.826Z"
+}
