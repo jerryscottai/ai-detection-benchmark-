@@ -133,8 +133,10 @@ npm run score        -- --cycle 2026-10             # leaderboard + manifest
 npm run verify       -- 2026-10                     # audit before publishing
 ```
 
-Step by step, including the two-operator protocol for the three detectors with
-no public API: **[docs/RUNNING.md](docs/RUNNING.md)**.
+New here? **[docs/START-HERE.md](docs/START-HERE.md)** is the short version:
+what you need, what it costs, and which steps are yours. Full reference,
+including the two-operator protocol for detectors with no public API:
+**[docs/RUNNING.md](docs/RUNNING.md)**.
 
 `npm run smoke-test` exercises the same pipeline offline against fabricated
 input. It writes to a git-ignored scratch directory and never touches the
