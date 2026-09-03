@@ -13,7 +13,21 @@ Most detector comparisons test one thing: does the tool catch ChatGPT output.
 That is the easy half, and on this corpus every tool tested passes it. The
 interesting failures are elsewhere.
 
-## Cycle 2026-08
+## Cycle 2026-08 — withdrawn pending correction
+
+> **These results are under review and should not be cited.**
+>
+> The maintainer has reported an error in the analysis behind this cycle. A
+> revised summary supplied on 2026-09-03 disagrees materially with the run logs
+> this table was derived from — most sharply on Pangram, which the logs place
+> first on every binary metric and the revision places last. The disagreement
+> cannot be explained by a threshold change: no threshold on the published
+> readings reproduces the revised figures.
+>
+> The table below is left visible because it is what the committed run logs
+> actually produce, and deleting it would hide the discrepancy rather than
+> resolve it. It will be replaced or removed once corrected raw run logs are
+> available. Until then it is not a finding about any product.
 
 | # | Detector | Score | AI recall | Human cleared | FP resistance | Hybrid accuracy | Consistency |
 |---|----------|------:|----------:|--------------:|--------------:|----------------:|------------:|
