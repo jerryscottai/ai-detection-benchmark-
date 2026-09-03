@@ -6,6 +6,27 @@ changed between them.
 
 ## Cycle 2026-08 — first published cycle
 
+**Run logs supplied twice.** Batch 1 (Winston, GPTZero, Copyleaks, Originality,
+Pangram) was ingested and briefly published, then withdrawn after the maintainer
+reported an error in the analysis behind it. Batch 2 (Winston, GPTZero,
+Copyleaks, Pangram, ZeroGPT) replaced it and is what this cycle scores.
+
+The two batches describe the same detector versions scanning the same 91 texts
+on the same dates and disagree on 90 of Winston's 91 per-text readings, with
+near-inverted rankings — Copyleaks last to first, Pangram first to last. The
+maintainer attests that batch 1 was a faulty run. Batch 1 is retained under
+`superseded/` and the attestation is recorded in `commit.json`, because nothing
+in this repository distinguishes the batches beyond it.
+
+Batch 2 reproduces the maintainer's own summary analysis exactly on recall,
+stress false-positive rate and ESL false-positive rate, and on specificity once
+computed over all 42 human-class documents as that analysis computes it.
+
+Originality.ai appears in batch 1 only and is omitted rather than compared
+against readings from a different batch. ZeroGPT enters the benchmark with batch
+2; its log records `DeepAnalyse`, a mode rather than a version.
+
+
 Five detectors measured against an operator-assembled corpus of 91 texts, two
 passes on 26 and 28 August 2026. Scored under methodology v1, unchanged.
 

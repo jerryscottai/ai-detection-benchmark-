@@ -13,99 +13,84 @@ Most detector comparisons test one thing: does the tool catch ChatGPT output.
 That is the easy half, and on this corpus every tool tested passes it. The
 interesting failures are elsewhere.
 
-## Cycle 2026-08 — provisional
-
-> **Not yet citable.** Two mutually exclusive sets of raw run logs were supplied
-> for the same detectors, the same 91 texts, the same versions and the same scan
-> dates. They disagree on 90 of Winston AI's 91 per-text readings and produce
-> near-inverted rankings. Only one can be a record of what was run.
->
-> The table below is derived from the **second** batch, which reproduces the
-> maintainer's stated analysis exactly on every metric and whose five logs agree
-> with each other on the ground truth of all 91 texts. The first batch is
-> retained in [`superseded/`](data/cycles/2026-08/superseded/) rather than
-> deleted. Until the reason for the difference is on record, this cycle rests on
-> the maintainer's attestation rather than on evidence, and is marked
-> provisional for that reason.
+## Cycle 2026-08
 
 | # | Detector | Score | AI recall | Human cleared | FP resistance | Hybrid accuracy | Consistency |
 |---|----------|------:|----------:|--------------:|--------------:|----------------:|------------:|
-| 1 | **Copyleaks** | **91.73** | 96.4% | 100.0% | 95.2% | 79.7% | 87.0% |
-| 2 | Winston AI | 90.99 | 92.9% | 100.0% | 100.0% | 79.9% | 76.4% |
-| 3 | GPTZero | 87.55 | 92.9% | 100.0% | 81.0% | 82.5% | 79.1% |
-| 4 | ZeroGPT | 73.99 | 89.3% | 100.0% | 38.1% | 80.8% | 66.6% |
-| 5 | Pangram | 68.87 | 78.6% | 100.0% | 33.3% | 81.2% | 74.8% |
+| 1 | **Copyleaks** | **91.73** | 96.4% | 100.0% | 95.2% | 79.7% | 68.0% |
+| 2 | Winston AI | 90.99 | 92.9% | 100.0% | 100.0% | 79.9% | 61.4% |
+| 3 | GPTZero | 87.55 | 92.9% | 100.0% | 81.0% | 82.5% | 61.2% |
+| 4 | ZeroGPT | 73.99 | 89.3% | 100.0% | 38.1% | 80.8% | 54.7% |
+| 5 | Pangram | 68.87 | 78.6% | 100.0% | 33.3% | 81.2% | 44.6% |
 
-910 readings · 91 texts · two passes two days apart · 0.7% unanswered
-
-Every detector cleared all 21 clean-human documents. The separation on this
-table comes entirely from the stress corpus and from AI recall.
-
-**How the two batches differ**, since both are in the repository:
-
-| Detector | Batch 1 rank → Batch 2 rank |
-|---|---|
-| Copyleaks | 5th (78.44) → **1st (91.73)** |
-| Winston AI | 4th (86.10) → 2nd (90.99) |
-| GPTZero | 2nd (90.04) → 3rd (87.55) |
-| Pangram | **1st (94.80)** → 5th (68.87) |
-
-Originality.ai appears in batch 1 only and was not re-supplied, so it is omitted
-rather than compared against readings from a different batch.
+910 readings · 91 texts · two passes two days apart · versions Copyleaks 2026.08,
+Winston v4.15, GPTZero 4.9b, ZeroGPT DeepAnalyse, Pangram 4.0
 
 Full per-sample data: [`data/cycles/2026-08/`](data/cycles/2026-08/).
-Detailed analysis: **[docs/RESULTS-2026-08.md](docs/RESULTS-2026-08.md)** *(reflects batch 1 and is being rewritten).*
+Detailed analysis: **[docs/RESULTS-2026-08.md](docs/RESULTS-2026-08.md)**.
+
+**Every detector cleared all 21 clean-human documents.** Ordinary published
+prose — Le Guin, Cather, Reuters, Vox, PostgreSQL docs — was never flagged by
+anything. The whole spread on this table comes from the stress corpus and from
+AI recall, which is the argument for testing both.
 
 ### The finding that matters most: nobody measures *how much*
 
-Every one of these tools reports a percentage. None of them tracks the actual
-proportion of machine text in a document.
+Every one of these tools reports a percentage. None tracks the actual proportion
+of machine text in a document.
 
 Mean reported AI score against true AI content:
 
-| True AI content | Pangram | GPTZero | Originality.ai | Winston AI | Copyleaks |
+| True AI content | Copyleaks | Winston AI | GPTZero | ZeroGPT | Pangram |
 |---|---|---|---|---|---|
-| **25%** | 39.6 | 40.6 | 54.7 | 44.3 | 34.5 |
-| **50%** | 40.0 | 40.0 | 48.7 | 67.4 | 52.1 |
-| **75%** | 44.1 | 49.2 | 49.6 | 61.4 | 54.4 |
+| **25%** | 50.4 | 40.5 | 40.6 | 45.5 | 33.7 |
+| **50%** | 50.5 | 34.9 | 52.5 | 47.3 | 45.2 |
+| **75%** | 58.4 | 55.2 | 62.2 | 53.9 | 49.6 |
+| **25% → 75% change** | **+8.0** | **+14.7** | **+21.6** | **+8.4** | **+15.9** |
 
-Pangram moves 4.5 points across a 50-point change in reality. GPTZero moves 8.6.
-Originality.ai moves *backwards*. Mean absolute error runs 20–25 points for all
-five. If you are using one of these numbers to decide how much of an essay a
-student wrote, the number does not contain that information.
+Ground truth moves 50 points. The best-tracking tool here moves 21.6, the worst
+8.0, and Winston's 50% band reads *lower* than its 25% band. Mean absolute error
+runs 17–20 points across all five.
 
-This is why hybrid accuracy is a scored component rather than a footnote, and
-why no tool scores above 80% on it.
+If you are using one of these numbers to decide how much of an essay a student
+wrote, the number does not contain that information. It answers whether machine
+text is present, not how much.
 
 ### Where the false positives are
 
-Flagged human documents, out of 3 per profile:
+All 21 stress documents are human-written. Flags out of 3 per profile:
 
-| Profile | Pangram | GPTZero | Originality.ai | Winston AI | Copyleaks |
+| Profile | Copyleaks | Winston AI | GPTZero | ZeroGPT | Pangram |
 |---|---|---|---|---|---|
-| Template-structured | 0 | 0 | **2** | **2** | **2** |
-| Short-form (60–130 words) | 0 | 1 | 0 | **2** | 1 |
-| Grammar-heavy | 0 | 0 | 0 | 1 | 0 |
-| Second-language (ESL) | 0 | 0 | 1 | 0 | 1 |
+| Second-language (ESL) | 0 | 0 | **3** | **3** | **3** |
+| Grammar-corrected | 0 | 0 | 0 | **3** | **3** |
+| Short-form (60–130 words) | 0 | 0 | 1 | **3** | **3** |
+| Template-structured | 1 | 0 | 0 | **3** | **3** |
+| Technical / formulaic | 0 | 0 | 0 | 1 | 1 |
 | Translated | 0 | 0 | 0 | 0 | 1 |
-| Technical / formulaic | 0 | 0 | 0 | 0 | 0 |
 | Archaic (pre-1930) | 0 | 0 | 0 | 0 | 0 |
 
-Boilerplate is the trap, not English-as-a-second-language. Three of five tools
-flagged two of three template-structured documents — an HR welcome email, a
-county parks "about us" page, a state arts board grant template. Winston also
-flagged two of three short documents.
+**Three of five detectors flagged every single second-language document.**
+Placement and application essays from Helsinki, Osaka and Coimbra — three for
+three, on GPTZero, ZeroGPT and Pangram. Copyleaks and Winston cleared all of
+them. This is the sharpest split on the whole table, and it is the one with
+consequences for real people.
 
-The ESL result is better than the discourse suggests: 2 false positives across
-25 scans. Worth saying plainly, because it cuts against the usual story.
+The same three tools also flagged every grammar-corrected, short-form and
+templated document. Running a grammar checker over your own writing, or writing
+to your employer's template, was enough to be accused by all three.
+
+Nothing flagged pre-1930 prose. Carlyle, Ruskin and an Abigail Adams letter
+passed everything.
 
 ### Read the intervals before the ranks
 
 With 21–28 samples per class, one document moves a rate by 3–5 points. The 95%
-confidence interval on false-positive resistance is 84.5–100% for Pangram and
-54.9–89.4% for Winston — those overlap. **Ranks 3 and 4 are separated by 0.32
-points and are not distinguishable.** Every rate metric ships with its interval
-in `leaderboard.json`.
+confidence interval on false-positive resistance is 84.5–100% for Winston and
+77.3–99.2% for Copyleaks — overlapping, so **ranks 1 and 2 are not
+distinguishable.** ZeroGPT and Pangram are clearly separated from the top three
+and not from each other. Every rate metric ships with its interval in
+`leaderboard.json`.
 
 ## What was tested
 
@@ -152,26 +137,32 @@ second. Full rationale: **[METHODOLOGY.md](METHODOLOGY.md)**.
 
 Stated up front rather than buried, because they bound what these numbers mean.
 
-- **The 91 source texts are not published.** The operator supplied run logs, not
-  documents. `samples.json` therefore records `"sha256": "not-supplied"`, and
-  nobody — including this repository — can independently confirm which texts
-  were scanned. Ground truth is cross-checked for agreement across all five
-  vendor logs, which catches transcription drift but not a mislabelled document.
-- **No commit–reveal.** This corpus was assembled and scanned by the operator
+- **The 91 source texts are not published.** The maintainer supplied run logs,
+  not documents. `samples.json` records `"sha256": "not-supplied"`, so nobody —
+  including this repository — can independently confirm which texts were
+  scanned. Ground truth is cross-checked for agreement across all five vendor
+  logs, which catches transcription drift but not a mislabelled document.
+- **Two batches of run logs were supplied for the same scans.** They disagree on
+  90 of Winston's 91 readings and produce near-inverted rankings. The maintainer
+  attests that the first batch was a faulty run and the second is the record;
+  this table is derived from the second. The first is retained in
+  [`superseded/`](data/cycles/2026-08/superseded/) so a reader can see both.
+  Nothing in this repository distinguishes them beyond that attestation, and
+  `commit.json` says so.
+- **No commit–reveal.** The corpus was assembled and scanned by the maintainer
   directly, so the prompt-commitment scheme this repo implements does not apply.
   Verification skips those two checks and says so.
-- **Five detectors of thirteen registered.** Sapling, Undetectable.ai, ZeroGPT,
-  Smodin, Isgen, QuillBot, Scribbr and BrandWell were not run. They are absent
-  from the table rather than scored at zero.
-- **English only, one point in time.** Detectors change silently; these are
-  Winston v4.15, GPTZero 4.9b, Originality Lite 3.0.0, Copyleaks 2026.08 and
-  Pangram 4.0, as recorded in the logs.
+- **Five detectors of thirteen registered.** Originality.ai was measured in the
+  first batch only and is omitted rather than compared against readings from a
+  different batch. Sapling, Undetectable.ai, Smodin, Isgen, QuillBot, Scribbr and
+  BrandWell were not run.
+- **English only, one point in time.** Detectors change silently. ZeroGPT's log
+  records `DeepAnalyse`, a mode rather than a version.
 
 **Pangram note.** Pangram was excluded when this benchmark was scoped, at the
-maintainer's request. It is on the table because the maintainer subsequently
-supplied a complete run log for it. Both facts are recorded in
-[`detectors/registry.json`](detectors/registry.json); say the word and it comes
-back out.
+maintainer's request, and is on the table because a full run log was
+subsequently supplied for it. Both facts are in
+[`detectors/registry.json`](detectors/registry.json).
 
 ## Verify it
 

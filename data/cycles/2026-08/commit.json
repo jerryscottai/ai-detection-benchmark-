@@ -1,6 +1,6 @@
 {
   "cycle": "2026-08",
-  "status": "provisional-pending-provenance",
+  "status": "published",
   "publishedAt": "2026-09-03",
   "corpusProvenance": "operator-supplied",
   "collection": {
@@ -22,7 +22,11 @@
   ],
   "supersession": {
     "note": "Run logs for Winston AI, GPTZero, Copyleaks and Pangram were supplied twice. The first batch is retained in superseded/ and is NOT used. The second batch is scored here because it reproduces the maintainer's stated analysis exactly on every metric, and because all five second-batch logs agree with each other on the ground truth of all 91 texts.",
-    "unresolved": "Both batches describe the same detector versions scanning the same 91 texts on the same dates, yet disagree on 90 of Winston's 91 per-text readings (C067 16.5 -> 90.0, C062 84.0 -> 26.5). Only one can be a record of what was run. The reason for the difference is not on record; until it is, a reader should treat this cycle as resting on the maintainer's attestation that the second batch is the correct one.",
-    "originalityExcluded": "Originality.ai was measured in the first batch only and was not re-supplied. Mixing one batch-1 detector into a batch-2 leaderboard would compare tools on different readings, so it is omitted from this cycle."
+    "originalityExcluded": "Originality.ai was measured in the first batch only and was not re-supplied. Mixing one batch-1 detector into a batch-2 leaderboard would compare tools on different readings, so it is omitted from this cycle.",
+    "resolved": {
+      "date": "2026-09-03",
+      "attestation": "The maintainer confirms the first batch was a faulty run and that the second batch is the record of what was scanned. Recorded as attestation: the two batches cannot be distinguished from the data alone, and this repository holds no evidence bearing on which is correct beyond the maintainer's statement.",
+      "batch1Retained": "superseded/ \u2014 kept so a reader can see both and judge for themselves."
+    }
   }
 }
