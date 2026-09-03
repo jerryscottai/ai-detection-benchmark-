@@ -10,6 +10,7 @@
     "generate-ai": "tsx scripts/generate-ai-corpus.ts",
     "run-detectors": "tsx scripts/run-detectors.ts",
     "collection-sheet": "tsx scripts/collection-sheet.ts",
+    "ingest": "tsx scripts/ingest-runs.ts",
     "import-manual": "tsx scripts/import-manual.ts",
     "score": "tsx scripts/score.ts",
     "verify": "tsx scripts/verify-cycle.ts",

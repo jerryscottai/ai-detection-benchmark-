@@ -31,8 +31,15 @@ export async function buildLeaderboard(cycle: string) {
   const results = readJson<Reading[]>(`${cycleDir}/detector-results.json`);
   const registry = readJson<{ detectors: Detector[] }>(repoPath('detectors/registry.json'));
 
-  const scored = scoreCycle({ samples, results, detectors: registry.detectors });
-  return { cycleDir, scored, SCORING_VERSION, samples, results };
+  // Only detectors that were actually run appear on the leaderboard. Scoring a
+  // detector with no readings would put it on the table at zero, which reads as
+  // "it failed" rather than "it was not tested" — a defamatory difference.
+  const measured = new Set(results.map((r) => r.detector));
+  const detectors = registry.detectors.filter((d) => measured.has(d.slug));
+  const notMeasured = registry.detectors.filter((d) => !measured.has(d.slug)).map((d) => d.slug);
+
+  const scored = scoreCycle({ samples, results, detectors });
+  return { cycleDir, scored, SCORING_VERSION, samples, results, notMeasured };
 }
 
 function writeManifest(cycle: string, cycleDir: string, meta: Record<string, unknown>): void {
@@ -77,7 +84,7 @@ function updateHistories(cycle: string, leaderboard: Array<Record<string, unknow
 async function main(): Promise<void> {
   const cycle = arg('cycle');
   const publishedAt = arg('published-at', new Date().toISOString().slice(0, 10));
-  const { cycleDir, scored, SCORING_VERSION, samples, results } = await buildLeaderboard(cycle);
+  const { cycleDir, scored, SCORING_VERSION, samples, results, notMeasured } = await buildLeaderboard(cycle);
 
   const cycleMeta = readJson<Record<string, unknown>>(`${cycleDir}/commit.json`);
 
@@ -91,6 +98,7 @@ async function main(): Promise<void> {
     readings: results.length,
     weights: scored.weights,
     sampleCounts: scored.sampleCounts,
+    detectorsNotMeasured: notMeasured,
     leaderboard: scored.leaderboard,
   });
 
@@ -119,6 +127,9 @@ async function main(): Promise<void> {
       `${String(row.rank).padStart(2)}. ${row.name.padEnd(28)} ${String(row.composite).padStart(6)}   ` +
         `recall ${pct(m.aiRecall)}  human ${pct(m.humanSpecificity)}  fp-resist ${pct(m.fpResistance)}  hybrid ${pct(m.hybridAccuracy)}`,
     );
+  }
+  if (notMeasured.length > 0) {
+    info(`not measured this cycle, omitted from the table: ${notMeasured.join(', ')}`);
   }
   ok(`data/cycles/${cycle}/leaderboard.json`);
 }

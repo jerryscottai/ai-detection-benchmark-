@@ -14,7 +14,11 @@
         "method": "POST",
         "auth": "bearer",
         "keyEnv": "WINSTON_API_KEY",
-        "bodyTemplate": { "text": "{{TEXT}}", "sentences": true, "version": "latest" },
+        "bodyTemplate": {
+          "text": "{{TEXT}}",
+          "sentences": true,
+          "version": "latest"
+        },
         "scorePath": "score",
         "scoreScale": "human-0-100",
         "sentencePath": "sentences"
@@ -37,15 +41,18 @@
         "auth": "header",
         "authHeader": "X-OAI-API-KEY",
         "keyEnv": "ORIGINALITY_API_KEY",
-        "bodyTemplate": { "content": "{{TEXT}}", "aiModelVersion": "lite" },
+        "bodyTemplate": {
+          "content": "{{TEXT}}",
+          "aiModelVersion": "lite"
+        },
         "scorePath": "score.ai",
-        "scoreScale": "ai-0-1"
+        "scoreScale": "ai-0-100"
       },
       "threshold": 50,
       "granularity": "sentence",
       "minWords": 50,
       "plan": "Pro (credit metered)",
-      "notes": "Model version is pinned per cycle. Turbo and Lite are scored as one entry using the model the vendor markets as default at cycle open."
+      "notes": "Model version is pinned per cycle. Turbo and Lite are scored as one entry using the model the vendor markets as default at cycle open. Reports ai_confidence on a 0-100 scale in the 2026-08 run logs, not 0-1."
     },
     {
       "slug": "gptzero",
@@ -59,7 +66,10 @@
         "auth": "header",
         "authHeader": "x-api-key",
         "keyEnv": "GPTZERO_API_KEY",
-        "bodyTemplate": { "document": "{{TEXT}}", "multilingual": false },
+        "bodyTemplate": {
+          "document": "{{TEXT}}",
+          "multilingual": false
+        },
         "scorePath": "documents.0.class_probabilities.ai",
         "scoreScale": "ai-0-1",
         "sentencePath": "documents.0.sentences"
@@ -82,16 +92,19 @@
         "auth": "bearer",
         "keyEnv": "COPYLEAKS_API_KEY",
         "loginEndpoint": "https://id.copyleaks.com/v3/account/login/api",
-        "bodyTemplate": { "text": "{{TEXT}}", "sandbox": false },
+        "bodyTemplate": {
+          "text": "{{TEXT}}",
+          "sandbox": false
+        },
         "scorePath": "summary.ai",
-        "scoreScale": "ai-0-1",
+        "scoreScale": "ai-0-100",
         "sentencePath": "results"
       },
       "threshold": 50,
       "granularity": "sentence",
       "minWords": 55,
       "plan": "AI Detector API",
-      "notes": "Requires a login exchange for a short-lived bearer token; the adapter caches it for the run."
+      "notes": "Requires a login exchange for a short-lived bearer token; the adapter caches it for the run. Reports ai_percent on a 0-100 scale in the 2026-08 run logs; the earlier 0-1 assumption in this file was wrong and would have clamped every reading to 100."
     },
     {
       "slug": "sapling",
@@ -104,7 +117,11 @@
         "method": "POST",
         "auth": "body",
         "keyEnv": "SAPLING_API_KEY",
-        "bodyTemplate": { "key": "{{KEY}}", "text": "{{TEXT}}", "sent_scores": true },
+        "bodyTemplate": {
+          "key": "{{KEY}}",
+          "text": "{{TEXT}}",
+          "sent_scores": true
+        },
         "scorePath": "score",
         "scoreScale": "ai-0-1",
         "sentencePath": "sentence_scores"
@@ -127,7 +144,9 @@
         "auth": "header",
         "authHeader": "api-key",
         "keyEnv": "UNDETECTABLE_API_KEY",
-        "bodyTemplate": { "text": "{{TEXT}}" },
+        "bodyTemplate": {
+          "text": "{{TEXT}}"
+        },
         "scorePath": "result",
         "scoreScale": "ai-0-100"
       },
@@ -149,7 +168,9 @@
         "auth": "header",
         "authHeader": "ApiKey",
         "keyEnv": "ZEROGPT_API_KEY",
-        "bodyTemplate": { "input_text": "{{TEXT}}" },
+        "bodyTemplate": {
+          "input_text": "{{TEXT}}"
+        },
         "scorePath": "data.fakePercentage",
         "scoreScale": "ai-0-100",
         "sentencePath": "data.h"
@@ -172,7 +193,10 @@
         "auth": "header",
         "authHeader": "X-API-KEY",
         "keyEnv": "SMODIN_API_KEY",
-        "bodyTemplate": { "text": "{{TEXT}}", "language": "en" },
+        "bodyTemplate": {
+          "text": "{{TEXT}}",
+          "language": "en"
+        },
         "scorePath": "ai_percentage",
         "scoreScale": "ai-0-100"
       },
@@ -193,7 +217,9 @@
         "method": "POST",
         "auth": "bearer",
         "keyEnv": "ISGEN_API_KEY",
-        "bodyTemplate": { "text": "{{TEXT}}" },
+        "bodyTemplate": {
+          "text": "{{TEXT}}"
+        },
         "scorePath": "ai_probability",
         "scoreScale": "ai-0-1",
         "sentencePath": "segments"
@@ -242,16 +268,36 @@
       "minWords": 50,
       "plan": "Free web tool",
       "notes": "No public API; manual path as above."
+    },
+    {
+      "slug": "pangram",
+      "name": "Pangram",
+      "vendor": "Pangram Labs",
+      "url": "https://www.pangram.com/",
+      "access": "api",
+      "api": {
+        "endpoint": "https://api.pangram.com/v1/predict",
+        "method": "POST",
+        "auth": "header",
+        "authHeader": "x-api-key",
+        "keyEnv": "PANGRAM_API_KEY",
+        "bodyTemplate": {
+          "text": "{{TEXT}}"
+        },
+        "scorePath": "fraction_ai",
+        "scoreScale": "ai-0-1"
+      },
+      "threshold": 50,
+      "granularity": "sentence",
+      "minWords": 50,
+      "plan": "API",
+      "notes": "Excluded at the maintainer's request when this benchmark was scoped, then included after the maintainer supplied a full 2026-08 run log for it. Both facts are recorded here rather than only the second."
     }
   ],
   "excluded": [
     {
       "name": "Turnitin AI Writing Detection",
       "reason": "Sold only to institutions and unavailable for independent purchase. A benchmark nobody outside a licensed institution can reproduce is not a benchmark, so it is excluded rather than estimated."
-    },
-    {
-      "name": "Pangram Labs",
-      "reason": "Excluded at the maintainer's request for this benchmark line."
     },
     {
       "name": "Grammarly AI detection",

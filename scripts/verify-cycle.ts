@@ -27,42 +27,8 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { fail, heading, info, ok, readJson, repoPath, sha256, sha256File } from './lib/io.js';
 import type { Detector, Reading, Sample } from './lib/types.js';
 
-let failures = 0;
-const check = (passed: boolean, message: string) => {
-  passed ? ok(message) : fail(message);
-  if (!passed) failures++;
-};
-
-const stable = (v: unknown) => JSON.stringify(v);
-
-async function verifyCycle(cycle: string): Promise<void> {
-  const dir = repoPath('data', 'cycles', cycle);
-  heading(`Cycle ${cycle}`);
-
-  const commit = readJson<{ nonceSha256: string; status: string; committedAt: string; banksSha256?: string; templatesSha256?: string }>(
-    `${dir}/commit.json`,
-  );
-
-  // 1. Commitment
-  const noncePath = `${dir}/nonce.txt`;
-  if (!existsSync(noncePath)) {
-    info('nonce not yet revealed — cycle is still open, skipping replay checks');
-    return;
-  }
-  const nonce = readFileSync(noncePath, 'utf8').trim();
-  check(sha256(nonce) === commit.nonceSha256, `commitment: SHA-256(nonce) matches commit.json`);
-
-  if (commit.banksSha256) {
-    check(sha256File(repoPath('datasets/ai/banks.json')) === commit.banksSha256, 'commitment: banks.json unchanged since cycle open');
-  }
-  if (commit.templatesSha256) {
-    check(
-      sha256File(repoPath('datasets/ai/templates.json')) === commit.templatesSha256,
-      'commitment: templates.json unchanged since cycle open',
-    );
-  }
-
-  // 2. Prompt replay
+async function verifyPromptReplay(cycle: string, dir: string): Promise<void> {
+  const nonce = readFileSync(`${dir}/nonce.txt`, 'utf8').trim();
   const { selectPrompts } = await import(`${dir}/select-placeholders.js`);
   const templates = readJson<{ templates: unknown[]; variantsPerTemplate: number }>(repoPath('datasets/ai/templates.json'));
   const banks = readJson<{ banks: Record<string, string[]> }>(repoPath('datasets/ai/banks.json'));
@@ -78,20 +44,90 @@ async function verifyCycle(cycle: string): Promise<void> {
     generators,
   });
   check(stable(replayed) === stable(committedPrompts), `prompt replay: ${replayed.length} prompts re-derived from the nonce`);
+}
+
+let failures = 0;
+const check = (passed: boolean, message: string) => {
+  passed ? ok(message) : fail(message);
+  if (!passed) failures++;
+};
+
+const stable = (v: unknown) => JSON.stringify(v);
+
+async function verifyCycle(cycle: string): Promise<void> {
+  const dir = repoPath('data', 'cycles', cycle);
+  heading(`Cycle ${cycle}`);
+
+  const commit = readJson<{
+    nonceSha256?: string;
+    status: string;
+    corpusProvenance?: string;
+    banksSha256?: string;
+    templatesSha256?: string;
+  }>(`${dir}/commit.json`);
+
+  // A cycle collected against a corpus the operator assembled themselves has no
+  // nonce and no generated prompts, so checks 1 and 2 have nothing to test.
+  // Skipping them is stated out loud rather than passed silently: this cycle
+  // carries less proof than one built through the commit-reveal scheme, and a
+  // reader is entitled to know which kind they are looking at.
+  const operatorCorpus = commit.corpusProvenance === 'operator-supplied';
+  if (operatorCorpus) {
+    info('operator-supplied corpus — no commit-reveal, so commitment and prompt-replay checks do not apply');
+  }
+
+  // 1. Commitment
+  const noncePath = `${dir}/nonce.txt`;
+  if (!operatorCorpus && !existsSync(noncePath)) {
+    info('nonce not yet revealed — cycle is still open, skipping replay checks');
+    return;
+  }
+  if (!operatorCorpus) {
+    const nonce = readFileSync(noncePath, 'utf8').trim();
+    check(sha256(nonce) === commit.nonceSha256, `commitment: SHA-256(nonce) matches commit.json`);
+  }
+
+  if (commit.banksSha256) {
+    check(sha256File(repoPath('datasets/ai/banks.json')) === commit.banksSha256, 'commitment: banks.json unchanged since cycle open');
+  }
+  if (commit.templatesSha256) {
+    check(
+      sha256File(repoPath('datasets/ai/templates.json')) === commit.templatesSha256,
+      'commitment: templates.json unchanged since cycle open',
+    );
+  }
+
+  // 2. Prompt replay
+  if (!operatorCorpus) await verifyPromptReplay(cycle, dir);
 
   // 3. Ground truth
   const samples = readJson<Sample[]>(`${dir}/samples.json`);
-  const hybridSpec = readJson<{ plan: Array<Record<string, string | number>>; ratioTolerance: number }>(
-    repoPath('datasets/hybrid/spec.json'),
-  );
-  const planById = new Map(hybridSpec.plan.map((p) => [p.id as string, p]));
-  const offTarget = samples
-    .filter((s) => s.class === 'hybrid')
-    .filter((s) => {
+  const hybrids = samples.filter((s) => s.class === 'hybrid');
+
+  if (operatorCorpus) {
+    // No splice plan to check against, so the weaker available assertion: every
+    // hybrid sits on one of the declared ratios, and every ratio is populated.
+    const ratios = [...new Set(hybrids.map((s) => s.aiFraction))].sort((a, b) => a - b);
+    const declared = [0.25, 0.5, 0.75];
+    check(
+      ratios.length === declared.length && ratios.every((r, i) => Math.abs(r - declared[i]!) < 1e-9),
+      `ground truth: hybrid AI fractions are exactly ${declared.join(' / ')} (found ${ratios.join(' / ')})`,
+    );
+    check(
+      samples.every((s) => (s.class === 'ai') === (s.aiFraction === 1) && (s.aiFraction === 0) === (s.class === 'human' || s.class === 'fp')),
+      'ground truth: AI fraction agrees with declared class on every sample',
+    );
+  } else {
+    const hybridSpec = readJson<{ plan: Array<Record<string, string | number>>; ratioTolerance: number }>(
+      repoPath('datasets/hybrid/spec.json'),
+    );
+    const planById = new Map(hybridSpec.plan.map((p) => [p.id as string, p]));
+    const offTarget = hybrids.filter((s) => {
       const target = planById.get(s.id)?.aiFractionTarget as number | undefined;
       return target === undefined || Math.abs(s.aiFraction - target) > hybridSpec.ratioTolerance;
     });
-  check(offTarget.length === 0, `ground truth: all hybrid AI fractions within ±${hybridSpec.ratioTolerance} of plan`);
+    check(offTarget.length === 0, `ground truth: all hybrid AI fractions within ±${hybridSpec.ratioTolerance} of plan`);
+  }
 
   const counts = samples.reduce<Record<string, number>>((acc, s) => ({ ...acc, [s.class]: (acc[s.class] ?? 0) + 1 }), {});
   check(
@@ -124,11 +160,13 @@ async function verifyCycle(cycle: string): Promise<void> {
   const results = readJson<Reading[]>(`${dir}/detector-results.json`);
   const registry = readJson<{ detectors: Detector[] }>(repoPath('detectors/registry.json'));
   const published = readJson<{ leaderboard: unknown[] }>(`${dir}/leaderboard.json`);
-  const replayedScores = scoreCycle({ samples, results, detectors: registry.detectors });
+  const measured = new Set(results.map((r) => r.detector));
+  const scoredDetectors = registry.detectors.filter((d) => measured.has(d.slug));
+  const replayedScores = scoreCycle({ samples, results, detectors: scoredDetectors });
   check(stable(replayedScores.leaderboard) === stable(published.leaderboard), 'score replay: leaderboard re-derives byte for byte');
 
-  // Coverage: readings should cover every detector × sample × run, or say why not.
-  const expected = samples.length * registry.detectors.length * 2;
+  // Coverage: readings should cover every measured detector × sample × run.
+  const expected = samples.length * scoredDetectors.length * 2;
   const errorRate = results.filter((r) => r.error).length / Math.max(1, results.length);
   info(`coverage: ${results.length}/${expected} readings, ${(errorRate * 100).toFixed(1)}% unanswered`);
   if (commit.status !== 'published') info(`status: ${commit.status}`);

@@ -1,9 +1,0 @@
-{
-  "note": "Which model produced each AI sample. Fill `model` with the exact model you actually used, including how you accessed it (web UI vs API) — a detection score with no generator provenance ages into meaninglessness within months.",
-  "generators": [
-    { "slug": "gen-a", "provider": "tbd", "model": "TBD", "keyEnv": "NONE", "maxTokens": 700 },
-    { "slug": "gen-b", "provider": "tbd", "model": "TBD", "keyEnv": "NONE", "maxTokens": 700 },
-    { "slug": "gen-c", "provider": "tbd", "model": "TBD", "keyEnv": "NONE", "maxTokens": 700 },
-    { "slug": "gen-d", "provider": "tbd", "model": "TBD", "keyEnv": "NONE", "maxTokens": 700 }
-  ]
-}

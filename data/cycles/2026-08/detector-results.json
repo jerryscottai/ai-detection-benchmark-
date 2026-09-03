@@ -1,0 +1,8192 @@
+[
+  {
+    "detector": "copyleaks",
+    "sampleId": "C079",
+    "run": 1,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:33:47"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C086",
+    "run": 1,
+    "aiProbability": 51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:34:36"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C034",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:35:41"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C087",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:36:22"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C082",
+    "run": 1,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:37:32"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C052",
+    "run": 1,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:39:09"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C031",
+    "run": 1,
+    "aiProbability": 26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:39:41"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C027",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:40:32"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C055",
+    "run": 1,
+    "aiProbability": 70,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:41:46"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C039",
+    "run": 1,
+    "aiProbability": 21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:43:51"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C056",
+    "run": 1,
+    "aiProbability": 68,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:45:23"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C009",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:46:00"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C066",
+    "run": 1,
+    "aiProbability": 15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:46:58"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C073",
+    "run": 1,
+    "aiProbability": 58,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:48:38"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C076",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:50:34"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C078",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:52:06"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C046",
+    "run": 1,
+    "aiProbability": 12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:53:49"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C061",
+    "run": 1,
+    "aiProbability": 51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:55:37"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C022",
+    "run": 1,
+    "aiProbability": 67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:56:30"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C021",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:58:16"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C044",
+    "run": 1,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:59:42"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C002",
+    "run": 1,
+    "aiProbability": 79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:00:55"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C062",
+    "run": 1,
+    "aiProbability": 31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:02:53"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C088",
+    "run": 1,
+    "aiProbability": 27,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:04:57"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C023",
+    "run": 1,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:05:41"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C035",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:06:50"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C067",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:07:23"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C091",
+    "run": 1,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:09:21"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C064",
+    "run": 1,
+    "aiProbability": 61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:10:47"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C036",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:12:06"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C037",
+    "run": 1,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:13:30"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C059",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:14:33"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C016",
+    "run": 1,
+    "aiProbability": 53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:15:29"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C077",
+    "run": 1,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:16:08"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C006",
+    "run": 1,
+    "aiProbability": 93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:17:24"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C029",
+    "run": 1,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:18:19"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C033",
+    "run": 1,
+    "aiProbability": null,
+    "error": "timeout",
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:20:18"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C065",
+    "run": 1,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:20:53"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C003",
+    "run": 1,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:22:50"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C068",
+    "run": 1,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:23:39"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C015",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:24:17"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C004",
+    "run": 1,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:25:13"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C041",
+    "run": 1,
+    "aiProbability": 40,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:26:03"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C047",
+    "run": 1,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:28:04"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C005",
+    "run": 1,
+    "aiProbability": 79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:29:20"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C013",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:31:04"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C042",
+    "run": 1,
+    "aiProbability": 59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:32:38"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C070",
+    "run": 1,
+    "aiProbability": 66,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:33:24"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C040",
+    "run": 1,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:34:31"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C054",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:36:29"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C048",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:37:44"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C083",
+    "run": 1,
+    "aiProbability": 33,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:38:21"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C063",
+    "run": 1,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:40:17"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C010",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:40:59"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C007",
+    "run": 1,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:42:22"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C069",
+    "run": 1,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:44:13"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C050",
+    "run": 1,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:45:16"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C026",
+    "run": 1,
+    "aiProbability": 47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:46:08"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C001",
+    "run": 1,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:47:19"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C072",
+    "run": 1,
+    "aiProbability": 39,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:48:54"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C024",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:50:39"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C032",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:52:17"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C012",
+    "run": 1,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:54:00"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C060",
+    "run": 1,
+    "aiProbability": 69,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:55:50"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C057",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:57:13"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C025",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:58:06"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C028",
+    "run": 1,
+    "aiProbability": 92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:59:56"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C051",
+    "run": 1,
+    "aiProbability": 21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:01:13"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C020",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:02:00"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C084",
+    "run": 1,
+    "aiProbability": 16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:03:46"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C058",
+    "run": 1,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:04:46"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C030",
+    "run": 1,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:06:27"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C081",
+    "run": 1,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:08:04"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C043",
+    "run": 1,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:09:11"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C071",
+    "run": 1,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:09:51"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C049",
+    "run": 1,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:10:47"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C018",
+    "run": 1,
+    "aiProbability": 45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:12:27"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C085",
+    "run": 1,
+    "aiProbability": 28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:13:12"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C074",
+    "run": 1,
+    "aiProbability": 25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:13:56"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C090",
+    "run": 1,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:15:29"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C089",
+    "run": 1,
+    "aiProbability": 28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:16:03"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C014",
+    "run": 1,
+    "aiProbability": 60,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:18:03"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C045",
+    "run": 1,
+    "aiProbability": 34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:20:07"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C053",
+    "run": 1,
+    "aiProbability": 8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:21:52"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C017",
+    "run": 1,
+    "aiProbability": 92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:22:44"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C011",
+    "run": 1,
+    "aiProbability": 80,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:24:14"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C019",
+    "run": 1,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:26:00"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C075",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:27:34"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C038",
+    "run": 1,
+    "aiProbability": 31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:28:37"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C008",
+    "run": 1,
+    "aiProbability": 70,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:29:38"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C080",
+    "run": 1,
+    "aiProbability": 46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T17:30:59"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C046",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:13:00"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C020",
+    "run": 2,
+    "aiProbability": 62,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:14:39"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C035",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:15:16"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C003",
+    "run": 2,
+    "aiProbability": 80,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:16:47"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C065",
+    "run": 2,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:17:59"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C037",
+    "run": 2,
+    "aiProbability": 34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:18:50"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C007",
+    "run": 2,
+    "aiProbability": 80,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:19:40"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C051",
+    "run": 2,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:21:28"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C015",
+    "run": 2,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:23:02"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C048",
+    "run": 2,
+    "aiProbability": 41,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:24:56"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C019",
+    "run": 2,
+    "aiProbability": 92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:27:01"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C061",
+    "run": 2,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:28:37"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C054",
+    "run": 2,
+    "aiProbability": 47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:30:09"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C002",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:31:06"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C026",
+    "run": 2,
+    "aiProbability": 76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:33:07"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C036",
+    "run": 2,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:33:43"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C029",
+    "run": 2,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:34:40"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C057",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:35:31"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C076",
+    "run": 2,
+    "aiProbability": 28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:37:30"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C006",
+    "run": 2,
+    "aiProbability": 74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:39:16"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C038",
+    "run": 2,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:40:11"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C090",
+    "run": 2,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:41:50"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C071",
+    "run": 2,
+    "aiProbability": 26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:42:41"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C074",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:44:04"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C043",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:45:57"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C079",
+    "run": 2,
+    "aiProbability": 71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:46:46"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C017",
+    "run": 2,
+    "aiProbability": 72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:48:49"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C055",
+    "run": 2,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:50:02"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C047",
+    "run": 2,
+    "aiProbability": 29,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:51:33"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C085",
+    "run": 2,
+    "aiProbability": 54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:53:36"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C088",
+    "run": 2,
+    "aiProbability": 39,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:54:22"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C053",
+    "run": 2,
+    "aiProbability": 17,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:55:43"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C066",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:57:10"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C028",
+    "run": 2,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:58:21"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C091",
+    "run": 2,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:00:17"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C024",
+    "run": 2,
+    "aiProbability": 85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:01:07"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C025",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:01:39"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C042",
+    "run": 2,
+    "aiProbability": 20,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:03:26"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C023",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:05:20"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C041",
+    "run": 2,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:06:48"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C089",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:07:52"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C030",
+    "run": 2,
+    "aiProbability": 34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:09:01"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C040",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:10:20"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C070",
+    "run": 2,
+    "aiProbability": 55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:12:24"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C009",
+    "run": 2,
+    "aiProbability": 67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:14:27"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C012",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:15:57"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C059",
+    "run": 2,
+    "aiProbability": 25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:17:29"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C021",
+    "run": 2,
+    "aiProbability": 81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:19:18"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C027",
+    "run": 2,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:20:13"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C005",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:21:38"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C050",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:23:23"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C052",
+    "run": 2,
+    "aiProbability": 33,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:24:45"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C080",
+    "run": 2,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:26:06"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C004",
+    "run": 2,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:27:59"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C067",
+    "run": 2,
+    "aiProbability": 55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:29:01"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C073",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:30:31"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C033",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:31:24"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C078",
+    "run": 2,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:32:18"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C056",
+    "run": 2,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:34:04"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C064",
+    "run": 2,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:34:43"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C086",
+    "run": 2,
+    "aiProbability": 33,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:35:43"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C062",
+    "run": 2,
+    "aiProbability": 40,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:36:19"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C022",
+    "run": 2,
+    "aiProbability": 37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:37:05"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C058",
+    "run": 2,
+    "aiProbability": 46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:39:02"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C068",
+    "run": 2,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:40:31"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C039",
+    "run": 2,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:42:22"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C083",
+    "run": 2,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:43:57"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C077",
+    "run": 2,
+    "aiProbability": 29,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:45:27"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C044",
+    "run": 2,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:46:48"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C013",
+    "run": 2,
+    "aiProbability": 31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:47:26"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C049",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:48:37"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C084",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:49:55"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C082",
+    "run": 2,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:50:43"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C060",
+    "run": 2,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:51:44"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C016",
+    "run": 2,
+    "aiProbability": 54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:52:32"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C031",
+    "run": 2,
+    "aiProbability": 39,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:53:32"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C081",
+    "run": 2,
+    "aiProbability": 26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:54:10"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C010",
+    "run": 2,
+    "aiProbability": 53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:55:35"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C069",
+    "run": 2,
+    "aiProbability": 51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:56:29"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C075",
+    "run": 2,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:57:15"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C034",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:57:48"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C018",
+    "run": 2,
+    "aiProbability": 85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:58:40"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C072",
+    "run": 2,
+    "aiProbability": 65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:00:00"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C014",
+    "run": 2,
+    "aiProbability": 55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:01:43"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C087",
+    "run": 2,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:02:40"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C011",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:03:20"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C045",
+    "run": 2,
+    "aiProbability": 20,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:05:03"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C008",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:06:27"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C063",
+    "run": 2,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:07:52"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C001",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:09:29"
+  },
+  {
+    "detector": "copyleaks",
+    "sampleId": "C032",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T18:10:35"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C026",
+    "run": 1,
+    "aiProbability": 82.71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:20:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C029",
+    "run": 1,
+    "aiProbability": 11.6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:22:33"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C013",
+    "run": 1,
+    "aiProbability": 60.85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:23:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C035",
+    "run": 1,
+    "aiProbability": 8.86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:25:41"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C079",
+    "run": 1,
+    "aiProbability": 41.83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:26:25"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C011",
+    "run": 1,
+    "aiProbability": 83.09,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:27:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C085",
+    "run": 1,
+    "aiProbability": 44.84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:29:13"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C037",
+    "run": 1,
+    "aiProbability": 12.99,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:31:18"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C059",
+    "run": 1,
+    "aiProbability": 56.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:31:52"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C027",
+    "run": 1,
+    "aiProbability": 80.26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:33:39"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C082",
+    "run": 1,
+    "aiProbability": 30.47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:34:32"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C028",
+    "run": 1,
+    "aiProbability": 76.2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:35:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C016",
+    "run": 1,
+    "aiProbability": 57.39,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:36:45"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C007",
+    "run": 1,
+    "aiProbability": 80.6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:37:37"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C064",
+    "run": 1,
+    "aiProbability": 42.25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:39:40"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C069",
+    "run": 1,
+    "aiProbability": 47.18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:41:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C005",
+    "run": 1,
+    "aiProbability": 75.2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:43:00"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C057",
+    "run": 1,
+    "aiProbability": 72.17,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:43:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C018",
+    "run": 1,
+    "aiProbability": 88.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:45:03"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C055",
+    "run": 1,
+    "aiProbability": 60.13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:45:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C023",
+    "run": 1,
+    "aiProbability": 74.49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:47:05"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C081",
+    "run": 1,
+    "aiProbability": 4.2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:48:49"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C072",
+    "run": 1,
+    "aiProbability": 41.79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:50:54"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C045",
+    "run": 1,
+    "aiProbability": 34.3,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:52:12"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C047",
+    "run": 1,
+    "aiProbability": 14.76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:52:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C032",
+    "run": 1,
+    "aiProbability": 4.06,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:54:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C025",
+    "run": 1,
+    "aiProbability": 77.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:55:55"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C065",
+    "run": 1,
+    "aiProbability": 53.29,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:57:18"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C075",
+    "run": 1,
+    "aiProbability": 35.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:58:27"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C039",
+    "run": 1,
+    "aiProbability": 1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:00:17"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C030",
+    "run": 1,
+    "aiProbability": 19.58,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:01:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C090",
+    "run": 1,
+    "aiProbability": 37.55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:02:54"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C063",
+    "run": 1,
+    "aiProbability": 28.46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:03:41"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C022",
+    "run": 1,
+    "aiProbability": 43.09,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:04:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C088",
+    "run": 1,
+    "aiProbability": 50.8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:06:43"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C024",
+    "run": 1,
+    "aiProbability": 86.13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:07:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C080",
+    "run": 1,
+    "aiProbability": 13.07,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:09:51"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C076",
+    "run": 1,
+    "aiProbability": 26.21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:10:39"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C014",
+    "run": 1,
+    "aiProbability": 66.4,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:11:25"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C052",
+    "run": 1,
+    "aiProbability": 41.55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:12:21"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C038",
+    "run": 1,
+    "aiProbability": 10.98,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:13:10"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C015",
+    "run": 1,
+    "aiProbability": 35.81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:13:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C041",
+    "run": 1,
+    "aiProbability": 1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:14:52"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C053",
+    "run": 1,
+    "aiProbability": 5.6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:16:15"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C054",
+    "run": 1,
+    "aiProbability": 26.87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:17:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C009",
+    "run": 1,
+    "aiProbability": 87.24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:19:20"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C084",
+    "run": 1,
+    "aiProbability": 30.15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:20:14"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C067",
+    "run": 1,
+    "aiProbability": 48.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:22:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C006",
+    "run": 1,
+    "aiProbability": 82.1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:23:53"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C091",
+    "run": 1,
+    "aiProbability": 19.71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:24:51"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C049",
+    "run": 1,
+    "aiProbability": 24.94,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:26:29"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C058",
+    "run": 1,
+    "aiProbability": 65.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:27:30"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C071",
+    "run": 1,
+    "aiProbability": 52.67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:29:30"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C061",
+    "run": 1,
+    "aiProbability": 27.86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:31:27"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C034",
+    "run": 1,
+    "aiProbability": 6.5,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:32:48"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C003",
+    "run": 1,
+    "aiProbability": 72.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:33:27"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C043",
+    "run": 1,
+    "aiProbability": 24.99,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:35:23"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C019",
+    "run": 1,
+    "aiProbability": 87.76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:36:02"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C078",
+    "run": 1,
+    "aiProbability": 43.96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:37:32"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C087",
+    "run": 1,
+    "aiProbability": null,
+    "error": "insufficient_text",
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:38:06"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C066",
+    "run": 1,
+    "aiProbability": 9.69,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:39:10"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C012",
+    "run": 1,
+    "aiProbability": 81.22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:41:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C056",
+    "run": 1,
+    "aiProbability": 59.09,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:42:37"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C033",
+    "run": 1,
+    "aiProbability": 5.83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:43:41"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C004",
+    "run": 1,
+    "aiProbability": 83.37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:45:05"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C010",
+    "run": 1,
+    "aiProbability": 75.76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:45:58"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C086",
+    "run": 1,
+    "aiProbability": 50.64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:47:33"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C089",
+    "run": 1,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:49:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C002",
+    "run": 1,
+    "aiProbability": 69.1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:51:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C048",
+    "run": 1,
+    "aiProbability": 1.47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:53:42"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C050",
+    "run": 1,
+    "aiProbability": 31.19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:55:13"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C017",
+    "run": 1,
+    "aiProbability": 71.22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:56:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C044",
+    "run": 1,
+    "aiProbability": 10.83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T13:59:00"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C062",
+    "run": 1,
+    "aiProbability": 66.81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:00:15"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C008",
+    "run": 1,
+    "aiProbability": 76.62,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:01:01"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C031",
+    "run": 1,
+    "aiProbability": 17.22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:02:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C060",
+    "run": 1,
+    "aiProbability": 60.31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:04:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C040",
+    "run": 1,
+    "aiProbability": 19.81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:06:10"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C036",
+    "run": 1,
+    "aiProbability": 12.97,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:07:35"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C073",
+    "run": 1,
+    "aiProbability": 50.87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:08:39"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C046",
+    "run": 1,
+    "aiProbability": 40.65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:10:33"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C020",
+    "run": 1,
+    "aiProbability": 93.1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:11:19"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C051",
+    "run": 1,
+    "aiProbability": 39.45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:12:02"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C070",
+    "run": 1,
+    "aiProbability": 53.23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:12:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C068",
+    "run": 1,
+    "aiProbability": 29.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:13:51"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C077",
+    "run": 1,
+    "aiProbability": 37.18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:14:24"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C042",
+    "run": 1,
+    "aiProbability": 16.28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:15:41"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C001",
+    "run": 1,
+    "aiProbability": 91.75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:17:38"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C083",
+    "run": 1,
+    "aiProbability": 41.57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:19:07"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C021",
+    "run": 1,
+    "aiProbability": 79.19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:20:20"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C074",
+    "run": 1,
+    "aiProbability": 31.36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:21:18"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C071",
+    "run": 2,
+    "aiProbability": 45.91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:09:17"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C017",
+    "run": 2,
+    "aiProbability": 93.08,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:11:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C078",
+    "run": 2,
+    "aiProbability": 22.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:12:15"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C018",
+    "run": 2,
+    "aiProbability": 73.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:13:34"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C047",
+    "run": 2,
+    "aiProbability": 23.1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:14:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C006",
+    "run": 2,
+    "aiProbability": 68.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:15:31"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C076",
+    "run": 2,
+    "aiProbability": 17.91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:16:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C014",
+    "run": 2,
+    "aiProbability": 49.49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:18:10"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C080",
+    "run": 2,
+    "aiProbability": 11.23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:20:13"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C086",
+    "run": 2,
+    "aiProbability": 37.16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:21:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C011",
+    "run": 2,
+    "aiProbability": 91.27,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:22:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C028",
+    "run": 2,
+    "aiProbability": 96.75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:23:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C077",
+    "run": 2,
+    "aiProbability": 27.51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:24:39"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C005",
+    "run": 2,
+    "aiProbability": 66.89,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:25:56"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C074",
+    "run": 2,
+    "aiProbability": 41.2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:27:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C007",
+    "run": 2,
+    "aiProbability": 61.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:28:30"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C020",
+    "run": 2,
+    "aiProbability": 83.49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:30:02"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C001",
+    "run": 2,
+    "aiProbability": 82.14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:30:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C025",
+    "run": 2,
+    "aiProbability": 88.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:32:29"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C090",
+    "run": 2,
+    "aiProbability": 25.87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:33:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C024",
+    "run": 2,
+    "aiProbability": 95.84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:34:21"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C089",
+    "run": 2,
+    "aiProbability": 25.02,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:36:07"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C087",
+    "run": 2,
+    "aiProbability": 29.13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:38:07"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C032",
+    "run": 2,
+    "aiProbability": 1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:38:54"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C039",
+    "run": 2,
+    "aiProbability": 23.49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:40:55"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C091",
+    "run": 2,
+    "aiProbability": 2.54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:42:33"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C030",
+    "run": 2,
+    "aiProbability": 24.24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:44:36"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C041",
+    "run": 2,
+    "aiProbability": 28.72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:45:15"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C035",
+    "run": 2,
+    "aiProbability": 18.19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:45:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C019",
+    "run": 2,
+    "aiProbability": 79.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:47:13"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C022",
+    "run": 2,
+    "aiProbability": 50.72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:48:02"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C070",
+    "run": 2,
+    "aiProbability": 39.9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:48:42"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C009",
+    "run": 2,
+    "aiProbability": 76.17,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:50:44"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C054",
+    "run": 2,
+    "aiProbability": 21.78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:52:36"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C062",
+    "run": 2,
+    "aiProbability": 55.02,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:53:12"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C027",
+    "run": 2,
+    "aiProbability": 73.93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:54:35"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C060",
+    "run": 2,
+    "aiProbability": 55.74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:56:25"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C084",
+    "run": 2,
+    "aiProbability": 31.28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:58:22"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C065",
+    "run": 2,
+    "aiProbability": 55.63,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:59:01"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C075",
+    "run": 2,
+    "aiProbability": 32.57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:59:41"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C067",
+    "run": 2,
+    "aiProbability": 62.25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:00:20"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C088",
+    "run": 2,
+    "aiProbability": 49.34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:01:10"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C045",
+    "run": 2,
+    "aiProbability": 28.91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:01:45"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C083",
+    "run": 2,
+    "aiProbability": 14.8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:03:42"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C023",
+    "run": 2,
+    "aiProbability": 91.9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:05:29"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C058",
+    "run": 2,
+    "aiProbability": 63.74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:06:34"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C081",
+    "run": 2,
+    "aiProbability": 18.23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:07:29"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C002",
+    "run": 2,
+    "aiProbability": 64.17,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:08:21"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C038",
+    "run": 2,
+    "aiProbability": 25.21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:10:01"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C059",
+    "run": 2,
+    "aiProbability": 45.45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:10:53"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C063",
+    "run": 2,
+    "aiProbability": 9.6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:12:07"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C012",
+    "run": 2,
+    "aiProbability": 84.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:12:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C057",
+    "run": 2,
+    "aiProbability": 72.8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:14:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C053",
+    "run": 2,
+    "aiProbability": 1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:15:23"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C042",
+    "run": 2,
+    "aiProbability": 16.75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:16:37"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C049",
+    "run": 2,
+    "aiProbability": 20.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:18:18"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C016",
+    "run": 2,
+    "aiProbability": 55.12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:19:40"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C056",
+    "run": 2,
+    "aiProbability": 43.26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:20:58"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C048",
+    "run": 2,
+    "aiProbability": 15.79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:21:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C055",
+    "run": 2,
+    "aiProbability": 53.86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:23:21"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C069",
+    "run": 2,
+    "aiProbability": 32.15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:23:59"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C066",
+    "run": 2,
+    "aiProbability": 33.52,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:25:25"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C072",
+    "run": 2,
+    "aiProbability": 54.52,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:27:13"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C037",
+    "run": 2,
+    "aiProbability": 36.26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:29:12"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C015",
+    "run": 2,
+    "aiProbability": 46.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:31:16"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C029",
+    "run": 2,
+    "aiProbability": 35.76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:32:19"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C044",
+    "run": 2,
+    "aiProbability": 10.46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:33:41"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C033",
+    "run": 2,
+    "aiProbability": 9.51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:35:19"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C051",
+    "run": 2,
+    "aiProbability": 49.65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:35:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C010",
+    "run": 2,
+    "aiProbability": 85.85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:37:26"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C082",
+    "run": 2,
+    "aiProbability": 21.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:38:21"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C021",
+    "run": 2,
+    "aiProbability": 85.3,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:39:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C004",
+    "run": 2,
+    "aiProbability": 72.98,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:41:37"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C034",
+    "run": 2,
+    "aiProbability": 13.58,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:43:30"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C085",
+    "run": 2,
+    "aiProbability": 41.1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:44:53"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C013",
+    "run": 2,
+    "aiProbability": 57.94,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:46:50"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C079",
+    "run": 2,
+    "aiProbability": 39.18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:48:05"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C043",
+    "run": 2,
+    "aiProbability": 14.54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:49:58"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C064",
+    "run": 2,
+    "aiProbability": 31.92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:50:54"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C046",
+    "run": 2,
+    "aiProbability": 20.67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:51:49"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C068",
+    "run": 2,
+    "aiProbability": 41.53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:53:10"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C050",
+    "run": 2,
+    "aiProbability": 24.86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:53:53"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C026",
+    "run": 2,
+    "aiProbability": 95.89,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:54:30"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C061",
+    "run": 2,
+    "aiProbability": 57.01,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:55:55"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C052",
+    "run": 2,
+    "aiProbability": 40.52,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:57:55"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C073",
+    "run": 2,
+    "aiProbability": 45.82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:59:35"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C036",
+    "run": 2,
+    "aiProbability": 13.99,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:01:16"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C003",
+    "run": 2,
+    "aiProbability": 80.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:02:57"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C031",
+    "run": 2,
+    "aiProbability": 16.28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:04:09"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C040",
+    "run": 2,
+    "aiProbability": 17.49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:05:03"
+  },
+  {
+    "detector": "gptzero",
+    "sampleId": "C008",
+    "run": 2,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:07:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C032",
+    "run": 1,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:04:16"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C058",
+    "run": 1,
+    "aiProbability": 72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:06:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C020",
+    "run": 1,
+    "aiProbability": 96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:07:05"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C076",
+    "run": 1,
+    "aiProbability": 59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:08:31"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C055",
+    "run": 1,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:10:26"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C064",
+    "run": 1,
+    "aiProbability": 53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:11:57"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C086",
+    "run": 1,
+    "aiProbability": 49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:12:44"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C067",
+    "run": 1,
+    "aiProbability": 73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:14:28"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C082",
+    "run": 1,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:15:33"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C075",
+    "run": 1,
+    "aiProbability": 26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:16:58"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C085",
+    "run": 1,
+    "aiProbability": 41,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:17:30"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C053",
+    "run": 1,
+    "aiProbability": 15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:19:24"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C078",
+    "run": 1,
+    "aiProbability": 59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:20:24"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C051",
+    "run": 1,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:21:42"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C037",
+    "run": 1,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:22:37"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C015",
+    "run": 1,
+    "aiProbability": 59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:23:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C040",
+    "run": 1,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:25:03"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C002",
+    "run": 1,
+    "aiProbability": 81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:26:12"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C052",
+    "run": 1,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:27:43"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C063",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:29:48"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C031",
+    "run": 1,
+    "aiProbability": 42,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:31:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C090",
+    "run": 1,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:33:19"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C036",
+    "run": 1,
+    "aiProbability": 17,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:34:09"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C007",
+    "run": 1,
+    "aiProbability": 76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:35:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C045",
+    "run": 1,
+    "aiProbability": 33,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:36:19"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C018",
+    "run": 1,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:38:10"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C046",
+    "run": 1,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:38:54"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C084",
+    "run": 1,
+    "aiProbability": 48,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:40:26"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C011",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:41:24"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C074",
+    "run": 1,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:42:16"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C024",
+    "run": 1,
+    "aiProbability": 81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:43:58"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C003",
+    "run": 1,
+    "aiProbability": 69,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:45:30"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C028",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:47:13"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C019",
+    "run": 1,
+    "aiProbability": 74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:48:19"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C041",
+    "run": 1,
+    "aiProbability": 2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:49:02"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C047",
+    "run": 1,
+    "aiProbability": 27,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:50:29"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C008",
+    "run": 1,
+    "aiProbability": 99,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:52:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C068",
+    "run": 1,
+    "aiProbability": 68,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:52:52"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C083",
+    "run": 1,
+    "aiProbability": 35,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:54:28"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C066",
+    "run": 1,
+    "aiProbability": 20,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:55:03"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C029",
+    "run": 1,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:55:44"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C016",
+    "run": 1,
+    "aiProbability": 92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:57:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C072",
+    "run": 1,
+    "aiProbability": 48,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:57:51"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C049",
+    "run": 1,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T14:58:31"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C065",
+    "run": 1,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:00:35"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C038",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:02:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C022",
+    "run": 1,
+    "aiProbability": 42,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:04:18"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C017",
+    "run": 1,
+    "aiProbability": 98,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:04:53"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C033",
+    "run": 1,
+    "aiProbability": 25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:06:44"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C039",
+    "run": 1,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:07:54"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C060",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:09:49"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C056",
+    "run": 1,
+    "aiProbability": 61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:11:38"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C001",
+    "run": 1,
+    "aiProbability": 96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:13:41"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C079",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:15:18"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C004",
+    "run": 1,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:16:22"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C021",
+    "run": 1,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:17:45"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C069",
+    "run": 1,
+    "aiProbability": 45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:19:45"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C062",
+    "run": 1,
+    "aiProbability": 67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:20:19"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C057",
+    "run": 1,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:22:12"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C010",
+    "run": 1,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:24:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C044",
+    "run": 1,
+    "aiProbability": 15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:24:54"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C034",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:25:30"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C025",
+    "run": 1,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:26:03"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C089",
+    "run": 1,
+    "aiProbability": 11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:27:36"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C050",
+    "run": 1,
+    "aiProbability": 37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:28:34"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C009",
+    "run": 1,
+    "aiProbability": 78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:30:21"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C071",
+    "run": 1,
+    "aiProbability": 39,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:31:23"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C006",
+    "run": 1,
+    "aiProbability": 68,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:32:14"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C043",
+    "run": 1,
+    "aiProbability": 1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:33:49"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C091",
+    "run": 1,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:34:48"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C081",
+    "run": 1,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:35:41"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C027",
+    "run": 1,
+    "aiProbability": 98,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:36:26"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C035",
+    "run": 1,
+    "aiProbability": 11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:38:29"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C023",
+    "run": 1,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:40:08"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C012",
+    "run": 1,
+    "aiProbability": 95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:41:47"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C059",
+    "run": 1,
+    "aiProbability": 46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:42:28"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C070",
+    "run": 1,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:44:24"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C073",
+    "run": 1,
+    "aiProbability": 54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:45:10"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C080",
+    "run": 1,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:46:25"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C054",
+    "run": 1,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:47:30"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C048",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:49:09"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C087",
+    "run": 1,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:50:09"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C005",
+    "run": 1,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:51:53"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C077",
+    "run": 1,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:53:14"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C013",
+    "run": 1,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:53:56"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C030",
+    "run": 1,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:55:55"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C026",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:57:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C014",
+    "run": 1,
+    "aiProbability": 69,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T15:59:00"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C088",
+    "run": 1,
+    "aiProbability": 53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:00:54"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C042",
+    "run": 1,
+    "aiProbability": 7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:01:34"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C061",
+    "run": 1,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T16:02:35"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C005",
+    "run": 2,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:41:11"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C044",
+    "run": 2,
+    "aiProbability": 8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:41:58"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C024",
+    "run": 2,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:43:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C016",
+    "run": 2,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:45:07"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C007",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:47:10"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C041",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:48:48"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C088",
+    "run": 2,
+    "aiProbability": 46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:49:59"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C079",
+    "run": 2,
+    "aiProbability": 46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:50:39"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C036",
+    "run": 2,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:52:26"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C032",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:54:20"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C087",
+    "run": 2,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:56:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C027",
+    "run": 2,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:57:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C029",
+    "run": 2,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:58:51"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C030",
+    "run": 2,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:59:47"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C009",
+    "run": 2,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:01:24"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C067",
+    "run": 2,
+    "aiProbability": 78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:02:10"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C028",
+    "run": 2,
+    "aiProbability": 96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:03:25"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C073",
+    "run": 2,
+    "aiProbability": 40,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:04:11"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C049",
+    "run": 2,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:06:03"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C084",
+    "run": 2,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:07:08"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C051",
+    "run": 2,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:08:37"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C057",
+    "run": 2,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:09:09"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C011",
+    "run": 2,
+    "aiProbability": 73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:11:12"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C002",
+    "run": 2,
+    "aiProbability": 65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:12:11"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C078",
+    "run": 2,
+    "aiProbability": 65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:13:56"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C048",
+    "run": 2,
+    "aiProbability": 30,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:15:44"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C003",
+    "run": 2,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:16:22"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C070",
+    "run": 2,
+    "aiProbability": 48,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:17:38"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C031",
+    "run": 2,
+    "aiProbability": 29,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:19:20"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C017",
+    "run": 2,
+    "aiProbability": 98,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:20:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C063",
+    "run": 2,
+    "aiProbability": 15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:21:53"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C081",
+    "run": 2,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:23:05"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C008",
+    "run": 2,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:24:28"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C014",
+    "run": 2,
+    "aiProbability": null,
+    "error": "error",
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:25:33"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C064",
+    "run": 2,
+    "aiProbability": 56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:26:16"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C062",
+    "run": 2,
+    "aiProbability": 72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:27:54"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C021",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:29:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C061",
+    "run": 2,
+    "aiProbability": 61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:30:52"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C025",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:31:47"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C012",
+    "run": 2,
+    "aiProbability": 96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:33:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C091",
+    "run": 2,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:34:54"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C006",
+    "run": 2,
+    "aiProbability": 71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:36:29"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C090",
+    "run": 2,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:37:30"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C083",
+    "run": 2,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:39:25"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C046",
+    "run": 2,
+    "aiProbability": 28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:41:23"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C052",
+    "run": 2,
+    "aiProbability": 47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:42:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C020",
+    "run": 2,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:43:10"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C077",
+    "run": 2,
+    "aiProbability": 47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:43:44"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C082",
+    "run": 2,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:45:49"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C040",
+    "run": 2,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:47:12"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C071",
+    "run": 2,
+    "aiProbability": 61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:48:44"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C013",
+    "run": 2,
+    "aiProbability": 89,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:49:38"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C069",
+    "run": 2,
+    "aiProbability": 44,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:51:23"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C018",
+    "run": 2,
+    "aiProbability": 77,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:53:09"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C053",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:54:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C072",
+    "run": 2,
+    "aiProbability": 45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:55:57"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C085",
+    "run": 2,
+    "aiProbability": 30,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:57:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C065",
+    "run": 2,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T16:58:15"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C034",
+    "run": 2,
+    "aiProbability": 6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:00:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C045",
+    "run": 2,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:02:04"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C075",
+    "run": 2,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:02:51"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C033",
+    "run": 2,
+    "aiProbability": 34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:03:25"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C080",
+    "run": 2,
+    "aiProbability": 27,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:05:29"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C076",
+    "run": 2,
+    "aiProbability": 26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:07:14"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C059",
+    "run": 2,
+    "aiProbability": 45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:08:00"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C035",
+    "run": 2,
+    "aiProbability": 2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:09:07"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C086",
+    "run": 2,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:10:22"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C037",
+    "run": 2,
+    "aiProbability": 16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:12:26"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C001",
+    "run": 2,
+    "aiProbability": 78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:13:14"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C050",
+    "run": 2,
+    "aiProbability": 47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:14:43"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C060",
+    "run": 2,
+    "aiProbability": 66,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:16:16"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C043",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:17:08"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C038",
+    "run": 2,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:18:38"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C042",
+    "run": 2,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:19:29"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C055",
+    "run": 2,
+    "aiProbability": 50,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:21:00"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C054",
+    "run": 2,
+    "aiProbability": 45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:22:18"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C068",
+    "run": 2,
+    "aiProbability": 67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:24:11"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C022",
+    "run": 2,
+    "aiProbability": 61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:25:36"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C066",
+    "run": 2,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:26:55"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C058",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:27:39"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C010",
+    "run": 2,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:28:37"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C056",
+    "run": 2,
+    "aiProbability": 55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:29:41"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C047",
+    "run": 2,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:31:33"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C089",
+    "run": 2,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:33:18"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C026",
+    "run": 2,
+    "aiProbability": 77,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:33:55"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C039",
+    "run": 2,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:34:39"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C074",
+    "run": 2,
+    "aiProbability": 30,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:36:12"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C015",
+    "run": 2,
+    "aiProbability": 72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:36:51"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C023",
+    "run": 2,
+    "aiProbability": 78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:38:06"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C004",
+    "run": 2,
+    "aiProbability": 96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:39:16"
+  },
+  {
+    "detector": "originality-ai",
+    "sampleId": "C019",
+    "run": 2,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T17:41:18"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C042",
+    "run": 1,
+    "aiProbability": 2.62,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:05:59"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C088",
+    "run": 1,
+    "aiProbability": 32.92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:07:02"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C011",
+    "run": 1,
+    "aiProbability": 80.81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:09:00"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C065",
+    "run": 1,
+    "aiProbability": 51.67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:10:48"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C055",
+    "run": 1,
+    "aiProbability": 54.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:11:28"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C058",
+    "run": 1,
+    "aiProbability": 44.74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:13:26"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C003",
+    "run": 1,
+    "aiProbability": 96.84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:15:22"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C036",
+    "run": 1,
+    "aiProbability": 9.87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:15:55"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C073",
+    "run": 1,
+    "aiProbability": 44.83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:16:51"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C079",
+    "run": 1,
+    "aiProbability": 37.74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:17:44"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C017",
+    "run": 1,
+    "aiProbability": 97.92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:18:57"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C020",
+    "run": 1,
+    "aiProbability": 92.36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:20:53"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C006",
+    "run": 1,
+    "aiProbability": 86.72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:22:24"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C060",
+    "run": 1,
+    "aiProbability": 80.12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:23:07"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C062",
+    "run": 1,
+    "aiProbability": 60.37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:23:45"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C002",
+    "run": 1,
+    "aiProbability": 93.35,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:24:23"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C053",
+    "run": 1,
+    "aiProbability": 12.42,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:25:12"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C063",
+    "run": 1,
+    "aiProbability": 22.37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:26:55"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C045",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:28:56"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C082",
+    "run": 1,
+    "aiProbability": 10.01,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:30:49"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C049",
+    "run": 1,
+    "aiProbability": 13.21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:31:48"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C030",
+    "run": 1,
+    "aiProbability": 10.78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:32:47"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C007",
+    "run": 1,
+    "aiProbability": 88.71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:34:27"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C048",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:35:10"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C057",
+    "run": 1,
+    "aiProbability": 69.82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:36:47"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C044",
+    "run": 1,
+    "aiProbability": 11.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:37:55"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C054",
+    "run": 1,
+    "aiProbability": 22.01,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:38:51"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C039",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:40:15"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C035",
+    "run": 1,
+    "aiProbability": 7.36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:41:12"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C001",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:42:33"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C023",
+    "run": 1,
+    "aiProbability": 80.31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:43:16"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C019",
+    "run": 1,
+    "aiProbability": 89.03,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:44:00"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C085",
+    "run": 1,
+    "aiProbability": 43.05,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:45:16"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C014",
+    "run": 1,
+    "aiProbability": 63.04,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:46:28"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C086",
+    "run": 1,
+    "aiProbability": 30.79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:48:19"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C038",
+    "run": 1,
+    "aiProbability": 9.88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:49:13"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C016",
+    "run": 1,
+    "aiProbability": 75.07,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:50:06"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C034",
+    "run": 1,
+    "aiProbability": 11.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:51:24"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C078",
+    "run": 1,
+    "aiProbability": 44.68,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:52:02"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C059",
+    "run": 1,
+    "aiProbability": 46.8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:53:37"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C008",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:54:49"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C004",
+    "run": 1,
+    "aiProbability": 99.07,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:55:51"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C013",
+    "run": 1,
+    "aiProbability": 75.26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:56:34"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C068",
+    "run": 1,
+    "aiProbability": 41.72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T11:58:17"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C022",
+    "run": 1,
+    "aiProbability": 54.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:00:02"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C066",
+    "run": 1,
+    "aiProbability": 8.42,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:01:42"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C091",
+    "run": 1,
+    "aiProbability": 8.63,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:03:16"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C041",
+    "run": 1,
+    "aiProbability": 3.36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:04:14"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C052",
+    "run": 1,
+    "aiProbability": 30.75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:06:15"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C077",
+    "run": 1,
+    "aiProbability": 37.53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:07:57"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C080",
+    "run": 1,
+    "aiProbability": 18.28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:09:11"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C051",
+    "run": 1,
+    "aiProbability": 39.34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:10:05"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C050",
+    "run": 1,
+    "aiProbability": 27.06,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:11:43"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C061",
+    "run": 1,
+    "aiProbability": 57.72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:13:36"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C024",
+    "run": 1,
+    "aiProbability": 97.59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:14:46"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C040",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:16:04"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C005",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:17:43"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C026",
+    "run": 1,
+    "aiProbability": 88.97,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:18:29"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C075",
+    "run": 1,
+    "aiProbability": 24.67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:19:51"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C015",
+    "run": 1,
+    "aiProbability": 56.14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:20:23"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C067",
+    "run": 1,
+    "aiProbability": 74.71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:21:21"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C037",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:22:18"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C084",
+    "run": 1,
+    "aiProbability": 27.08,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:24:15"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C028",
+    "run": 1,
+    "aiProbability": 74.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:25:03"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C087",
+    "run": 1,
+    "aiProbability": 44.03,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:26:58"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C056",
+    "run": 1,
+    "aiProbability": 38.77,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:28:22"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C029",
+    "run": 1,
+    "aiProbability": 6.22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:29:50"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C021",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:30:45"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C012",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:31:46"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C064",
+    "run": 1,
+    "aiProbability": 33.45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:33:35"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C089",
+    "run": 1,
+    "aiProbability": 7.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:34:42"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C071",
+    "run": 1,
+    "aiProbability": 30.53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:35:48"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C070",
+    "run": 1,
+    "aiProbability": 34.99,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:37:33"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C018",
+    "run": 1,
+    "aiProbability": 96.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:38:10"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C074",
+    "run": 1,
+    "aiProbability": 10.19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:38:57"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C032",
+    "run": 1,
+    "aiProbability": 0.67,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:40:42"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C083",
+    "run": 1,
+    "aiProbability": 38.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:42:16"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C081",
+    "run": 1,
+    "aiProbability": 8.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:43:09"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C010",
+    "run": 1,
+    "aiProbability": 89.78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:43:50"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C090",
+    "run": 1,
+    "aiProbability": 13.93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:45:32"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C027",
+    "run": 1,
+    "aiProbability": 94.22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:47:23"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C072",
+    "run": 1,
+    "aiProbability": 29.25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:47:59"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C076",
+    "run": 1,
+    "aiProbability": 30.07,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:49:43"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C069",
+    "run": 1,
+    "aiProbability": 46.04,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:50:45"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C033",
+    "run": 1,
+    "aiProbability": 8.47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:51:38"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C047",
+    "run": 1,
+    "aiProbability": 0.3,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:52:18"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C031",
+    "run": 1,
+    "aiProbability": 8.37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:52:59"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C046",
+    "run": 1,
+    "aiProbability": 2.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:54:02"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C043",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:55:54"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C025",
+    "run": 1,
+    "aiProbability": 85.12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:57:12"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C009",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T12:58:47"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C008",
+    "run": 2,
+    "aiProbability": 90.81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:23:44"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C032",
+    "run": 2,
+    "aiProbability": 0.8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:24:28"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C049",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:26:31"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C012",
+    "run": 2,
+    "aiProbability": 90.55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:28:15"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C056",
+    "run": 2,
+    "aiProbability": 44.05,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:29:22"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C024",
+    "run": 2,
+    "aiProbability": 90.31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:30:28"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C036",
+    "run": 2,
+    "aiProbability": 7.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:32:27"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C063",
+    "run": 2,
+    "aiProbability": 5.36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:33:00"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C013",
+    "run": 2,
+    "aiProbability": 74.85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:34:32"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C054",
+    "run": 2,
+    "aiProbability": 16.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:35:45"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C073",
+    "run": 2,
+    "aiProbability": 46.13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:37:45"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C029",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:39:27"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C070",
+    "run": 2,
+    "aiProbability": 17,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:41:03"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C065",
+    "run": 2,
+    "aiProbability": 60.69,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:42:31"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C003",
+    "run": 2,
+    "aiProbability": 86.04,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:44:05"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C075",
+    "run": 2,
+    "aiProbability": 12.11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:45:50"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C086",
+    "run": 2,
+    "aiProbability": 35.16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:47:20"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C058",
+    "run": 2,
+    "aiProbability": 45.14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:48:48"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C072",
+    "run": 2,
+    "aiProbability": 26.18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:50:33"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C082",
+    "run": 2,
+    "aiProbability": 24.47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:51:33"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C076",
+    "run": 2,
+    "aiProbability": 17.79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:53:30"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C022",
+    "run": 2,
+    "aiProbability": 59.28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:55:24"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C080",
+    "run": 2,
+    "aiProbability": 22.68,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:56:43"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C042",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T13:58:41"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C040",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:00:01"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C069",
+    "run": 2,
+    "aiProbability": 22.78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:00:44"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C028",
+    "run": 2,
+    "aiProbability": 86.77,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:02:08"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C017",
+    "run": 2,
+    "aiProbability": 89.11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:03:53"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C055",
+    "run": 2,
+    "aiProbability": 51.56,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:05:00"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C084",
+    "run": 2,
+    "aiProbability": 41.59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:05:39"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C068",
+    "run": 2,
+    "aiProbability": 45.9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:07:12"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C083",
+    "run": 2,
+    "aiProbability": 41.34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:09:11"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C062",
+    "run": 2,
+    "aiProbability": 53.02,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:11:15"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C020",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:12:09"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C041",
+    "run": 2,
+    "aiProbability": 6.61,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:13:18"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C002",
+    "run": 2,
+    "aiProbability": 86.46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:14:23"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C007",
+    "run": 2,
+    "aiProbability": 91.37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:15:57"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C085",
+    "run": 2,
+    "aiProbability": 29.5,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:17:53"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C087",
+    "run": 2,
+    "aiProbability": 41.54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:18:42"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C053",
+    "run": 2,
+    "aiProbability": 11.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:20:05"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C016",
+    "run": 2,
+    "aiProbability": 70.24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:21:09"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C004",
+    "run": 2,
+    "aiProbability": 90.93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:22:17"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C052",
+    "run": 2,
+    "aiProbability": 41.04,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:23:25"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C006",
+    "run": 2,
+    "aiProbability": 71.97,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:24:18"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C048",
+    "run": 2,
+    "aiProbability": 2.35,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:25:16"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C031",
+    "run": 2,
+    "aiProbability": 8.47,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:27:17"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C089",
+    "run": 2,
+    "aiProbability": 1.92,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:29:21"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C033",
+    "run": 2,
+    "aiProbability": 1.91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:30:14"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C044",
+    "run": 2,
+    "aiProbability": 11.1,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:31:23"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C060",
+    "run": 2,
+    "aiProbability": 67.78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:32:28"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C081",
+    "run": 2,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:33:09"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C066",
+    "run": 2,
+    "aiProbability": 26.33,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:35:04"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C027",
+    "run": 2,
+    "aiProbability": 82.22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:36:24"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C061",
+    "run": 2,
+    "aiProbability": 37.51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:38:26"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C019",
+    "run": 2,
+    "aiProbability": null,
+    "error": "timeout",
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:39:42"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C021",
+    "run": 2,
+    "aiProbability": 95.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:40:17"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C014",
+    "run": 2,
+    "aiProbability": 60.93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:41:06"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C047",
+    "run": 2,
+    "aiProbability": 5.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:42:26"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C077",
+    "run": 2,
+    "aiProbability": 42.34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:43:37"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C009",
+    "run": 2,
+    "aiProbability": 84.18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:44:51"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C059",
+    "run": 2,
+    "aiProbability": 37.52,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:46:47"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C050",
+    "run": 2,
+    "aiProbability": 23.35,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:48:09"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C091",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:48:42"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C035",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:49:52"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C078",
+    "run": 2,
+    "aiProbability": 45.59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:50:38"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C011",
+    "run": 2,
+    "aiProbability": 82.12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:52:00"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C037",
+    "run": 2,
+    "aiProbability": 3.63,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:52:46"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C015",
+    "run": 2,
+    "aiProbability": 69.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:53:38"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C018",
+    "run": 2,
+    "aiProbability": 77.48,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:55:20"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C010",
+    "run": 2,
+    "aiProbability": 83.53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:57:11"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C057",
+    "run": 2,
+    "aiProbability": 90.3,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:59:09"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C001",
+    "run": 2,
+    "aiProbability": 85.5,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T14:59:48"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C090",
+    "run": 2,
+    "aiProbability": 4.96,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:01:02"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C051",
+    "run": 2,
+    "aiProbability": 42.13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:02:16"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C005",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:04:17"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C079",
+    "run": 2,
+    "aiProbability": 39.03,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:04:55"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C067",
+    "run": 2,
+    "aiProbability": 62.18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:06:06"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C043",
+    "run": 2,
+    "aiProbability": 3.73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:07:48"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C071",
+    "run": 2,
+    "aiProbability": 41.43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:09:06"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C034",
+    "run": 2,
+    "aiProbability": 2.95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:10:59"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C025",
+    "run": 2,
+    "aiProbability": 91.12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:12:39"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C045",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:13:12"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C046",
+    "run": 2,
+    "aiProbability": 20.15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:14:29"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C039",
+    "run": 2,
+    "aiProbability": 3.9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:15:53"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C088",
+    "run": 2,
+    "aiProbability": 35.03,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:16:41"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C038",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:18:34"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C030",
+    "run": 2,
+    "aiProbability": 0.23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:19:37"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C026",
+    "run": 2,
+    "aiProbability": 92.23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:20:33"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C023",
+    "run": 2,
+    "aiProbability": 80.66,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:21:41"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C074",
+    "run": 2,
+    "aiProbability": 20.65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:22:47"
+  },
+  {
+    "detector": "pangram",
+    "sampleId": "C064",
+    "run": 2,
+    "aiProbability": 32.7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T15:23:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C083",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:15:04"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C064",
+    "run": 1,
+    "aiProbability": 52,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:17:04"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C018",
+    "run": 1,
+    "aiProbability": 85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:17:43"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C012",
+    "run": 1,
+    "aiProbability": 81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:18:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C052",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:20:42"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C088",
+    "run": 1,
+    "aiProbability": 20,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:22:14"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C047",
+    "run": 1,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:23:54"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C086",
+    "run": 1,
+    "aiProbability": 77,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:25:40"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C090",
+    "run": 1,
+    "aiProbability": 8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:26:37"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C079",
+    "run": 1,
+    "aiProbability": 54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:28:03"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C068",
+    "run": 1,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:29:07"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C061",
+    "run": 1,
+    "aiProbability": 70,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:30:20"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C039",
+    "run": 1,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:32:13"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C080",
+    "run": 1,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:34:19"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C010",
+    "run": 1,
+    "aiProbability": 93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:35:32"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C017",
+    "run": 1,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:36:41"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C037",
+    "run": 1,
+    "aiProbability": 12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:37:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C024",
+    "run": 1,
+    "aiProbability": 74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:38:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C003",
+    "run": 1,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:40:31"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C016",
+    "run": 1,
+    "aiProbability": 51,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:41:13"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C005",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:43:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C065",
+    "run": 1,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:44:56"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C009",
+    "run": 1,
+    "aiProbability": 54,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:47:09"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C042",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:48:55"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C044",
+    "run": 1,
+    "aiProbability": 16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:51:15"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C045",
+    "run": 1,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:52:27"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C063",
+    "run": 1,
+    "aiProbability": 80,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:54:26"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C019",
+    "run": 1,
+    "aiProbability": 80,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:56:38"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C054",
+    "run": 1,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T08:58:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C002",
+    "run": 1,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:01:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C033",
+    "run": 1,
+    "aiProbability": 29,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:01:50"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C004",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:04:08"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C043",
+    "run": 1,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:05:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C036",
+    "run": 1,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:07:06"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C048",
+    "run": 1,
+    "aiProbability": 15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:08:13"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C084",
+    "run": 1,
+    "aiProbability": 41,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:10:19"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C027",
+    "run": 1,
+    "aiProbability": 76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:11:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C078",
+    "run": 1,
+    "aiProbability": 55,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:12:44"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C050",
+    "run": 1,
+    "aiProbability": 60,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:13:38"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C034",
+    "run": 1,
+    "aiProbability": 6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:14:30"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C031",
+    "run": 1,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:16:35"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C076",
+    "run": 1,
+    "aiProbability": 37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:18:45"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C074",
+    "run": 1,
+    "aiProbability": 2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:20:44"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C028",
+    "run": 1,
+    "aiProbability": 98,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:22:29"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C055",
+    "run": 1,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:24:32"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C013",
+    "run": 1,
+    "aiProbability": 65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:26:15"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C071",
+    "run": 1,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:28:26"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C046",
+    "run": 1,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:29:37"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C049",
+    "run": 1,
+    "aiProbability": 11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:31:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C023",
+    "run": 1,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:31:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C091",
+    "run": 1,
+    "aiProbability": 23,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:32:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C087",
+    "run": 1,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:34:16"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C038",
+    "run": 1,
+    "aiProbability": 11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:35:43"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C040",
+    "run": 1,
+    "aiProbability": 6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:37:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C011",
+    "run": 1,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:38:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C081",
+    "run": 1,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:41:10"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C030",
+    "run": 1,
+    "aiProbability": 8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:42:53"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C015",
+    "run": 1,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:44:10"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C021",
+    "run": 1,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:45:19"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C056",
+    "run": 1,
+    "aiProbability": 25,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:46:18"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C062",
+    "run": 1,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:47:02"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C008",
+    "run": 1,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:48:13"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C029",
+    "run": 1,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:49:28"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C059",
+    "run": 1,
+    "aiProbability": 24,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:51:18"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C077",
+    "run": 1,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:52:00"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C051",
+    "run": 1,
+    "aiProbability": 44,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:54:18"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C067",
+    "run": 1,
+    "aiProbability": 33,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:55:58"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C007",
+    "run": 1,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:56:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C085",
+    "run": 1,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:57:50"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C022",
+    "run": 1,
+    "aiProbability": 34,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T09:59:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C069",
+    "run": 1,
+    "aiProbability": 72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:01:59"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C070",
+    "run": 1,
+    "aiProbability": 53,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:03:08"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C057",
+    "run": 1,
+    "aiProbability": 44,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:04:49"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C001",
+    "run": 1,
+    "aiProbability": 93,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:06:02"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C072",
+    "run": 1,
+    "aiProbability": 31,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:07:30"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C073",
+    "run": 1,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:08:47"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C060",
+    "run": 1,
+    "aiProbability": 76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:09:42"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C075",
+    "run": 1,
+    "aiProbability": 19,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:11:22"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C053",
+    "run": 1,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:12:13"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C058",
+    "run": 1,
+    "aiProbability": 95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:13:53"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C082",
+    "run": 1,
+    "aiProbability": 16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:15:00"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C025",
+    "run": 1,
+    "aiProbability": 85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:16:55"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C020",
+    "run": 1,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:18:56"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C026",
+    "run": 1,
+    "aiProbability": 76,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:20:33"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C035",
+    "run": 1,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:22:19"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C032",
+    "run": 1,
+    "aiProbability": 10,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:23:35"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C014",
+    "run": 1,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:25:50"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C089",
+    "run": 1,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:26:36"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C066",
+    "run": 1,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:28:42"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C041",
+    "run": 1,
+    "aiProbability": 2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:30:17"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C006",
+    "run": 1,
+    "aiProbability": 79,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-26T10:32:18"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C066",
+    "run": 2,
+    "aiProbability": 97,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:42:59"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C035",
+    "run": 2,
+    "aiProbability": 8,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:45:15"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C052",
+    "run": 2,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:46:50"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C005",
+    "run": 2,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:48:53"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C086",
+    "run": 2,
+    "aiProbability": 36,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:50:25"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C039",
+    "run": 2,
+    "aiProbability": 7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:52:04"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C017",
+    "run": 2,
+    "aiProbability": 95,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:52:45"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C020",
+    "run": 2,
+    "aiProbability": 83,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:54:44"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C028",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:56:14"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C087",
+    "run": 2,
+    "aiProbability": 45,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:58:21"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C077",
+    "run": 2,
+    "aiProbability": 41,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T09:59:09"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C056",
+    "run": 2,
+    "aiProbability": 26,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:00:29"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C014",
+    "run": 2,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:02:22"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C048",
+    "run": 2,
+    "aiProbability": 16,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:04:25"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C078",
+    "run": 2,
+    "aiProbability": 65,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:05:09"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C015",
+    "run": 2,
+    "aiProbability": 73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:07:17"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C057",
+    "run": 2,
+    "aiProbability": 49,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:08:34"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C090",
+    "run": 2,
+    "aiProbability": 11,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:09:12"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C006",
+    "run": 2,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:10:17"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C008",
+    "run": 2,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:11:49"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C054",
+    "run": 2,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:13:06"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C037",
+    "run": 2,
+    "aiProbability": 3,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:14:58"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C067",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:16:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C019",
+    "run": 2,
+    "aiProbability": 88,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:18:06"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C071",
+    "run": 2,
+    "aiProbability": 46,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:19:52"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C072",
+    "run": 2,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:22:10"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C033",
+    "run": 2,
+    "aiProbability": 13,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:24:30"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C062",
+    "run": 2,
+    "aiProbability": 80,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:26:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C088",
+    "run": 2,
+    "aiProbability": 43,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:27:23"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C084",
+    "run": 2,
+    "aiProbability": 62,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:29:28"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C049",
+    "run": 2,
+    "aiProbability": 5,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:31:48"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C038",
+    "run": 2,
+    "aiProbability": 2,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:33:08"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C004",
+    "run": 2,
+    "aiProbability": 91,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:34:41"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C027",
+    "run": 2,
+    "aiProbability": 90,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:36:20"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C076",
+    "run": 2,
+    "aiProbability": 30,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:37:59"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C041",
+    "run": 2,
+    "aiProbability": 7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:39:06"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C021",
+    "run": 2,
+    "aiProbability": 78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:40:41"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C053",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:43:01"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C051",
+    "run": 2,
+    "aiProbability": 30,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:44:46"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C010",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:46:16"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C023",
+    "run": 2,
+    "aiProbability": 74,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:47:25"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C070",
+    "run": 2,
+    "aiProbability": 69,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:48:44"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C032",
+    "run": 2,
+    "aiProbability": 3,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:50:21"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C044",
+    "run": 2,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:52:24"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C024",
+    "run": 2,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:53:20"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C064",
+    "run": 2,
+    "aiProbability": 37,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:54:30"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C061",
+    "run": 2,
+    "aiProbability": 97,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:55:38"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C018",
+    "run": 2,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:56:23"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C050",
+    "run": 2,
+    "aiProbability": 81,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T10:58:17"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C082",
+    "run": 2,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:00:16"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C042",
+    "run": 2,
+    "aiProbability": 6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:01:37"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C085",
+    "run": 2,
+    "aiProbability": 30,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:03:51"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C065",
+    "run": 2,
+    "aiProbability": 5,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:04:41"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C031",
+    "run": 2,
+    "aiProbability": 12,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:05:38"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C091",
+    "run": 2,
+    "aiProbability": 4,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:07:05"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C046",
+    "run": 2,
+    "aiProbability": 15,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:08:28"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C081",
+    "run": 2,
+    "aiProbability": 28,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:10:32"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C080",
+    "run": 2,
+    "aiProbability": 0,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:11:27"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C047",
+    "run": 2,
+    "aiProbability": null,
+    "error": "timeout",
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:13:37"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C009",
+    "run": 2,
+    "aiProbability": 57,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:15:42"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C055",
+    "run": 2,
+    "aiProbability": 39,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:16:39"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C045",
+    "run": 2,
+    "aiProbability": 6,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:18:14"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C059",
+    "run": 2,
+    "aiProbability": 22,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:20:12"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C058",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:21:43"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C073",
+    "run": 2,
+    "aiProbability": 41,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:22:52"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C034",
+    "run": 2,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:24:29"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C074",
+    "run": 2,
+    "aiProbability": 18,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:26:02"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C029",
+    "run": 2,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:27:31"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C002",
+    "run": 2,
+    "aiProbability": 87,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:28:47"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C069",
+    "run": 2,
+    "aiProbability": 85,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:29:29"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C003",
+    "run": 2,
+    "aiProbability": 78,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:30:27"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C013",
+    "run": 2,
+    "aiProbability": 73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:31:25"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C012",
+    "run": 2,
+    "aiProbability": 73,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:32:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C036",
+    "run": 2,
+    "aiProbability": 7,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:34:04"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C068",
+    "run": 2,
+    "aiProbability": 82,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:35:57"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C075",
+    "run": 2,
+    "aiProbability": 21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:37:44"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C079",
+    "run": 2,
+    "aiProbability": 59,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:39:47"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C060",
+    "run": 2,
+    "aiProbability": 64,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:40:47"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C040",
+    "run": 2,
+    "aiProbability": 9,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:41:31"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C089",
+    "run": 2,
+    "aiProbability": 32,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:43:36"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C063",
+    "run": 2,
+    "aiProbability": 100,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:45:26"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C025",
+    "run": 2,
+    "aiProbability": 86,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:46:28"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C030",
+    "run": 2,
+    "aiProbability": 14,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:48:17"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C011",
+    "run": 2,
+    "aiProbability": 71,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:49:18"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C022",
+    "run": 2,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:51:36"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C007",
+    "run": 2,
+    "aiProbability": 75,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:52:49"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C043",
+    "run": 2,
+    "aiProbability": 21,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:54:46"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C001",
+    "run": 2,
+    "aiProbability": 84,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:55:41"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C016",
+    "run": 2,
+    "aiProbability": 60,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:56:51"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C083",
+    "run": 2,
+    "aiProbability": 38,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T11:58:35"
+  },
+  {
+    "detector": "winston-ai",
+    "sampleId": "C026",
+    "run": 2,
+    "aiProbability": 72,
+    "error": null,
+    "latencyMs": null,
+    "collectedAt": "2026-08-28T12:00:42"
+  }
+]

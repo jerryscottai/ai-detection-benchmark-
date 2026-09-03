@@ -1,0 +1,19 @@
+{
+  "cycle": "2026-08",
+  "status": "published",
+  "publishedAt": "2026-09-03",
+  "corpusProvenance": "operator-supplied",
+  "collection": {
+    "passes": 2,
+    "passDates": ["2026-08-26", "2026-08-28"],
+    "presentationOrder": "randomised per pass, recorded per row",
+    "detectorsMeasured": 5,
+    "rawLogs": "run-logs/*.csv — one row per text per pass, with the vendor's own score field, displayed label and raw response retained verbatim"
+  },
+  "note": "This cycle was collected against a corpus the operator assembled and scanned directly, so it does not use this repository's commit-reveal prompt scheme. The nonce, prompt-selection and prompt-replay checks do not apply and are skipped by verification; the manifest and score-replay checks apply as normal.",
+  "limitations": [
+    "The 91 source texts were not supplied with the run logs, so samples.json carries 'not-supplied' in place of a SHA-256 and nobody can independently confirm which documents were scanned.",
+    "Ground truth (class, genre, stress profile, AI word fraction, word count) is taken from the operator's logs and cross-checked for agreement across all five files; it is not independently verified.",
+    "Five of thirteen registered detectors were measured. The other eight are absent from the leaderboard rather than scored at zero."
+  ]
+}
