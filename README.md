@@ -13,34 +13,48 @@ Most detector comparisons test one thing: does the tool catch ChatGPT output.
 That is the easy half, and on this corpus every tool tested passes it. The
 interesting failures are elsewhere.
 
-## Cycle 2026-08 — withdrawn pending correction
+## Cycle 2026-08 — provisional
 
-> **These results are under review and should not be cited.**
+> **Not yet citable.** Two mutually exclusive sets of raw run logs were supplied
+> for the same detectors, the same 91 texts, the same versions and the same scan
+> dates. They disagree on 90 of Winston AI's 91 per-text readings and produce
+> near-inverted rankings. Only one can be a record of what was run.
 >
-> The maintainer has reported an error in the analysis behind this cycle. A
-> revised summary supplied on 2026-09-03 disagrees materially with the run logs
-> this table was derived from — most sharply on Pangram, which the logs place
-> first on every binary metric and the revision places last. The disagreement
-> cannot be explained by a threshold change: no threshold on the published
-> readings reproduces the revised figures.
->
-> The table below is left visible because it is what the committed run logs
-> actually produce, and deleting it would hide the discrepancy rather than
-> resolve it. It will be replaced or removed once corrected raw run logs are
-> available. Until then it is not a finding about any product.
+> The table below is derived from the **second** batch, which reproduces the
+> maintainer's stated analysis exactly on every metric and whose five logs agree
+> with each other on the ground truth of all 91 texts. The first batch is
+> retained in [`superseded/`](data/cycles/2026-08/superseded/) rather than
+> deleted. Until the reason for the difference is on record, this cycle rests on
+> the maintainer's attestation rather than on evidence, and is marked
+> provisional for that reason.
 
 | # | Detector | Score | AI recall | Human cleared | FP resistance | Hybrid accuracy | Consistency |
 |---|----------|------:|----------:|--------------:|--------------:|----------------:|------------:|
-| 1 | **Pangram** | **94.80** | 100.0% | 100.0% | 100.0% | 75.1% | 85.3% |
-| 2 | GPTZero | 90.04 | 92.9% | 100.0% | 95.2% | 77.9% | 64.5% |
-| 3 | Originality.ai | 86.42 | 96.4% | 95.2% | 85.7% | 76.6% | 50.5% |
-| 4 | Winston AI | 86.10 | 96.4% | 100.0% | 76.2% | 74.5% | 57.6% |
-| 5 | Copyleaks | 78.44 | 85.7% | 95.2% | 76.2% | 79.5% | 17.6% |
+| 1 | **Copyleaks** | **91.73** | 96.4% | 100.0% | 95.2% | 79.7% | 87.0% |
+| 2 | Winston AI | 90.99 | 92.9% | 100.0% | 100.0% | 79.9% | 76.4% |
+| 3 | GPTZero | 87.55 | 92.9% | 100.0% | 81.0% | 82.5% | 79.1% |
+| 4 | ZeroGPT | 73.99 | 89.3% | 100.0% | 38.1% | 80.8% | 66.6% |
+| 5 | Pangram | 68.87 | 78.6% | 100.0% | 33.3% | 81.2% | 74.8% |
 
-910 readings · 91 texts · two passes, 26 and 28 August 2026 · 0.5% unanswered
+910 readings · 91 texts · two passes two days apart · 0.7% unanswered
+
+Every detector cleared all 21 clean-human documents. The separation on this
+table comes entirely from the stress corpus and from AI recall.
+
+**How the two batches differ**, since both are in the repository:
+
+| Detector | Batch 1 rank → Batch 2 rank |
+|---|---|
+| Copyleaks | 5th (78.44) → **1st (91.73)** |
+| Winston AI | 4th (86.10) → 2nd (90.99) |
+| GPTZero | 2nd (90.04) → 3rd (87.55) |
+| Pangram | **1st (94.80)** → 5th (68.87) |
+
+Originality.ai appears in batch 1 only and was not re-supplied, so it is omitted
+rather than compared against readings from a different batch.
 
 Full per-sample data: [`data/cycles/2026-08/`](data/cycles/2026-08/).
-Detailed analysis: **[docs/RESULTS-2026-08.md](docs/RESULTS-2026-08.md)**.
+Detailed analysis: **[docs/RESULTS-2026-08.md](docs/RESULTS-2026-08.md)** *(reflects batch 1 and is being rewritten).*
 
 ### The finding that matters most: nobody measures *how much*
 

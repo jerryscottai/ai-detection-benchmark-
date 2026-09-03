@@ -1,14 +1,14 @@
 {
   "cycle": "2026-08",
   "publishedAt": "2026-09-03",
-  "status": "withdrawn-pending-correction",
+  "status": "published",
   "scoringVersion": "1.0.0",
   "samples": 91,
   "readings": 910,
   "files": {
-    "commit.json": "91f61478c99f721fb259d1275fd5890121e1be5e6516ac5f808402c090289010",
-    "detector-results.json": "dd45f455abfa8bfce4a68d58c800677b229dc9e34bf262e3a3069a19b4bb8873",
-    "leaderboard.json": "92f3e64a223a390b26374ab09dd69c4f11dc59d599e2846f37f51556b9e10f45",
+    "commit.json": "e8bd12417cb5ffda3df418462f95801c0e75c5ec99c95884c596d6483cc20139",
+    "detector-results.json": "7254fc3e2fe5764f45b476743b97f7bf2ecdec0db425562166d60cd0be65ab1f",
+    "leaderboard.json": "736559657ba15fa1895e9ba1410b1ff685848e134ea50d7ccaa9063db6729891",
     "samples.json": "37b543e7c78dba4aecce55214cc9a74ecf0c4454e75fc078ddfa566e2db19023",
     "scoring.js": "0fa5dd688d87085d0c6516a8c5f3ccf4fad220f46cc3716ac55926a90a9d42b5"
   }

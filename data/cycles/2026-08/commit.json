@@ -1,13 +1,14 @@
 {
   "cycle": "2026-08",
-  "status": "withdrawn-pending-correction",
+  "status": "provisional-pending-provenance",
   "publishedAt": "2026-09-03",
   "corpusProvenance": "operator-supplied",
   "collection": {
     "passes": 2,
     "passDates": [
       "2026-08-26",
-      "2026-08-28"
+      "2026-08-28",
+      "(Pangram: 2026-08-27 and 2026-08-29)"
     ],
     "presentationOrder": "randomised per pass, recorded per row",
     "detectorsMeasured": 5,
@@ -19,13 +20,9 @@
     "Ground truth (class, genre, stress profile, AI word fraction, word count) is taken from the operator's logs and cross-checked for agreement across all five files; it is not independently verified.",
     "Five of thirteen registered detectors were measured. The other eight are absent from the leaderboard rather than scored at zero."
   ],
-  "withdrawn": {
-    "date": "2026-09-03",
-    "reason": "Maintainer reported an error in the analysis. A revised per-detector summary disagrees materially with the run logs in run-logs/; a threshold sweep confirms the revised figures are not reachable from these readings at any decision threshold. Awaiting corrected raw run logs.",
-    "largestDiscrepancies": [
-      "Pangram: logs give 100% recall / 100% human specificity / 0% stress FPR; revision gives 78.6% / 66.7% / 66.7%.",
-      "Winston AI: logs give 23.8% stress false-positive rate; revision gives 0%.",
-      "Copyleaks: logs give 85.7% recall; revision gives 96.4%."
-    ]
+  "supersession": {
+    "note": "Run logs for Winston AI, GPTZero, Copyleaks and Pangram were supplied twice. The first batch is retained in superseded/ and is NOT used. The second batch is scored here because it reproduces the maintainer's stated analysis exactly on every metric, and because all five second-batch logs agree with each other on the ground truth of all 91 texts.",
+    "unresolved": "Both batches describe the same detector versions scanning the same 91 texts on the same dates, yet disagree on 90 of Winston's 91 per-text readings (C067 16.5 -> 90.0, C062 84.0 -> 26.5). Only one can be a record of what was run. The reason for the difference is not on record; until it is, a reader should treat this cycle as resting on the maintainer's attestation that the second batch is the correct one.",
+    "originalityExcluded": "Originality.ai was measured in the first batch only and was not re-supplied. Mixing one batch-1 detector into a batch-2 leaderboard would compare tools on different readings, so it is omitted from this cycle."
   }
 }

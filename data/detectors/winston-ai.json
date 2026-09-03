@@ -8,17 +8,17 @@
     {
       "cycle": "2026-08",
       "publishedAt": "2026-09-03",
-      "rank": 4,
-      "composite": 86.1,
+      "rank": 2,
+      "composite": 90.99,
       "metrics": {
-        "aiRecall": 0.9643,
+        "aiRecall": 0.9286,
         "humanSpecificity": 1,
-        "fpResistance": 0.7619,
-        "hybridAccuracy": 0.7448,
-        "consistency": 0.5758
+        "fpResistance": 1,
+        "hybridAccuracy": 0.7993,
+        "consistency": 0.6143
       },
-      "falsePositiveRate": 0.1633,
-      "hybridMeanAbsError": 0.2552
+      "falsePositiveRate": 0.0408,
+      "hybridMeanAbsError": 0.2007
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "cycle": "2026-08",
   "publishedAt": "2026-09-03",
-  "status": "withdrawn-pending-correction",
+  "status": "published",
   "scoringVersion": "1.0.0",
   "samples": 91,
   "readings": 910,
@@ -19,9 +19,9 @@
     "fp": 21
   },
   "detectorsNotMeasured": [
+    "originality-ai",
     "sapling",
     "undetectable-ai",
-    "zerogpt",
     "smodin",
     "isgen",
     "quillbot",
@@ -31,194 +31,22 @@
   "leaderboard": [
     {
       "rank": 1,
-      "slug": "pangram",
-      "name": "Pangram",
-      "composite": 94.8,
+      "slug": "copyleaks",
+      "name": "Copyleaks AI Detector",
+      "composite": 91.73,
       "metrics": {
-        "aiRecall": 1,
-        "humanSpecificity": 1,
-        "fpResistance": 1,
-        "hybridAccuracy": 0.751,
-        "consistency": 0.8532
-      },
-      "points": {
-        "aiRecall": 30,
-        "humanSpecificity": 25,
-        "fpResistance": 20,
-        "hybridAccuracy": 11.27,
-        "consistency": 8.53,
-        "penalty": 0
-      },
-      "penalties": {
-        "error": 0,
-        "hardFail": 0,
-        "total": 0,
-        "hardFailedMetrics": []
-      },
-      "intervals": {
-        "aiRecall": [
-          0.8794,
-          1
-        ],
-        "humanSpecificity": [
-          0.8454,
-          1
-        ],
-        "fpResistance": [
-          0.8454,
-          1
-        ]
-      },
-      "diagnostics": {
-        "threshold": 50,
-        "granularity": "sentence",
-        "sampleCounts": {
-          "ai": 28,
-          "human": 21,
-          "fp": 21,
-          "hybrid": 21
-        },
-        "falsePositiveRate": 0.0408,
-        "falseNegativeRate": 0.2381,
-        "balancedAccuracy": 0.8605,
-        "f1": 0.8421,
-        "confusion": {
-          "tp": 32,
-          "fp": 2,
-          "tn": 47,
-          "fn": 10
-        },
-        "hybridMeanAbsError": 0.249,
-        "hybridBias": -0.0876,
-        "meanRepeatDrift": 7.341,
-        "errorRate": 0,
-        "perDomain": [
-          {
-            "domain": "academic",
-            "balancedAccuracy": 1,
-            "samples": 16
-          },
-          {
-            "domain": "blog",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "business",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "fiction",
-            "balancedAccuracy": 1,
-            "samples": 10
-          },
-          {
-            "domain": "marketing",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "news",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "technical",
-            "balancedAccuracy": 1,
-            "samples": 13
-          }
-        ],
-        "perFalsePositiveProfile": [
-          {
-            "profile": "archival-formal",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 6.2
-          },
-          {
-            "profile": "esl-nonnative",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 36.39
-          },
-          {
-            "profile": "grammar-corrected",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 36.88
-          },
-          {
-            "profile": "short-form",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 36.58
-          },
-          {
-            "profile": "technical-formulaic",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 17.23
-          },
-          {
-            "profile": "template-structured",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 41.15
-          },
-          {
-            "profile": "translated",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 19.25
-          }
-        ],
-        "perHybridRatio": [
-          {
-            "band": 0.25,
-            "samples": 7,
-            "trueMeanAiFraction": 0.25,
-            "meanReported": 39.63,
-            "meanAbsError": 0.1836,
-            "meanSignedError": 0.1463
-          },
-          {
-            "band": 0.5,
-            "samples": 7,
-            "trueMeanAiFraction": 0.5,
-            "meanReported": 39.96,
-            "meanAbsError": 0.2547,
-            "meanSignedError": -0.1004
-          },
-          {
-            "band": 0.75,
-            "samples": 7,
-            "trueMeanAiFraction": 0.75,
-            "meanReported": 44.14,
-            "meanAbsError": 0.3086,
-            "meanSignedError": -0.3086
-          }
-        ]
-      }
-    },
-    {
-      "rank": 2,
-      "slug": "gptzero",
-      "name": "GPTZero",
-      "composite": 90.04,
-      "metrics": {
-        "aiRecall": 0.9286,
+        "aiRecall": 0.9643,
         "humanSpecificity": 1,
         "fpResistance": 0.9524,
-        "hybridAccuracy": 0.7788,
-        "consistency": 0.6451
+        "hybridAccuracy": 0.7974,
+        "consistency": 0.6798
       },
       "points": {
-        "aiRecall": 27.86,
+        "aiRecall": 28.93,
         "humanSpecificity": 25,
         "fpResistance": 19.05,
-        "hybridAccuracy": 11.68,
-        "consistency": 6.45,
+        "hybridAccuracy": 11.96,
+        "consistency": 6.8,
         "penalty": 0
       },
       "penalties": {
@@ -229,8 +57,8 @@
       },
       "intervals": {
         "aiRecall": [
-          0.7735,
-          0.9802
+          0.8229,
+          0.9937
         ],
         "humanSpecificity": [
           0.8454,
@@ -251,18 +79,18 @@
           "hybrid": 21
         },
         "falsePositiveRate": 0.102,
-        "falseNegativeRate": 0.2619,
-        "balancedAccuracy": 0.818,
-        "f1": 0.7949,
+        "falseNegativeRate": 0.1667,
+        "balancedAccuracy": 0.8656,
+        "f1": 0.8537,
         "confusion": {
-          "tp": 31,
+          "tp": 35,
           "fp": 5,
           "tn": 44,
-          "fn": 11
+          "fn": 7
         },
-        "hybridMeanAbsError": 0.2212,
-        "hybridBias": -0.0674,
-        "meanRepeatDrift": 9.896,
+        "hybridMeanAbsError": 0.2026,
+        "hybridBias": 0.0312,
+        "meanRepeatDrift": 11.176,
         "errorRate": 0,
         "perDomain": [
           {
@@ -272,7 +100,7 @@
           },
           {
             "domain": "blog",
-            "balancedAccuracy": 1,
+            "balancedAccuracy": 0.9167,
             "samples": 13
           },
           {
@@ -287,7 +115,7 @@
           },
           {
             "domain": "marketing",
-            "balancedAccuracy": 0.7917,
+            "balancedAccuracy": 1,
             "samples": 13
           },
           {
@@ -306,43 +134,43 @@
             "profile": "archival-formal",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 22.12
+            "meanAiProbability": 16.17
           },
           {
             "profile": "esl-nonnative",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 48.6
+            "meanAiProbability": 36
           },
           {
             "profile": "grammar-corrected",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 33.96
+            "meanAiProbability": 34.33
           },
           {
             "profile": "short-form",
             "samples": 3,
-            "falsePositiveRate": 0.3333,
-            "meanAiProbability": 41.03
+            "falsePositiveRate": 0,
+            "meanAiProbability": 35.33
           },
           {
             "profile": "technical-formulaic",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 16.53
+            "meanAiProbability": 20.83
           },
           {
             "profile": "template-structured",
             "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 35.38
+            "falsePositiveRate": 0.3333,
+            "meanAiProbability": 42.17
           },
           {
             "profile": "translated",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 30.81
+            "meanAiProbability": 22.67
           }
         ],
         "perHybridRatio": [
@@ -350,219 +178,47 @@
             "band": 0.25,
             "samples": 7,
             "trueMeanAiFraction": 0.25,
-            "meanReported": 40.61,
-            "meanAbsError": 0.2181,
-            "meanSignedError": 0.1561
+            "meanReported": 50.43,
+            "meanAbsError": 0.2543,
+            "meanSignedError": 0.2543
           },
           {
             "band": 0.5,
             "samples": 7,
             "trueMeanAiFraction": 0.5,
-            "meanReported": 39.96,
-            "meanAbsError": 0.1876,
-            "meanSignedError": -0.1005
+            "meanReported": 50.5,
+            "meanAbsError": 0.1779,
+            "meanSignedError": 0.005
           },
           {
             "band": 0.75,
             "samples": 7,
             "trueMeanAiFraction": 0.75,
-            "meanReported": 49.21,
-            "meanAbsError": 0.258,
-            "meanSignedError": -0.258
+            "meanReported": 58.43,
+            "meanAbsError": 0.1757,
+            "meanSignedError": -0.1657
           }
         ]
       }
     },
     {
-      "rank": 3,
-      "slug": "originality-ai",
-      "name": "Originality.ai",
-      "composite": 86.42,
-      "metrics": {
-        "aiRecall": 0.9643,
-        "humanSpecificity": 0.9524,
-        "fpResistance": 0.8571,
-        "hybridAccuracy": 0.7657,
-        "consistency": 0.505
-      },
-      "points": {
-        "aiRecall": 28.93,
-        "humanSpecificity": 23.81,
-        "fpResistance": 17.14,
-        "hybridAccuracy": 11.49,
-        "consistency": 5.05,
-        "penalty": 0
-      },
-      "penalties": {
-        "error": 0,
-        "hardFail": 0,
-        "total": 0,
-        "hardFailedMetrics": []
-      },
-      "intervals": {
-        "aiRecall": [
-          0.8229,
-          0.9937
-        ],
-        "humanSpecificity": [
-          0.7733,
-          0.9915
-        ],
-        "fpResistance": [
-          0.6536,
-          0.9502
-        ]
-      },
-      "diagnostics": {
-        "threshold": 50,
-        "granularity": "sentence",
-        "sampleCounts": {
-          "ai": 28,
-          "human": 21,
-          "fp": 21,
-          "hybrid": 21
-        },
-        "falsePositiveRate": 0.1633,
-        "falseNegativeRate": 0.2143,
-        "balancedAccuracy": 0.8112,
-        "f1": 0.7952,
-        "confusion": {
-          "tp": 33,
-          "fp": 8,
-          "tn": 41,
-          "fn": 9
-        },
-        "hybridMeanAbsError": 0.2343,
-        "hybridBias": 0.01,
-        "meanRepeatDrift": 14.846,
-        "errorRate": 0,
-        "perDomain": [
-          {
-            "domain": "academic",
-            "balancedAccuracy": 0.9444,
-            "samples": 16
-          },
-          {
-            "domain": "blog",
-            "balancedAccuracy": 0.7083,
-            "samples": 13
-          },
-          {
-            "domain": "business",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "fiction",
-            "balancedAccuracy": 1,
-            "samples": 10
-          },
-          {
-            "domain": "marketing",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "news",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "technical",
-            "balancedAccuracy": 0.9167,
-            "samples": 13
-          }
-        ],
-        "perFalsePositiveProfile": [
-          {
-            "profile": "archival-formal",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 16.33
-          },
-          {
-            "profile": "esl-nonnative",
-            "samples": 3,
-            "falsePositiveRate": 0.3333,
-            "meanAiProbability": 47.83
-          },
-          {
-            "profile": "grammar-corrected",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 40
-          },
-          {
-            "profile": "short-form",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 43.33
-          },
-          {
-            "profile": "technical-formulaic",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 24.33
-          },
-          {
-            "profile": "template-structured",
-            "samples": 3,
-            "falsePositiveRate": 0.6667,
-            "meanAiProbability": 46.83
-          },
-          {
-            "profile": "translated",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 33.83
-          }
-        ],
-        "perHybridRatio": [
-          {
-            "band": 0.25,
-            "samples": 7,
-            "trueMeanAiFraction": 0.25,
-            "meanReported": 54.71,
-            "meanAbsError": 0.2971,
-            "meanSignedError": 0.2971
-          },
-          {
-            "band": 0.5,
-            "samples": 7,
-            "trueMeanAiFraction": 0.5,
-            "meanReported": 48.71,
-            "meanAbsError": 0.15,
-            "meanSignedError": -0.0129
-          },
-          {
-            "band": 0.75,
-            "samples": 7,
-            "trueMeanAiFraction": 0.75,
-            "meanReported": 49.57,
-            "meanAbsError": 0.2557,
-            "meanSignedError": -0.2543
-          }
-        ]
-      }
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "slug": "winston-ai",
       "name": "Winston AI",
-      "composite": 86.1,
+      "composite": 90.99,
       "metrics": {
-        "aiRecall": 0.9643,
+        "aiRecall": 0.9286,
         "humanSpecificity": 1,
-        "fpResistance": 0.7619,
-        "hybridAccuracy": 0.7448,
-        "consistency": 0.5758
+        "fpResistance": 1,
+        "hybridAccuracy": 0.7993,
+        "consistency": 0.6143
       },
       "points": {
-        "aiRecall": 28.93,
+        "aiRecall": 27.86,
         "humanSpecificity": 25,
-        "fpResistance": 15.24,
-        "hybridAccuracy": 11.17,
-        "consistency": 5.76,
+        "fpResistance": 20,
+        "hybridAccuracy": 11.99,
+        "consistency": 6.14,
         "penalty": 0
       },
       "penalties": {
@@ -573,16 +229,16 @@
       },
       "intervals": {
         "aiRecall": [
-          0.8229,
-          0.9937
+          0.7735,
+          0.9802
         ],
         "humanSpecificity": [
           0.8454,
           1
         ],
         "fpResistance": [
-          0.5491,
-          0.8937
+          0.8454,
+          1
         ]
       },
       "diagnostics": {
@@ -594,19 +250,19 @@
           "fp": 21,
           "hybrid": 21
         },
-        "falsePositiveRate": 0.1633,
-        "falseNegativeRate": 0.1429,
-        "balancedAccuracy": 0.8469,
-        "f1": 0.8372,
+        "falsePositiveRate": 0.0408,
+        "falseNegativeRate": 0.2619,
+        "balancedAccuracy": 0.8486,
+        "f1": 0.8267,
         "confusion": {
-          "tp": 36,
-          "fp": 8,
-          "tn": 41,
-          "fn": 6
+          "tp": 31,
+          "fp": 2,
+          "tn": 47,
+          "fn": 11
         },
-        "hybridMeanAbsError": 0.2552,
-        "hybridBias": 0.0771,
-        "meanRepeatDrift": 10.659,
+        "hybridMeanAbsError": 0.2007,
+        "hybridBias": -0.0645,
+        "meanRepeatDrift": 10.538,
         "errorRate": 0,
         "perDomain": [
           {
@@ -616,22 +272,22 @@
           },
           {
             "domain": "blog",
-            "balancedAccuracy": 0.8333,
+            "balancedAccuracy": 1,
             "samples": 13
           },
           {
             "domain": "business",
-            "balancedAccuracy": 0.9167,
+            "balancedAccuracy": 1,
             "samples": 13
           },
           {
             "domain": "fiction",
-            "balancedAccuracy": 1,
+            "balancedAccuracy": 0.75,
             "samples": 10
           },
           {
             "domain": "marketing",
-            "balancedAccuracy": 0.7083,
+            "balancedAccuracy": 1,
             "samples": 13
           },
           {
@@ -650,43 +306,43 @@
             "profile": "archival-formal",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 16
+            "meanAiProbability": 14.83
           },
           {
             "profile": "esl-nonnative",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 35.33
+            "meanAiProbability": 24.67
           },
           {
             "profile": "grammar-corrected",
             "samples": 3,
-            "falsePositiveRate": 0.3333,
-            "meanAiProbability": 33.83
+            "falsePositiveRate": 0,
+            "meanAiProbability": 32.83
           },
           {
             "profile": "short-form",
             "samples": 3,
-            "falsePositiveRate": 0.6667,
-            "meanAiProbability": 51.17
+            "falsePositiveRate": 0,
+            "meanAiProbability": 35.83
           },
           {
             "profile": "technical-formulaic",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 19.5
+            "meanAiProbability": 11.5
           },
           {
             "profile": "template-structured",
             "samples": 3,
-            "falsePositiveRate": 0.6667,
-            "meanAiProbability": 52.83
+            "falsePositiveRate": 0,
+            "meanAiProbability": 41.83
           },
           {
             "profile": "translated",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 21.17
+            "meanAiProbability": 23.5
           }
         ],
         "perHybridRatio": [
@@ -694,47 +350,47 @@
             "band": 0.25,
             "samples": 7,
             "trueMeanAiFraction": 0.25,
-            "meanReported": 44.29,
-            "meanAbsError": 0.2729,
-            "meanSignedError": 0.1929
+            "meanReported": 40.5,
+            "meanAbsError": 0.155,
+            "meanSignedError": 0.155
           },
           {
             "band": 0.5,
             "samples": 7,
             "trueMeanAiFraction": 0.5,
-            "meanReported": 67.43,
-            "meanAbsError": 0.2214,
-            "meanSignedError": 0.1743
+            "meanReported": 34.93,
+            "meanAbsError": 0.2064,
+            "meanSignedError": -0.1507
           },
           {
             "band": 0.75,
             "samples": 7,
             "trueMeanAiFraction": 0.75,
-            "meanReported": 61.43,
-            "meanAbsError": 0.2714,
-            "meanSignedError": -0.1357
+            "meanReported": 55.21,
+            "meanAbsError": 0.2407,
+            "meanSignedError": -0.1979
           }
         ]
       }
     },
     {
-      "rank": 5,
-      "slug": "copyleaks",
-      "name": "Copyleaks AI Detector",
-      "composite": 78.44,
+      "rank": 3,
+      "slug": "gptzero",
+      "name": "GPTZero",
+      "composite": 87.55,
       "metrics": {
-        "aiRecall": 0.8571,
-        "humanSpecificity": 0.9524,
-        "fpResistance": 0.7619,
-        "hybridAccuracy": 0.795,
-        "consistency": 0.1757
+        "aiRecall": 0.9286,
+        "humanSpecificity": 1,
+        "fpResistance": 0.8095,
+        "hybridAccuracy": 0.8251,
+        "consistency": 0.6123
       },
       "points": {
-        "aiRecall": 25.71,
-        "humanSpecificity": 23.81,
-        "fpResistance": 15.24,
-        "hybridAccuracy": 11.93,
-        "consistency": 1.76,
+        "aiRecall": 27.86,
+        "humanSpecificity": 25,
+        "fpResistance": 16.19,
+        "hybridAccuracy": 12.38,
+        "consistency": 6.12,
         "penalty": 0
       },
       "penalties": {
@@ -745,16 +401,16 @@
       },
       "intervals": {
         "aiRecall": [
-          0.6851,
-          0.943
+          0.7735,
+          0.9802
         ],
         "humanSpecificity": [
-          0.7733,
-          0.9915
+          0.8454,
+          1
         ],
         "fpResistance": [
-          0.5491,
-          0.8937
+          0.6,
+          0.9233
         ]
       },
       "diagnostics": {
@@ -766,29 +422,29 @@
           "fp": 21,
           "hybrid": 21
         },
-        "falsePositiveRate": 0.1837,
-        "falseNegativeRate": 0.2619,
-        "balancedAccuracy": 0.7772,
-        "f1": 0.7561,
+        "falsePositiveRate": 0.1429,
+        "falseNegativeRate": 0.1429,
+        "balancedAccuracy": 0.8571,
+        "f1": 0.8471,
         "confusion": {
-          "tp": 31,
-          "fp": 9,
-          "tn": 40,
-          "fn": 11
+          "tp": 36,
+          "fp": 7,
+          "tn": 42,
+          "fn": 6
         },
-        "hybridMeanAbsError": 0.205,
-        "hybridBias": -0.0298,
-        "meanRepeatDrift": 26.549,
+        "hybridMeanAbsError": 0.1749,
+        "hybridBias": 0.0178,
+        "meanRepeatDrift": 10.012,
         "errorRate": 0,
         "perDomain": [
           {
             "domain": "academic",
-            "balancedAccuracy": 0.9444,
+            "balancedAccuracy": 0.8333,
             "samples": 16
           },
           {
             "domain": "blog",
-            "balancedAccuracy": 0.5,
+            "balancedAccuracy": 1,
             "samples": 13
           },
           {
@@ -798,17 +454,17 @@
           },
           {
             "domain": "fiction",
-            "balancedAccuracy": 0.875,
+            "balancedAccuracy": 0.75,
             "samples": 10
           },
           {
             "domain": "marketing",
-            "balancedAccuracy": 0.7917,
+            "balancedAccuracy": 0.9167,
             "samples": 13
           },
           {
             "domain": "news",
-            "balancedAccuracy": 0.9167,
+            "balancedAccuracy": 1,
             "samples": 13
           },
           {
@@ -822,43 +478,43 @@
             "profile": "archival-formal",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 28.83
+            "meanAiProbability": 9.06
           },
           {
             "profile": "esl-nonnative",
             "samples": 3,
-            "falsePositiveRate": 0.3333,
-            "meanAiProbability": 37.67
+            "falsePositiveRate": 1,
+            "meanAiProbability": 52.23
           },
           {
             "profile": "grammar-corrected",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 31.17
+            "meanAiProbability": 37.98
           },
           {
             "profile": "short-form",
             "samples": 3,
             "falsePositiveRate": 0.3333,
-            "meanAiProbability": 44.67
+            "meanAiProbability": 41.6
           },
           {
             "profile": "technical-formulaic",
             "samples": 3,
             "falsePositiveRate": 0,
-            "meanAiProbability": 32
+            "meanAiProbability": 15.08
           },
           {
             "profile": "template-structured",
             "samples": 3,
-            "falsePositiveRate": 0.6667,
-            "meanAiProbability": 52.83
+            "falsePositiveRate": 0,
+            "meanAiProbability": 45.03
           },
           {
             "profile": "translated",
             "samples": 3,
-            "falsePositiveRate": 0.3333,
-            "meanAiProbability": 27.67
+            "falsePositiveRate": 0,
+            "meanAiProbability": 26.34
           }
         ],
         "perHybridRatio": [
@@ -866,25 +522,373 @@
             "band": 0.25,
             "samples": 7,
             "trueMeanAiFraction": 0.25,
-            "meanReported": 34.5,
-            "meanAbsError": 0.1664,
-            "meanSignedError": 0.095
+            "meanReported": 40.63,
+            "meanAbsError": 0.17,
+            "meanSignedError": 0.1563
           },
           {
             "band": 0.5,
             "samples": 7,
             "trueMeanAiFraction": 0.5,
-            "meanReported": 52.14,
-            "meanAbsError": 0.2357,
-            "meanSignedError": 0.0214
+            "meanReported": 52.5,
+            "meanAbsError": 0.2026,
+            "meanSignedError": 0.025
           },
           {
             "band": 0.75,
             "samples": 7,
             "trueMeanAiFraction": 0.75,
-            "meanReported": 54.43,
-            "meanAbsError": 0.2129,
-            "meanSignedError": -0.2057
+            "meanReported": 62.2,
+            "meanAbsError": 0.152,
+            "meanSignedError": -0.128
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "slug": "zerogpt",
+      "name": "ZeroGPT",
+      "composite": 73.99,
+      "metrics": {
+        "aiRecall": 0.8929,
+        "humanSpecificity": 1,
+        "fpResistance": 0.381,
+        "hybridAccuracy": 0.8075,
+        "consistency": 0.547
+      },
+      "points": {
+        "aiRecall": 26.79,
+        "humanSpecificity": 25,
+        "fpResistance": 7.62,
+        "hybridAccuracy": 12.11,
+        "consistency": 5.47,
+        "penalty": -3
+      },
+      "penalties": {
+        "error": 0,
+        "hardFail": 3,
+        "total": 3,
+        "hardFailedMetrics": [
+          "fpResistance"
+        ]
+      },
+      "intervals": {
+        "aiRecall": [
+          0.728,
+          0.9629
+        ],
+        "humanSpecificity": [
+          0.8454,
+          1
+        ],
+        "fpResistance": [
+          0.2075,
+          0.5912
+        ]
+      },
+      "diagnostics": {
+        "threshold": 50,
+        "granularity": "sentence",
+        "sampleCounts": {
+          "ai": 28,
+          "human": 21,
+          "fp": 21,
+          "hybrid": 21
+        },
+        "falsePositiveRate": 0.3469,
+        "falseNegativeRate": 0.2381,
+        "balancedAccuracy": 0.7075,
+        "f1": 0.7033,
+        "confusion": {
+          "tp": 32,
+          "fp": 17,
+          "tn": 32,
+          "fn": 10
+        },
+        "hybridMeanAbsError": 0.1925,
+        "hybridBias": -0.0109,
+        "meanRepeatDrift": 11.138,
+        "errorRate": 0,
+        "perDomain": [
+          {
+            "domain": "academic",
+            "balancedAccuracy": 0.8333,
+            "samples": 16
+          },
+          {
+            "domain": "blog",
+            "balancedAccuracy": 0.75,
+            "samples": 13
+          },
+          {
+            "domain": "business",
+            "balancedAccuracy": 0.75,
+            "samples": 13
+          },
+          {
+            "domain": "fiction",
+            "balancedAccuracy": 0.625,
+            "samples": 10
+          },
+          {
+            "domain": "marketing",
+            "balancedAccuracy": 0.75,
+            "samples": 13
+          },
+          {
+            "domain": "news",
+            "balancedAccuracy": 1,
+            "samples": 13
+          },
+          {
+            "domain": "technical",
+            "balancedAccuracy": 0.9167,
+            "samples": 13
+          }
+        ],
+        "perFalsePositiveProfile": [
+          {
+            "profile": "archival-formal",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 37.26
+          },
+          {
+            "profile": "esl-nonnative",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 57.4
+          },
+          {
+            "profile": "grammar-corrected",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 57.36
+          },
+          {
+            "profile": "short-form",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 61.13
+          },
+          {
+            "profile": "technical-formulaic",
+            "samples": 3,
+            "falsePositiveRate": 0.3333,
+            "meanAiProbability": 45.13
+          },
+          {
+            "profile": "template-structured",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 69.66
+          },
+          {
+            "profile": "translated",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 35.34
+          }
+        ],
+        "perHybridRatio": [
+          {
+            "band": 0.25,
+            "samples": 7,
+            "trueMeanAiFraction": 0.25,
+            "meanReported": 45.5,
+            "meanAbsError": 0.205,
+            "meanSignedError": 0.205
+          },
+          {
+            "band": 0.5,
+            "samples": 7,
+            "trueMeanAiFraction": 0.5,
+            "meanReported": 47.34,
+            "meanAbsError": 0.1449,
+            "meanSignedError": -0.0266
+          },
+          {
+            "band": 0.75,
+            "samples": 7,
+            "trueMeanAiFraction": 0.75,
+            "meanReported": 53.88,
+            "meanAbsError": 0.2276,
+            "meanSignedError": -0.2112
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "slug": "pangram",
+      "name": "Pangram",
+      "composite": 68.87,
+      "metrics": {
+        "aiRecall": 0.7857,
+        "humanSpecificity": 1,
+        "fpResistance": 0.3333,
+        "hybridAccuracy": 0.8116,
+        "consistency": 0.4456
+      },
+      "points": {
+        "aiRecall": 23.57,
+        "humanSpecificity": 25,
+        "fpResistance": 6.67,
+        "hybridAccuracy": 12.17,
+        "consistency": 4.46,
+        "penalty": -3
+      },
+      "penalties": {
+        "error": 0,
+        "hardFail": 3,
+        "total": 3,
+        "hardFailedMetrics": [
+          "fpResistance"
+        ]
+      },
+      "intervals": {
+        "aiRecall": [
+          0.6046,
+          0.8979
+        ],
+        "humanSpecificity": [
+          0.8454,
+          1
+        ],
+        "fpResistance": [
+          0.1719,
+          0.5463
+        ]
+      },
+      "diagnostics": {
+        "threshold": 50,
+        "granularity": "sentence",
+        "sampleCounts": {
+          "ai": 28,
+          "human": 21,
+          "fp": 21,
+          "hybrid": 21
+        },
+        "falsePositiveRate": 0.3061,
+        "falseNegativeRate": 0.3095,
+        "balancedAccuracy": 0.6922,
+        "f1": 0.6744,
+        "confusion": {
+          "tp": 29,
+          "fp": 15,
+          "tn": 34,
+          "fn": 13
+        },
+        "hybridMeanAbsError": 0.1884,
+        "hybridBias": -0.0718,
+        "meanRepeatDrift": 20.099,
+        "errorRate": 0,
+        "perDomain": [
+          {
+            "domain": "academic",
+            "balancedAccuracy": 0.8333,
+            "samples": 16
+          },
+          {
+            "domain": "blog",
+            "balancedAccuracy": 0.75,
+            "samples": 13
+          },
+          {
+            "domain": "business",
+            "balancedAccuracy": 0.75,
+            "samples": 13
+          },
+          {
+            "domain": "fiction",
+            "balancedAccuracy": 0.625,
+            "samples": 10
+          },
+          {
+            "domain": "marketing",
+            "balancedAccuracy": 0.625,
+            "samples": 13
+          },
+          {
+            "domain": "news",
+            "balancedAccuracy": 0.7917,
+            "samples": 13
+          },
+          {
+            "domain": "technical",
+            "balancedAccuracy": 0.7917,
+            "samples": 13
+          }
+        ],
+        "perFalsePositiveProfile": [
+          {
+            "profile": "archival-formal",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 35.89
+          },
+          {
+            "profile": "esl-nonnative",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 70.89
+          },
+          {
+            "profile": "grammar-corrected",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 66.78
+          },
+          {
+            "profile": "short-form",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 57.05
+          },
+          {
+            "profile": "technical-formulaic",
+            "samples": 3,
+            "falsePositiveRate": 0.3333,
+            "meanAiProbability": 54.31
+          },
+          {
+            "profile": "template-structured",
+            "samples": 3,
+            "falsePositiveRate": 1,
+            "meanAiProbability": 73.63
+          },
+          {
+            "profile": "translated",
+            "samples": 3,
+            "falsePositiveRate": 0.3333,
+            "meanAiProbability": 55.68
+          }
+        ],
+        "perHybridRatio": [
+          {
+            "band": 0.25,
+            "samples": 7,
+            "trueMeanAiFraction": 0.25,
+            "meanReported": 33.68,
+            "meanAbsError": 0.1582,
+            "meanSignedError": 0.0868
+          },
+          {
+            "band": 0.5,
+            "samples": 7,
+            "trueMeanAiFraction": 0.5,
+            "meanReported": 45.19,
+            "meanAbsError": 0.1205,
+            "meanSignedError": -0.0481
+          },
+          {
+            "band": 0.75,
+            "samples": 7,
+            "trueMeanAiFraction": 0.75,
+            "meanReported": 49.61,
+            "meanAbsError": 0.2863,
+            "meanSignedError": -0.2539
           }
         ]
       }

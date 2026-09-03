@@ -56,6 +56,7 @@ const FIELD_AXIS: Record<string, 'ai' | 'human'> = {
   class_probability_ai: 'ai',
   fraction_ai: 'ai',
   average_generated_prob: 'ai',
+  ai_gpt_percent: 'ai',
 };
 
 const DETECTOR_SLUG: Record<string, string> = {
