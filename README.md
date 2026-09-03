@@ -17,11 +17,14 @@ interesting failures are elsewhere.
 
 | # | Detector | Score | AI recall | Human cleared | FP resistance | Hybrid accuracy | Consistency |
 |---|----------|------:|----------:|--------------:|--------------:|----------------:|------------:|
-| 1 | **Copyleaks** | **91.73** | 96.4% | 100.0% | 95.2% | 79.7% | 68.0% |
-| 2 | Winston AI | 90.99 | 92.9% | 100.0% | 100.0% | 79.9% | 61.4% |
-| 3 | GPTZero | 87.55 | 92.9% | 100.0% | 81.0% | 82.5% | 61.2% |
-| 4 | ZeroGPT | 73.99 | 89.3% | 100.0% | 38.1% | 80.8% | 54.7% |
-| 5 | Pangram | 68.87 | 78.6% | 100.0% | 33.3% | 81.2% | 44.6% |
+| 1 | **Winston AI** | **91.70** | 92.9% | 100.0% | 100.0% | 79.9% | 61.4% |
+| 2 | Copyleaks | 91.38 | 96.4% | 100.0% | 95.2% | 79.7% | 68.0% |
+| 3 | GPTZero | 85.40 | 92.9% | 100.0% | 81.0% | 82.5% | 61.2% |
+| 4 | ZeroGPT | 65.78 | 89.3% | 100.0% | 38.1% | 80.8% | 54.7% |
+| 5 | Pangram | 61.01 | 78.6% | 100.0% | 33.3% | 81.2% | 44.6% |
+
+Scored under **methodology v2** (weights revised 2026-09-03, after this cycle was
+first scored — see [CHANGES.md](CHANGES.md), which carries both tables).
 
 910 readings · 91 texts · two passes two days apart · versions Copyleaks 2026.08,
 Winston v4.15, GPTZero 4.9b, ZeroGPT DeepAnalyse, Pangram 4.0
@@ -88,7 +91,8 @@ passed everything.
 With 21–28 samples per class, one document moves a rate by 3–5 points. The 95%
 confidence interval on false-positive resistance is 84.5–100% for Winston and
 77.3–99.2% for Copyleaks — overlapping, so **ranks 1 and 2 are not
-distinguishable.** ZeroGPT and Pangram are clearly separated from the top three
+distinguishable.** They are 0.32 points apart, and they swap places depending on
+the weighting: Copyleaks led under v1, Winston leads under v2. ZeroGPT and Pangram are clearly separated from the top three
 and not from each other. Every rate metric ships with its interval in
 `leaderboard.json`.
 
@@ -117,16 +121,16 @@ normalised onto one axis at ingest, from the scale each log declares.
 
 | Component | Weight |
 |-----------|-------:|
-| AI recall | 30 |
-| Human specificity | 25 |
-| False-positive resistance | 20 |
+| AI recall | 20 |
+| Human specificity | 20 |
+| False-positive resistance | 35 |
 | Hybrid accuracy | 15 |
 | Consistency (repeat-run stability + evenness across genres) | 10 |
 
 Penalties, capped at 10: unanswered samples, and hard fails where any of the
 first three metrics falls below 50%.
 
-**Why not-accusing outweighs catching, 45 points to 30.** A missed AI essay costs
+**Why not-accusing outweighs catching, 55 points to 20.** A missed AI essay costs
 a grade boundary and is recoverable. A false accusation costs a person a
 disciplinary hearing they cannot win, because no evidence proves you wrote
 something yourself. That is a values judgement, stated in the open — and

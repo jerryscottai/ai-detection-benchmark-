@@ -2,13 +2,13 @@
   "cycle": "2026-08",
   "publishedAt": "2026-09-03",
   "status": "published",
-  "scoringVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
   "samples": 91,
   "readings": 910,
   "weights": {
-    "aiRecall": 30,
-    "humanSpecificity": 25,
-    "fpResistance": 20,
+    "aiRecall": 20,
+    "humanSpecificity": 20,
+    "fpResistance": 35,
     "hybridAccuracy": 15,
     "consistency": 10
   },
@@ -31,181 +31,9 @@
   "leaderboard": [
     {
       "rank": 1,
-      "slug": "copyleaks",
-      "name": "Copyleaks AI Detector",
-      "composite": 91.73,
-      "metrics": {
-        "aiRecall": 0.9643,
-        "humanSpecificity": 1,
-        "fpResistance": 0.9524,
-        "hybridAccuracy": 0.7974,
-        "consistency": 0.6798
-      },
-      "points": {
-        "aiRecall": 28.93,
-        "humanSpecificity": 25,
-        "fpResistance": 19.05,
-        "hybridAccuracy": 11.96,
-        "consistency": 6.8,
-        "penalty": 0
-      },
-      "penalties": {
-        "error": 0,
-        "hardFail": 0,
-        "total": 0,
-        "hardFailedMetrics": []
-      },
-      "intervals": {
-        "aiRecall": [
-          0.8229,
-          0.9937
-        ],
-        "humanSpecificity": [
-          0.8454,
-          1
-        ],
-        "fpResistance": [
-          0.7733,
-          0.9915
-        ]
-      },
-      "diagnostics": {
-        "threshold": 50,
-        "granularity": "sentence",
-        "sampleCounts": {
-          "ai": 28,
-          "human": 21,
-          "fp": 21,
-          "hybrid": 21
-        },
-        "falsePositiveRate": 0.102,
-        "falseNegativeRate": 0.1667,
-        "balancedAccuracy": 0.8656,
-        "f1": 0.8537,
-        "confusion": {
-          "tp": 35,
-          "fp": 5,
-          "tn": 44,
-          "fn": 7
-        },
-        "hybridMeanAbsError": 0.2026,
-        "hybridBias": 0.0312,
-        "meanRepeatDrift": 11.176,
-        "errorRate": 0,
-        "perDomain": [
-          {
-            "domain": "academic",
-            "balancedAccuracy": 1,
-            "samples": 16
-          },
-          {
-            "domain": "blog",
-            "balancedAccuracy": 0.9167,
-            "samples": 13
-          },
-          {
-            "domain": "business",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "fiction",
-            "balancedAccuracy": 0.875,
-            "samples": 10
-          },
-          {
-            "domain": "marketing",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "news",
-            "balancedAccuracy": 1,
-            "samples": 13
-          },
-          {
-            "domain": "technical",
-            "balancedAccuracy": 1,
-            "samples": 13
-          }
-        ],
-        "perFalsePositiveProfile": [
-          {
-            "profile": "archival-formal",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 16.17
-          },
-          {
-            "profile": "esl-nonnative",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 36
-          },
-          {
-            "profile": "grammar-corrected",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 34.33
-          },
-          {
-            "profile": "short-form",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 35.33
-          },
-          {
-            "profile": "technical-formulaic",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 20.83
-          },
-          {
-            "profile": "template-structured",
-            "samples": 3,
-            "falsePositiveRate": 0.3333,
-            "meanAiProbability": 42.17
-          },
-          {
-            "profile": "translated",
-            "samples": 3,
-            "falsePositiveRate": 0,
-            "meanAiProbability": 22.67
-          }
-        ],
-        "perHybridRatio": [
-          {
-            "band": 0.25,
-            "samples": 7,
-            "trueMeanAiFraction": 0.25,
-            "meanReported": 50.43,
-            "meanAbsError": 0.2543,
-            "meanSignedError": 0.2543
-          },
-          {
-            "band": 0.5,
-            "samples": 7,
-            "trueMeanAiFraction": 0.5,
-            "meanReported": 50.5,
-            "meanAbsError": 0.1779,
-            "meanSignedError": 0.005
-          },
-          {
-            "band": 0.75,
-            "samples": 7,
-            "trueMeanAiFraction": 0.75,
-            "meanReported": 58.43,
-            "meanAbsError": 0.1757,
-            "meanSignedError": -0.1657
-          }
-        ]
-      }
-    },
-    {
-      "rank": 2,
       "slug": "winston-ai",
       "name": "Winston AI",
-      "composite": 90.99,
+      "composite": 91.7,
       "metrics": {
         "aiRecall": 0.9286,
         "humanSpecificity": 1,
@@ -214,9 +42,9 @@
         "consistency": 0.6143
       },
       "points": {
-        "aiRecall": 27.86,
-        "humanSpecificity": 25,
-        "fpResistance": 20,
+        "aiRecall": 18.57,
+        "humanSpecificity": 20,
+        "fpResistance": 35,
         "hybridAccuracy": 11.99,
         "consistency": 6.14,
         "penalty": 0
@@ -374,10 +202,182 @@
       }
     },
     {
+      "rank": 2,
+      "slug": "copyleaks",
+      "name": "Copyleaks AI Detector",
+      "composite": 91.38,
+      "metrics": {
+        "aiRecall": 0.9643,
+        "humanSpecificity": 1,
+        "fpResistance": 0.9524,
+        "hybridAccuracy": 0.7974,
+        "consistency": 0.6798
+      },
+      "points": {
+        "aiRecall": 19.29,
+        "humanSpecificity": 20,
+        "fpResistance": 33.33,
+        "hybridAccuracy": 11.96,
+        "consistency": 6.8,
+        "penalty": 0
+      },
+      "penalties": {
+        "error": 0,
+        "hardFail": 0,
+        "total": 0,
+        "hardFailedMetrics": []
+      },
+      "intervals": {
+        "aiRecall": [
+          0.8229,
+          0.9937
+        ],
+        "humanSpecificity": [
+          0.8454,
+          1
+        ],
+        "fpResistance": [
+          0.7733,
+          0.9915
+        ]
+      },
+      "diagnostics": {
+        "threshold": 50,
+        "granularity": "sentence",
+        "sampleCounts": {
+          "ai": 28,
+          "human": 21,
+          "fp": 21,
+          "hybrid": 21
+        },
+        "falsePositiveRate": 0.102,
+        "falseNegativeRate": 0.1667,
+        "balancedAccuracy": 0.8656,
+        "f1": 0.8537,
+        "confusion": {
+          "tp": 35,
+          "fp": 5,
+          "tn": 44,
+          "fn": 7
+        },
+        "hybridMeanAbsError": 0.2026,
+        "hybridBias": 0.0312,
+        "meanRepeatDrift": 11.176,
+        "errorRate": 0,
+        "perDomain": [
+          {
+            "domain": "academic",
+            "balancedAccuracy": 1,
+            "samples": 16
+          },
+          {
+            "domain": "blog",
+            "balancedAccuracy": 0.9167,
+            "samples": 13
+          },
+          {
+            "domain": "business",
+            "balancedAccuracy": 1,
+            "samples": 13
+          },
+          {
+            "domain": "fiction",
+            "balancedAccuracy": 0.875,
+            "samples": 10
+          },
+          {
+            "domain": "marketing",
+            "balancedAccuracy": 1,
+            "samples": 13
+          },
+          {
+            "domain": "news",
+            "balancedAccuracy": 1,
+            "samples": 13
+          },
+          {
+            "domain": "technical",
+            "balancedAccuracy": 1,
+            "samples": 13
+          }
+        ],
+        "perFalsePositiveProfile": [
+          {
+            "profile": "archival-formal",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 16.17
+          },
+          {
+            "profile": "esl-nonnative",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 36
+          },
+          {
+            "profile": "grammar-corrected",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 34.33
+          },
+          {
+            "profile": "short-form",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 35.33
+          },
+          {
+            "profile": "technical-formulaic",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 20.83
+          },
+          {
+            "profile": "template-structured",
+            "samples": 3,
+            "falsePositiveRate": 0.3333,
+            "meanAiProbability": 42.17
+          },
+          {
+            "profile": "translated",
+            "samples": 3,
+            "falsePositiveRate": 0,
+            "meanAiProbability": 22.67
+          }
+        ],
+        "perHybridRatio": [
+          {
+            "band": 0.25,
+            "samples": 7,
+            "trueMeanAiFraction": 0.25,
+            "meanReported": 50.43,
+            "meanAbsError": 0.2543,
+            "meanSignedError": 0.2543
+          },
+          {
+            "band": 0.5,
+            "samples": 7,
+            "trueMeanAiFraction": 0.5,
+            "meanReported": 50.5,
+            "meanAbsError": 0.1779,
+            "meanSignedError": 0.005
+          },
+          {
+            "band": 0.75,
+            "samples": 7,
+            "trueMeanAiFraction": 0.75,
+            "meanReported": 58.43,
+            "meanAbsError": 0.1757,
+            "meanSignedError": -0.1657
+          }
+        ]
+      }
+    },
+    {
       "rank": 3,
       "slug": "gptzero",
       "name": "GPTZero",
-      "composite": 87.55,
+      "composite": 85.4,
       "metrics": {
         "aiRecall": 0.9286,
         "humanSpecificity": 1,
@@ -386,9 +386,9 @@
         "consistency": 0.6123
       },
       "points": {
-        "aiRecall": 27.86,
-        "humanSpecificity": 25,
-        "fpResistance": 16.19,
+        "aiRecall": 18.57,
+        "humanSpecificity": 20,
+        "fpResistance": 28.33,
         "hybridAccuracy": 12.38,
         "consistency": 6.12,
         "penalty": 0
@@ -549,7 +549,7 @@
       "rank": 4,
       "slug": "zerogpt",
       "name": "ZeroGPT",
-      "composite": 73.99,
+      "composite": 65.77,
       "metrics": {
         "aiRecall": 0.8929,
         "humanSpecificity": 1,
@@ -558,9 +558,9 @@
         "consistency": 0.547
       },
       "points": {
-        "aiRecall": 26.79,
-        "humanSpecificity": 25,
-        "fpResistance": 7.62,
+        "aiRecall": 17.86,
+        "humanSpecificity": 20,
+        "fpResistance": 13.33,
         "hybridAccuracy": 12.11,
         "consistency": 5.47,
         "penalty": -3
@@ -723,7 +723,7 @@
       "rank": 5,
       "slug": "pangram",
       "name": "Pangram",
-      "composite": 68.87,
+      "composite": 61.01,
       "metrics": {
         "aiRecall": 0.7857,
         "humanSpecificity": 1,
@@ -732,9 +732,9 @@
         "consistency": 0.4456
       },
       "points": {
-        "aiRecall": 23.57,
-        "humanSpecificity": 25,
-        "fpResistance": 6.67,
+        "aiRecall": 15.71,
+        "humanSpecificity": 20,
+        "fpResistance": 11.67,
         "hybridAccuracy": 12.17,
         "consistency": 4.46,
         "penalty": -3

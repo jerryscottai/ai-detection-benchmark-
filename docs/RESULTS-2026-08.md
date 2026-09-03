@@ -15,11 +15,16 @@ edited by hand.
 
 | # | Detector | Version | Score | Recall | Human | FP-resist | Hybrid | Consist |
 |---|---|---|------:|-------:|------:|----------:|-------:|--------:|
-| 1 | Copyleaks | 2026.08 | **91.73** | 96.4% | 100.0% | 95.2% | 79.7% | 68.0% |
-| 2 | Winston AI | v4.15 | **90.99** | 92.9% | 100.0% | 100.0% | 79.9% | 61.4% |
-| 3 | GPTZero | 4.9b | **87.55** | 92.9% | 100.0% | 81.0% | 82.5% | 61.2% |
-| 4 | ZeroGPT | DeepAnalyse | **73.99** | 89.3% | 100.0% | 38.1% | 80.8% | 54.7% |
-| 5 | Pangram | 4.0 | **68.87** | 78.6% | 100.0% | 33.3% | 81.2% | 44.6% |
+| 1 | Winston AI | v4.15 | **91.70** | 92.9% | 100.0% | 100.0% | 79.9% | 61.4% |
+| 2 | Copyleaks | 2026.08 | **91.38** | 96.4% | 100.0% | 95.2% | 79.7% | 68.0% |
+| 3 | GPTZero | 4.9b | **85.40** | 92.9% | 100.0% | 81.0% | 82.5% | 61.2% |
+| 4 | ZeroGPT | DeepAnalyse | **65.78** | 89.3% | 100.0% | 38.1% | 80.8% | 54.7% |
+| 5 | Pangram | 4.0 | **61.01** | 78.6% | 100.0% | 33.3% | 81.2% | 44.6% |
+
+Scored under methodology v2 — weights 20 / 20 / 35 / 15 / 10, revised on
+2026-09-03 after this cycle had already been scored and published under v1
+(30 / 25 / 20 / 15 / 10). [CHANGES.md](../CHANGES.md) carries both tables and
+the reasoning.
 
 ZeroGPT and Pangram each take a 3-point hard-fail penalty for false-positive
 resistance below 50%. No other penalties.
@@ -34,8 +39,9 @@ resistance below 50%. No other penalties.
 | ZeroGPT | 72.8 – 96.3% | 20.8 – 59.1% |
 | Pangram | 60.5 – 89.8% | 17.2 – 54.6% |
 
-**Ranks 1 and 2 are not distinguishable** — 0.74 points apart with overlapping
-intervals on both metrics. Ranks 4 and 5 are not distinguishable from each
+**Ranks 1 and 2 are not distinguishable** — 0.32 points apart with overlapping
+intervals on both metrics, and they exchange places under the two weightings
+(Copyleaks led under v1, Winston leads under v2). Ranks 4 and 5 are not distinguishable from each
 other either. The real result is a three-way top group and a two-way bottom
 group, not a strict ordering.
 

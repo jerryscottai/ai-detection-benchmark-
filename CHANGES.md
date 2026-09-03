@@ -4,6 +4,44 @@ Every change to how a score is produced is recorded here, in the cycle it takes
 effect. Scores are only comparable across cycles where this file says nothing
 changed between them.
 
+## methodology/v2 — weights revised 2026-09-03
+
+| Component | v1 | v2 |
+|---|--:|--:|
+| AI recall | 30 | **20** |
+| Human specificity | 25 | **20** |
+| False-positive resistance | 20 | **35** |
+| Hybrid accuracy | 15 | 15 |
+| Consistency | 10 | 10 |
+
+Fifteen points move into false-positive resistance. The rationale is the one
+this benchmark was built on — the two error types are not symmetric in
+consequence — and under v1 the corpus measuring the costlier error carried less
+weight than the one measuring the cheaper, which sat awkwardly against the
+stated reasoning.
+
+**This change was decided after cycle 2026-08 had been scored and published, not
+before it opened.** That is the opposite of the ordering this file asks for
+everywhere else, and it is recorded rather than smoothed over, because a
+weighting chosen with the results already on screen is a weaker thing than one
+fixed in advance. Both tables:
+
+| Detector | v1 (30/25/20/15/10) | v2 (20/20/35/15/10) | Change |
+|---|--:|--:|--:|
+| Winston AI | 90.99 (2nd) | **91.70 (1st)** | +0.71 |
+| Copyleaks | 91.73 (1st) | 91.38 (2nd) | −0.35 |
+| GPTZero | 87.55 (3rd) | 85.40 (3rd) | −2.15 |
+| ZeroGPT | 73.99 (4th) | 65.78 (4th) | −8.21 |
+| Pangram | 68.87 (5th) | 61.01 (5th) | −7.86 |
+
+Ranks 1 and 2 exchange places and remain 0.32 points apart, with overlapping
+confidence intervals under both weightings. Neither ordering is a finding. The
+three-way top group and two-way bottom group are unchanged, which is the part of
+this table that survives the reweighting.
+
+No raw reading was altered. Only the weights changed, and
+`npm run verify -- 2026-08` re-derives the new table from the same readings.
+
 ## Cycle 2026-08 — first published cycle
 
 **Run logs supplied twice.** Batch 1 (Winston, GPTZero, Copyleaks, Originality,

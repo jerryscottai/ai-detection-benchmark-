@@ -63,9 +63,12 @@ npm run verify          # must pass all eight checks
 
 Two rules that matter more than style:
 
-- **Never edit a published cycle's `scoring.js` or `select-placeholders.js`.**
-  They are frozen copies, not shared modules. A methodology change gets a new
-  copy in the next cycle and an entry in `CHANGES.md`.
+- **Never edit a published cycle's `scoring.js` or `select-placeholders.js` in
+  place.** They are frozen copies, not shared modules. A methodology change adds
+  `methodology/vN+1` and an entry in `CHANGES.md`. If a published cycle is
+  re-scored under a new version — as 2026-08 was on 2026-09-03 — the cycle's copy
+  is replaced wholesale, `commit.json` records the re-scoring, and `CHANGES.md`
+  carries both the old and new tables. Never silently.
 - **Keep `scoring.js` pure.** No I/O, no clock, no randomness, no dependencies.
   If it cannot be re-run offline by a stranger in five years, verification is
   theatre.

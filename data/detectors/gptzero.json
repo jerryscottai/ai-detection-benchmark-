@@ -9,7 +9,7 @@
       "cycle": "2026-08",
       "publishedAt": "2026-09-03",
       "rank": 3,
-      "composite": 87.55,
+      "composite": 85.4,
       "metrics": {
         "aiRecall": 0.9286,
         "humanSpecificity": 1,

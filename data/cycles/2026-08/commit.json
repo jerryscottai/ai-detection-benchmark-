@@ -28,5 +28,13 @@
       "attestation": "The maintainer confirms the first batch was a faulty run and that the second batch is the record of what was scanned. Recorded as attestation: the two batches cannot be distinguished from the data alone, and this repository holds no evidence bearing on which is correct beyond the maintainer's statement.",
       "batch1Retained": "superseded/ \u2014 kept so a reader can see both and judge for themselves."
     }
+  },
+  "scoringVersion": "2.0.0",
+  "rescored": {
+    "date": "2026-09-03",
+    "from": "methodology/v1 (30/25/20/15/10)",
+    "to": "methodology/v2 (20/20/35/15/10)",
+    "note": "Weights were changed after this cycle had been scored and published under v1, not before it opened. The raw readings are untouched; only the weighting changed. Both tables are in CHANGES.md.",
+    "effect": "Winston AI 90.99 -> 91.70 and Copyleaks 91.73 -> 91.38, exchanging ranks 1 and 2. The two remain 0.32 points apart with overlapping confidence intervals and are not distinguishable under either weighting."
   }
 }
