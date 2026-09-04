@@ -42,8 +42,6 @@ frozen `select-placeholders.js`, so the prompt set is fixed before it is known.
 No template instructs a model to sound human, and no system prompt is used.
 Exact model ids are pinned per cycle in that cycle's `generators.json`.
 
-Growing a bank between cycles is a methodology change and belongs in
-[CHANGES.md](../CHANGES.md).
 
 ## Hybrid — exact ground truth
 
