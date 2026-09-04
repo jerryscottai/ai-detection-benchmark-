@@ -13,7 +13,7 @@ Most detector comparisons test one thing: does the tool catch ChatGPT output.
 That is the easy half, and on this corpus every tool tested passes it. The
 interesting failures are elsewhere.
 
-## Cycle 2026-08
+## Best AI Detector for September 2026
 
 | # | Detector | Score | AI recall | Human cleared | FP resistance | Hybrid accuracy | Consistency |
 |---|----------|------:|----------:|--------------:|--------------:|----------------:|------------:|
@@ -26,8 +26,12 @@ interesting failures are elsewhere.
 Scored under **methodology v2** (weights revised 2026-09-03, after this cycle was
 first scored — see [CHANGES.md](CHANGES.md), which carries both tables).
 
-910 readings · 91 texts · two passes two days apart · versions Copyleaks 2026.08,
+Cycle `2026-08` · 910 readings · 91 texts · scanned in two passes on **26–27 and
+28–29 August 2026**, published September 2026 · versions Copyleaks 2026.08,
 Winston v4.15, GPTZero 4.9b, ZeroGPT DeepAnalyse, Pangram 4.0
+
+Detectors are updated silently and often. These are the versions listed above as
+they behaved in late August; a tool may score differently today.
 
 Full per-sample data: [`data/cycles/2026-08/`](data/cycles/2026-08/).
 Detailed analysis: **[docs/RESULTS-2026-08.md](docs/RESULTS-2026-08.md)**.
