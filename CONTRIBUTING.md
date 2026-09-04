@@ -8,22 +8,6 @@ The most valuable contribution. Open an issue with:
 - the sample id,
 - the reading you got, with a date and the plan you were on.
 
-Detectors change silently, so a difference is not automatically an error — but a
-reproducible one is folded into the next cycle and recorded in `CHANGES.md`.
-
-## Disputing the methodology
-
-Also welcome, and more useful than it sounds, because you can make the argument
-concretely. Edit `WEIGHTS` in a cycle's `scoring.js`, run `npm run score`, and
-open an issue with your weighting and the table it produces. An argument that
-comes with a re-derived leaderboard is much harder to wave away than one that
-does not.
-
-The same applies to the corpus. If you think a false-positive profile is missing,
-or that a human sample is not representative, say which entry and what should
-replace it. Manifest entries need a source, a URL, a span, a licence and a
-pre-2021 date.
-
 ## Proposing a detector
 
 Open an issue with the tool, its pricing page, and its API documentation. The
