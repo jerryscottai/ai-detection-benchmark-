@@ -23,8 +23,6 @@ interesting failures are elsewhere.
 | 4 | ZeroGPT | 65.78 | 89.3% | 100.0% | 38.1% | 80.8% | 54.7% |
 | 5 | Pangram | 61.01 | 78.6% | 100.0% | 33.3% | 81.2% | 44.6% |
 
-Scored under **methodology v2** (weights revised 2026-09-03, after this cycle was
-first scored — see [CHANGES.md](CHANGES.md), which carries both tables).
 
 Cycle `2026-08` · 910 readings · 91 texts · scanned in two passes on **26–27 and
 28–29 August 2026**, published September 2026 · versions Copyleaks 2026.08,
